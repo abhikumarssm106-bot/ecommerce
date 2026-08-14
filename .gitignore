@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.*
+
+# Archives
+*.rar
+*.zip
+*.7z
+*.tar.gz
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
