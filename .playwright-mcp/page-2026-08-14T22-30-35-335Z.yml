@@ -1,0 +1,218 @@
+- generic [ref=f3e3]:
+  - navigation [ref=f3e4]:
+    - generic [ref=f3e5]:
+      - link "G Mart" [ref=f3e6] [cursor=pointer]:
+        - /url: "#home"
+      - generic [ref=f3e12]:
+        - button "Search" [ref=f3e13] [cursor=pointer]
+        - button "Wishlist" [ref=f3e17] [cursor=pointer]
+        - button "Account" [ref=f3e21] [cursor=pointer]
+        - button "Cart" [ref=f3e25] [cursor=pointer]
+        - button "Menu" [ref=f3e29] [cursor=pointer]
+  - banner [ref=f3e31]:
+    - generic [ref=f3e32]:
+      - generic [ref=f3e38] [cursor=pointer]:
+        - generic [ref=f3e39]: Location
+        - generic [ref=f3e40]: Talwandi Sabo, Punjab, 151302, India
+      - generic [ref=f3e43]:
+        - textbox "Search for 'Mobiles', 'Groceries', 'Snacks'..." [ref=f3e48]
+        - button "Account" [ref=f3e50] [cursor=pointer]
+      - generic [ref=f3e54]:
+        - button "🛒 Smart Buys" [ref=f3e55] [cursor=pointer]:
+          - generic [ref=f3e56]: 🛒
+          - generic [ref=f3e57]: Smart Buys
+        - button "🔥 Hot Deals" [ref=f3e59] [cursor=pointer]:
+          - generic [ref=f3e60]: 🔥
+          - generic [ref=f3e61]: Hot Deals
+        - button "🥬 Groceries" [ref=f3e62] [cursor=pointer]:
+          - generic [ref=f3e63]: 🥬
+          - generic [ref=f3e64]: Groceries
+        - button "🥨 Snacks" [ref=f3e65] [cursor=pointer]:
+          - generic [ref=f3e66]: 🥨
+          - generic [ref=f3e67]: Snacks
+        - button "🥤 Drinks" [ref=f3e68] [cursor=pointer]:
+          - generic [ref=f3e69]: 🥤
+          - generic [ref=f3e70]: Drinks
+        - button "🧺 Daily Needs" [ref=f3e71] [cursor=pointer]:
+          - generic [ref=f3e72]: 🧺
+          - generic [ref=f3e73]: Daily Needs
+        - button "🎧 Electronics" [ref=f3e74] [cursor=pointer]:
+          - generic [ref=f3e75]: 🎧
+          - generic [ref=f3e76]: Electronics
+        - button "🔲 Explore All" [ref=f3e77] [cursor=pointer]:
+          - generic [ref=f3e78]: 🔲
+          - generic [ref=f3e79]: Explore All
+      - generic [ref=f3e80]:
+        - generic [ref=f3e81] [cursor=pointer]:
+          - generic [ref=f3e82]: Daily Essentials
+          - img "Daily Essentials" [ref=f3e84]
+          - generic [ref=f3e85]: Up to 70% off
+        - generic [ref=f3e86] [cursor=pointer]:
+          - generic [ref=f3e87]: The Crunch Edit
+          - img "The Crunch Edit" [ref=f3e89]
+          - generic [ref=f3e90]: From ₹120
+        - generic [ref=f3e91] [cursor=pointer]:
+          - generic [ref=f3e92]: Realme P4R
+          - img "Realme P4R" [ref=f3e94]
+          - generic [ref=f3e95]: From ₹17,599*
+        - generic [ref=f3e96] [cursor=pointer]:
+          - generic [ref=f3e97]: 32" Smart OLED
+          - img "32\" Smart OLED" [ref=f3e99]
+          - generic [ref=f3e100]: From ₹12,490*
+        - generic [ref=f3e101] [cursor=pointer]:
+          - generic [ref=f3e102]: Cold Beverages
+          - img "Cold Beverages" [ref=f3e104]
+          - generic [ref=f3e105]: From ₹35
+        - generic [ref=f3e106] [cursor=pointer]:
+          - generic [ref=f3e107]: Laundry Packs
+          - img "Laundry Packs" [ref=f3e109]
+          - generic [ref=f3e110]: From ₹99
+  - generic [ref=f3e113]:
+    - generic [ref=f3e114]:
+      - generic [ref=f3e115]:
+        - generic [ref=f3e116]:
+          - generic [ref=f3e117]:
+            - generic [ref=f3e118]:  iPad
+            - generic [ref=f3e119]: GRAND SALE
+          - heading "Apple iPad A16" [level=3] [ref=f3e120]
+          - generic [ref=f3e121]:
+            - generic [ref=f3e122]: From
+            - generic [ref=f3e123]: ₹41,399
+            - generic [ref=f3e124]: ₹47,900
+          - paragraph [ref=f3e125]: FLAT ₹6,000 OFF & No Cost EMI
+          - button "Shop now" [ref=f3e126] [cursor=pointer]
+        - img "Apple iPad A16" [ref=f3e128]
+      - generic [ref=f3e129]:
+        - generic [ref=f3e130]:
+          - generic [ref=f3e131]:
+            - generic [ref=f3e132]: Tata Sampann
+            - generic [ref=f3e133]: FRESH HARVEST
+          - heading "Organic Dry Fruits & Nuts" [level=3] [ref=f3e134]
+          - generic [ref=f3e135]:
+            - generic [ref=f3e136]: Special
+            - generic [ref=f3e137]: ₹349
+            - generic [ref=f3e138]: ₹499
+          - paragraph [ref=f3e139]: California Almonds & Walnuts
+          - button "Claim 30% Off" [ref=f3e140] [cursor=pointer]
+        - img "Organic Dry Fruits & Nuts" [ref=f3e142]
+      - generic [ref=f3e143]:
+        - generic [ref=f3e144]:
+          - generic [ref=f3e145]:
+            - generic [ref=f3e146]: Snack Treats
+            - generic [ref=f3e147]: SUPER SAVER
+          - heading "Gourmet Crunch & Snacks" [level=3] [ref=f3e148]
+          - generic [ref=f3e149]:
+            - generic [ref=f3e150]: Starting at
+            - generic [ref=f3e151]: ₹199
+            - generic [ref=f3e152]: ₹280
+          - paragraph [ref=f3e153]: Crispy Chips & Cold Beverages
+          - button "Order in 10 Mins" [ref=f3e154] [cursor=pointer]
+        - img "Gourmet Crunch & Snacks" [ref=f3e156]
+    - button "Previous Slide" [ref=f3e157] [cursor=pointer]
+    - button "Next Slide" [ref=f3e160] [cursor=pointer]
+    - generic [ref=f3e163]:
+      - button "Go to slide 1" [ref=f3e164] [cursor=pointer]
+      - button "Go to slide 2" [ref=f3e165] [cursor=pointer]
+      - button "Go to slide 3" [ref=f3e166] [cursor=pointer]
+  - generic [ref=f3e169]:
+    - heading "Nutty Deals" [level=2] [ref=f3e170]
+    - button "View all" [ref=f3e171] [cursor=pointer]
+  - generic [ref=f3e175]:
+    - heading "Daily Fresh Groceries" [level=2] [ref=f3e176]
+    - button "View all" [ref=f3e177] [cursor=pointer]
+  - generic [ref=f3e181]:
+    - heading "Crunchy Snacks & Drinks" [level=2] [ref=f3e182]
+    - button "View all" [ref=f3e183] [cursor=pointer]
+  - generic [ref=f3e186]:
+    - generic [ref=f3e187]:
+      - heading "All Store Products" [level=2] [ref=f3e188]
+      - generic [ref=f3e189]: 0 items
+    - paragraph [ref=f3e192]: Loading store catalog...
+  - generic [ref=f3e196]:
+    - generic [ref=f3e197]:
+      - generic [ref=f3e198]: Special Weekly Deal
+      - heading "Gourmet Fresh Fruit & Cheese Gift Basket" [level=2] [ref=f3e200]
+      - paragraph [ref=f3e201]: Artisan cheeses paired with handpicked organic grapes, strawberries, and crisp apples in a beautiful woven gift basket. Available this week only.
+      - generic [ref=f3e202]:
+        - generic [ref=f3e203]:
+          - generic [ref=f3e204]: "00"
+          - generic [ref=f3e205]: Days
+        - generic [ref=f3e206]:
+          - generic [ref=f3e207]: "00"
+          - generic [ref=f3e208]: Hours
+        - generic [ref=f3e209]:
+          - generic [ref=f3e210]: "00"
+          - generic [ref=f3e211]: Mins
+        - generic [ref=f3e212]:
+          - generic [ref=f3e213]: "00"
+          - generic [ref=f3e214]: Secs
+      - button "Claim Offer • ₹399" [ref=f3e216] [cursor=pointer]
+    - generic [ref=f3e219]:
+      - img "Gourmet Gift Basket close up" [ref=f3e220]
+      - generic [ref=f3e221]:
+        - generic [ref=f3e222]: 15%
+        - generic [ref=f3e223]: "OFF"
+  - contentinfo [ref=f3e224]:
+    - generic [ref=f3e225]:
+      - generic [ref=f3e226]:
+        - generic [ref=f3e227]:
+          - link "G Mart" [ref=f3e228] [cursor=pointer]:
+            - /url: "#hero"
+          - paragraph [ref=f3e234]: Fresh organic groceries & essentials delivered fast.
+        - generic [ref=f3e235]:
+          - generic [ref=f3e236]: "Categories:"
+          - generic [ref=f3e237]:
+            - link "🥨 Snacks" [ref=f3e238] [cursor=pointer]:
+              - /url: "#products"
+            - link "🛒 Groceries" [ref=f3e239] [cursor=pointer]:
+              - /url: "#products"
+            - link "🥤 Drinks" [ref=f3e240] [cursor=pointer]:
+              - /url: "#products"
+            - link "🧺 Laundry Essentials" [ref=f3e241] [cursor=pointer]:
+              - /url: "#products"
+            - link "🥬 Organic Farms" [ref=f3e242] [cursor=pointer]:
+              - /url: "#products"
+      - generic [ref=f3e243]:
+        - generic [ref=f3e244]:
+          - generic [ref=f3e245]: "Customer Care:"
+          - generic [ref=f3e246]:
+            - link "🚚 Track Order" [ref=f3e247] [cursor=pointer]:
+              - /url: "#"
+            - link "📦 Shipping Details" [ref=f3e248] [cursor=pointer]:
+              - /url: "#"
+            - link "🔄 Returns & Refunds" [ref=f3e249] [cursor=pointer]:
+              - /url: "#"
+            - link "🛡️ Freshness Guarantee" [ref=f3e250] [cursor=pointer]:
+              - /url: "#"
+            - link "💬 Help & Support" [ref=f3e251] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=f3e252]:
+          - generic [ref=f3e253]: 📞 +91 98765 43210
+          - generic [ref=f3e254]: •
+          - generic [ref=f3e255]: ✉️ support@gmartgrocery.com
+          - generic [ref=f3e256]: •
+          - generic [ref=f3e257]: 📍 Talwandi Sabo, Punjab, 151302
+      - generic [ref=f3e258]:
+        - paragraph [ref=f3e259]: © 2026 G Mart Marketplace. All Rights Reserved. Freshness on demand.
+        - generic [ref=f3e260]:
+          - link "Facebook" [ref=f3e261] [cursor=pointer]:
+            - /url: "#"
+          - link "Instagram" [ref=f3e264] [cursor=pointer]:
+            - /url: "#"
+          - link "Twitter" [ref=f3e268] [cursor=pointer]:
+            - /url: "#"
+  - generic [ref=f3e271]:
+    - generic [ref=f3e272]:
+      - generic [ref=f3e273]:
+        - heading "Your Cart" [level=2] [ref=f3e277]
+        - generic [ref=f3e278]: "0"
+      - button "Close Cart" [ref=f3e279] [cursor=pointer]
+    - generic [ref=f3e284]:
+      - generic [ref=f3e285]: 🛒
+      - heading "Your cart is empty" [level=3] [ref=f3e286]
+      - paragraph [ref=f3e287]: Add fresh organic produce and snacks to get started!
+  - generic [ref=f3e289]:
+    - generic [ref=f3e290] [cursor=pointer]: Home
+    - generic [ref=f3e295] [cursor=pointer]: Categories
+    - generic [ref=f3e302] [cursor=pointer]: Wishlist
+    - generic [ref=f3e306] [cursor=pointer]: Offers

@@ -1,0 +1,49 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Backend Server",
+      "type": "shell",
+      "command": "npm run dev",
+      "options": {
+        "cwd": "${workspaceFolder}/backend"
+      },
+      "presentation": {
+        "group": "servers",
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start Frontend Server",
+      "type": "shell",
+      "command": "npm run dev -- --host",
+      "options": {
+        "cwd": "${workspaceFolder}/ecommerce"
+      },
+      "presentation": {
+        "group": "servers",
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start E-Commerce Website",
+      "dependsOn": [
+        "Start Backend Server",
+        "Start Frontend Server"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

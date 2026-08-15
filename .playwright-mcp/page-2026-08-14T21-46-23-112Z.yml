@@ -1,0 +1,169 @@
+- generic [ref=f2e3]:
+  - navigation [ref=f2e4]:
+    - generic [ref=f2e5]:
+      - link [ref=f2e6] [cursor=pointer]:
+        - /url: "#hero"
+      - generic [ref=f2e11]:
+        - button "Search Products" [ref=f2e12] [cursor=pointer]
+        - button "Open Wishlist" [ref=f2e16] [cursor=pointer]
+        - button "Account" [ref=f2e20] [cursor=pointer]
+        - button "Open Cart" [ref=f2e24] [cursor=pointer]:
+          - generic: "0"
+        - button "Toggle Menu" [ref=f2e28] [cursor=pointer]
+  - generic [ref=f2e312]:
+    - generic [ref=f2e314]:
+      - button "Categories Fresh Farm Produce" [ref=f2e637] [cursor=pointer]:
+        - generic [ref=f2e640]:
+          - generic [ref=f2e641]: Categories
+          - strong [ref=f2e642]: Fresh Farm Produce
+      - button "Search Categories" [ref=f2e319] [cursor=pointer]
+    - generic [ref=f2e643]:
+      - generic [ref=f2e644]:
+        - generic [ref=f2e645]: 100% Organic
+        - heading "Fresh Farm Produce" [level=2] [ref=f2e649]
+        - paragraph [ref=f2e650]: Organic fruits, green vegetables & seasonal harvests
+      - generic [ref=f2e651]:
+        - generic [ref=f2e652]: "Filter by Sub-Department:"
+        - generic [ref=f2e654]:
+          - generic [ref=f2e655] [cursor=pointer]: All Fresh Produce
+          - generic [ref=f2e660] [cursor=pointer]:
+            - generic [ref=f2e661]: Exotic & Seasonal Fruits
+            - generic [ref=f2e662]: Fresh
+          - generic [ref=f2e665] [cursor=pointer]:
+            - generic [ref=f2e666]: Daily Green Vegetables
+            - generic [ref=f2e667]: Organic
+          - generic [ref=f2e669] [cursor=pointer]: Fresh Herbs & Seasonings
+          - generic [ref=f2e674] [cursor=pointer]:
+            - generic [ref=f2e675]: Hydroponic Greens
+            - generic [ref=f2e676]: Premium
+      - generic [ref=f2e679]:
+        - heading "Popular in Fresh Farm Produce" [level=3] [ref=f2e680]
+        - generic [ref=f2e681]: Showing 4 certified items
+      - generic [ref=f2e682]:
+        - generic [ref=f2e683] [cursor=pointer]:
+          - generic [ref=f2e684]:
+            - img "Organic Green Mangoes" [ref=f2e685]
+            - button "Add to Wishlist" [ref=f2e686]
+            - generic "100% Vegetarian" [ref=f2e689]
+          - generic [ref=f2e691]:
+            - heading "Organic Green Mangoes" [level=3] [ref=f2e692]
+            - generic [ref=f2e693]: Standard Pack
+            - generic [ref=f2e694]:
+              - generic [ref=f2e695]:
+                - generic [ref=f2e696]: ₹4.49
+                - generic [ref=f2e697]: ₹5.61
+              - button "Add Organic Green Mangoes to Cart" [ref=f2e698]
+        - generic [ref=f2e700] [cursor=pointer]:
+          - generic [ref=f2e701]:
+            - img "Fresh Red Apples (1kg)" [ref=f2e702]
+            - button "Add to Wishlist" [ref=f2e703]
+            - generic [ref=f2e706]: Bestseller
+          - generic [ref=f2e707]:
+            - heading "Fresh Red Apples (1kg)" [level=3] [ref=f2e708]
+            - generic [ref=f2e709]: Standard Pack (1kg)
+            - generic [ref=f2e710]:
+              - generic [ref=f2e711]:
+                - generic [ref=f2e712]: ₹2.99
+                - generic [ref=f2e713]: ₹3.49
+              - button "Add Fresh Red Apples (1kg) to Cart" [ref=f2e714]
+        - generic [ref=f2e716] [cursor=pointer]:
+          - generic [ref=f2e717]:
+            - img "Organic Whole Milk (1L)" [ref=f2e718]
+            - button "Add to Wishlist" [ref=f2e719]
+            - generic [ref=f2e722]: Fresh
+          - generic [ref=f2e723]:
+            - heading "Organic Whole Milk (1L)" [level=3] [ref=f2e724]
+            - generic [ref=f2e725]: Standard Bottle (1L)
+            - generic [ref=f2e726]:
+              - generic [ref=f2e727]:
+                - generic [ref=f2e728]: ₹2.29
+                - generic [ref=f2e729]: ₹2.79
+              - button "Add Organic Whole Milk (1L) to Cart" [ref=f2e730]
+        - generic [ref=f2e732] [cursor=pointer]:
+          - generic [ref=f2e733]:
+            - img "Organic Bananas (Bunch)" [ref=f2e734]
+            - button "Add to Wishlist" [ref=f2e735]
+            - generic [ref=f2e738]: Fresh
+          - generic [ref=f2e739]:
+            - heading "Organic Bananas (Bunch)" [level=3] [ref=f2e740]
+            - generic [ref=f2e741]: Standard bunch
+            - generic [ref=f2e742]:
+              - generic [ref=f2e743]:
+                - generic [ref=f2e744]: ₹1.99
+                - generic [ref=f2e745]: ₹2.49
+              - button "Add Organic Bananas (Bunch) to Cart" [ref=f2e746]
+      - generic [ref=f2e748]:
+        - heading "Explore Other Departments" [level=4] [ref=f2e749]
+        - generic [ref=f2e750]:
+          - generic [ref=f2e751] [cursor=pointer]: Pantry & Grocery Staples
+          - generic [ref=f2e759] [cursor=pointer]: Dairy, Eggs & Breakfast
+          - generic [ref=f2e769] [cursor=pointer]: Gourmet Snacks & Munchies
+          - generic [ref=f2e776] [cursor=pointer]: Beverages, Juices & Cafe
+          - generic [ref=f2e783] [cursor=pointer]: Personal Care & Wellness
+          - generic [ref=f2e791] [cursor=pointer]: Home Care & Cleaning
+          - generic [ref=f2e799] [cursor=pointer]: Kitchenware & Table Essentials
+          - generic [ref=f2e809] [cursor=pointer]: Smart Tech & Gadgets
+  - contentinfo [ref=f2e223]:
+    - generic [ref=f2e224]:
+      - generic [ref=f2e225]:
+        - generic [ref=f2e226]:
+          - link "G Mart" [ref=f2e227] [cursor=pointer]:
+            - /url: "#hero"
+          - paragraph [ref=f2e233]: Fresh organic groceries & essentials delivered fast.
+        - generic [ref=f2e234]:
+          - generic [ref=f2e235]: "Categories:"
+          - generic [ref=f2e236]:
+            - link "🥨 Snacks" [ref=f2e237] [cursor=pointer]:
+              - /url: "#products"
+            - link "🛒 Groceries" [ref=f2e238] [cursor=pointer]:
+              - /url: "#products"
+            - link "🥤 Drinks" [ref=f2e239] [cursor=pointer]:
+              - /url: "#products"
+            - link "🧺 Laundry Essentials" [ref=f2e240] [cursor=pointer]:
+              - /url: "#products"
+            - link "🥬 Organic Farms" [ref=f2e241] [cursor=pointer]:
+              - /url: "#products"
+      - generic [ref=f2e242]:
+        - generic [ref=f2e243]:
+          - generic [ref=f2e244]: "Customer Care:"
+          - generic [ref=f2e245]:
+            - link "🚚 Track Order" [ref=f2e246] [cursor=pointer]:
+              - /url: "#"
+            - link "📦 Shipping Details" [ref=f2e247] [cursor=pointer]:
+              - /url: "#"
+            - link "🔄 Returns & Refunds" [ref=f2e248] [cursor=pointer]:
+              - /url: "#"
+            - link "🛡️ Freshness Guarantee" [ref=f2e249] [cursor=pointer]:
+              - /url: "#"
+            - link "💬 Help & Support" [ref=f2e250] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=f2e251]:
+          - generic [ref=f2e252]: 📞 +91 98765 43210
+          - generic [ref=f2e253]: •
+          - generic [ref=f2e254]: ✉️ support@gmartgrocery.com
+          - generic [ref=f2e255]: •
+          - generic [ref=f2e256]: 📍 Talwandi Sabo, Punjab, 151302
+      - generic [ref=f2e257]:
+        - paragraph [ref=f2e258]: © 2026 G Mart Marketplace. All Rights Reserved. Freshness on demand.
+        - generic [ref=f2e259]:
+          - link "Facebook" [ref=f2e260] [cursor=pointer]:
+            - /url: "#"
+          - link "Instagram" [ref=f2e263] [cursor=pointer]:
+            - /url: "#"
+          - link "Twitter" [ref=f2e267] [cursor=pointer]:
+            - /url: "#"
+  - generic [ref=f2e270]:
+    - generic [ref=f2e271]:
+      - generic [ref=f2e272]:
+        - heading "Your Cart" [level=2] [ref=f2e276]
+        - generic [ref=f2e277]: "0"
+      - button "Close Cart" [ref=f2e278] [cursor=pointer]
+    - generic [ref=f2e283]:
+      - generic [ref=f2e284]: 🛒
+      - heading "Your cart is empty" [level=3] [ref=f2e285]
+      - paragraph [ref=f2e286]: Add fresh organic produce and snacks to get started!
+  - generic [ref=f2e288]:
+    - generic [ref=f2e289] [cursor=pointer]: Home
+    - generic [ref=f2e294] [cursor=pointer]: Categories
+    - generic [ref=f2e301] [cursor=pointer]: Wishlist
+    - generic [ref=f2e305] [cursor=pointer]: Offers

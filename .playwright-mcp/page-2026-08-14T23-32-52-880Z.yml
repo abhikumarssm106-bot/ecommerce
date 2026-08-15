@@ -1,0 +1,1500 @@
+- generic [ref=f9e3]:
+  - navigation [ref=f9e4]:
+    - generic [ref=f9e5]:
+      - link "G Mart" [ref=f9e6] [cursor=pointer]:
+        - /url: "#home"
+      - generic [ref=f9e12]:
+        - button "Search" [ref=f9e13] [cursor=pointer]
+        - button "Wishlist" [ref=f9e17] [cursor=pointer]
+        - button "Account" [ref=f9e21] [cursor=pointer]
+        - button "Cart" [ref=f9e25] [cursor=pointer]
+        - button "Menu" [ref=f9e29] [cursor=pointer]
+  - banner [ref=f9e31]:
+    - generic [ref=f9e32]:
+      - generic [ref=f9e38] [cursor=pointer]:
+        - generic [ref=f9e39]: Location
+        - generic [ref=f9e40]: Talwandi Sabo, Punjab, 151302, India
+      - generic [ref=f9e43]:
+        - textbox "Search for 'Mobiles', 'Groceries', 'Snacks'..." [ref=f9e48]
+        - button "Account" [ref=f9e50] [cursor=pointer]
+      - generic [ref=f9e54]:
+        - button "🛒 Smart Buys" [ref=f9e55] [cursor=pointer]:
+          - generic [ref=f9e56]: 🛒
+          - generic [ref=f9e57]: Smart Buys
+        - button "🔥 Hot Deals" [ref=f9e59] [cursor=pointer]:
+          - generic [ref=f9e60]: 🔥
+          - generic [ref=f9e61]: Hot Deals
+        - button "🥬 Groceries" [ref=f9e62] [cursor=pointer]:
+          - generic [ref=f9e63]: 🥬
+          - generic [ref=f9e64]: Groceries
+        - button "🥨 Snacks" [ref=f9e65] [cursor=pointer]:
+          - generic [ref=f9e66]: 🥨
+          - generic [ref=f9e67]: Snacks
+        - button "🥤 Drinks" [ref=f9e68] [cursor=pointer]:
+          - generic [ref=f9e69]: 🥤
+          - generic [ref=f9e70]: Drinks
+        - button "🧺 Daily Needs" [ref=f9e71] [cursor=pointer]:
+          - generic [ref=f9e72]: 🧺
+          - generic [ref=f9e73]: Daily Needs
+        - button "🎧 Electronics" [ref=f9e74] [cursor=pointer]:
+          - generic [ref=f9e75]: 🎧
+          - generic [ref=f9e76]: Electronics
+        - button "🔲 Explore All" [ref=f9e77] [cursor=pointer]:
+          - generic [ref=f9e78]: 🔲
+          - generic [ref=f9e79]: Explore All
+      - generic [ref=f9e80]:
+        - generic [ref=f9e81] [cursor=pointer]:
+          - generic [ref=f9e82]: Daily Essentials
+          - img "Daily Essentials" [ref=f9e84]
+          - generic [ref=f9e85]: Up to 70% off
+        - generic [ref=f9e86] [cursor=pointer]:
+          - generic [ref=f9e87]: The Crunch Edit
+          - img "The Crunch Edit" [ref=f9e89]
+          - generic [ref=f9e90]: From ₹120
+        - generic [ref=f9e91] [cursor=pointer]:
+          - generic [ref=f9e92]: Realme P4R
+          - img "Realme P4R" [ref=f9e94]
+          - generic [ref=f9e95]: From ₹17,599*
+        - generic [ref=f9e96] [cursor=pointer]:
+          - generic [ref=f9e97]: 32" Smart OLED
+          - img "32\" Smart OLED" [ref=f9e99]
+          - generic [ref=f9e100]: From ₹12,490*
+        - generic [ref=f9e101] [cursor=pointer]:
+          - generic [ref=f9e102]: Cold Beverages
+          - img "Cold Beverages" [ref=f9e104]
+          - generic [ref=f9e105]: From ₹35
+        - generic [ref=f9e106] [cursor=pointer]:
+          - generic [ref=f9e107]: Laundry Packs
+          - img "Laundry Packs" [ref=f9e109]
+          - generic [ref=f9e110]: From ₹99
+  - generic [ref=f9e113]:
+    - generic [ref=f9e114]:
+      - generic [ref=f9e115]:
+        - generic [ref=f9e116]:
+          - generic [ref=f9e117]:
+            - generic [ref=f9e118]: ⚡ G Mart Campus
+            - generic [ref=f9e119]: HOSTEL ESSENTIALS
+          - heading "Everything Your Hostel Needs" [level=3] [ref=f9e120]
+          - generic [ref=f9e121]:
+            - generic [ref=f9e122]: Starting at
+            - generic [ref=f9e123]: ₹20
+            - generic [ref=f9e124]: ₹30
+          - paragraph [ref=f9e125]: Delivered Fast to Your Room in 10 Mins
+          - button "Order in 10 Mins" [ref=f9e126] [cursor=pointer]
+        - img "Everything Your Hostel Needs" [ref=f9e128]
+      - generic [ref=f9e129]:
+        - generic [ref=f9e130]:
+          - generic [ref=f9e131]:
+            - generic [ref=f9e132]: Snack Station
+            - generic [ref=f9e133]: CAMPUS DEALS
+          - heading "Late Night Munchies & Snacks" [level=3] [ref=f9e134]
+          - generic [ref=f9e135]:
+            - generic [ref=f9e136]: From
+            - generic [ref=f9e137]: ₹14
+            - generic [ref=f9e138]: ₹20
+          - paragraph [ref=f9e139]: Lays, Kurkure, Maggi & Cold Drinks
+          - button "Shop Now" [ref=f9e140] [cursor=pointer]
+        - img "Late Night Munchies & Snacks" [ref=f9e142]
+      - generic [ref=f9e143]:
+        - generic [ref=f9e144]:
+          - generic [ref=f9e145]:
+            - generic [ref=f9e146]: Dairy & Staples
+            - generic [ref=f9e147]: FREE DELIVERY
+          - heading "Hostel Groceries & Milk" [level=3] [ref=f9e148]
+          - generic [ref=f9e149]:
+            - generic [ref=f9e150]: Fresh
+            - generic [ref=f9e151]: ₹30
+            - generic [ref=f9e152]: ₹35
+          - paragraph [ref=f9e153]: Amul Milk, Bread, Butter & Eggs
+          - button "Get Delivered" [ref=f9e154] [cursor=pointer]
+        - img "Hostel Groceries & Milk" [ref=f9e156]
+    - button "Previous Slide" [ref=f9e157] [cursor=pointer]
+    - button "Next Slide" [ref=f9e160] [cursor=pointer]
+    - generic [ref=f9e163]:
+      - button "Go to slide 1" [ref=f9e164] [cursor=pointer]
+      - button "Go to slide 2" [ref=f9e165] [cursor=pointer]
+      - button "Go to slide 3" [ref=f9e166] [cursor=pointer]
+  - generic [ref=f9e168]:
+    - generic [ref=f9e169]:
+      - heading "Nutty Deals" [level=2] [ref=f9e170]
+      - button "View all" [ref=f9e171] [cursor=pointer]
+    - generic [ref=f9e172]:
+      - generic [ref=f9e173] [cursor=pointer]:
+        - generic [ref=f9e174]:
+          - img "Fresh Red Apples (1kg)" [ref=f9e175]
+          - button "Add to Wishlist" [ref=f9e176]
+          - generic "100% Vegetarian" [ref=f9e179]
+        - generic [ref=f9e181]:
+          - heading "Fresh Red Apples (1kg)" [level=3] [ref=f9e182]
+          - generic [ref=f9e183]: Standard Pack (1kg)
+          - generic [ref=f9e184]:
+            - generic [ref=f9e185]:
+              - generic [ref=f9e186]: ₹2.99
+              - generic [ref=f9e187]: ₹3.74
+            - button "Add Fresh Red Apples (1kg) to Cart" [ref=f9e188]
+      - generic [ref=f9e190] [cursor=pointer]:
+        - generic [ref=f9e191]:
+          - img "Organic Bananas (Bunch)" [ref=f9e192]
+          - button "Add to Wishlist" [ref=f9e193]
+          - generic "100% Vegetarian" [ref=f9e196]
+        - generic [ref=f9e198]:
+          - heading "Organic Bananas (Bunch)" [level=3] [ref=f9e199]
+          - generic [ref=f9e200]: Standard bunch
+          - generic [ref=f9e201]:
+            - generic [ref=f9e202]:
+              - generic [ref=f9e203]: ₹1.99
+              - generic [ref=f9e204]: ₹2.49
+            - button "Add Organic Bananas (Bunch) to Cart" [ref=f9e205]
+      - generic [ref=f9e207] [cursor=pointer]:
+        - generic [ref=f9e208]:
+          - img "Lays Classic Salted Potato Chips" [ref=f9e209]
+          - button "Add to Wishlist" [ref=f9e210]
+          - generic [ref=f9e213]: Popular
+        - generic [ref=f9e214]:
+          - heading "Lays Classic Salted Potato Chips" [level=3] [ref=f9e215]
+          - generic [ref=f9e216]: 50g pack
+          - generic [ref=f9e217]:
+            - generic [ref=f9e218]: ₹20
+            - button "Add Lays Classic Salted Potato Chips to Cart" [ref=f9e220]
+      - generic [ref=f9e222] [cursor=pointer]:
+        - generic [ref=f9e223]:
+          - img "Bingo Mad Angles Achaari Masti" [ref=f9e224]
+          - button "Add to Wishlist" [ref=f9e225]
+          - generic [ref=f9e228]: Crunchy
+        - generic [ref=f9e229]:
+          - heading "Bingo Mad Angles Achaari Masti" [level=3] [ref=f9e230]
+          - generic [ref=f9e231]: 66g pack
+          - generic [ref=f9e232]:
+            - generic [ref=f9e233]: ₹20
+            - button "Add Bingo Mad Angles Achaari Masti to Cart" [ref=f9e235]
+      - generic [ref=f9e237] [cursor=pointer]:
+        - generic [ref=f9e238]:
+          - img "Haldiram All in One Mixture Namkeen" [ref=f9e239]
+          - button "Add to Wishlist" [ref=f9e240]
+          - generic [ref=f9e243]: Popular
+        - generic [ref=f9e244]:
+          - heading "Haldiram All in One Mixture Namkeen" [level=3] [ref=f9e245]
+          - generic [ref=f9e246]: 150g pack
+          - generic [ref=f9e247]:
+            - generic [ref=f9e248]:
+              - generic [ref=f9e249]: ₹30
+              - generic [ref=f9e250]: ₹35
+            - button "Add Haldiram All in One Mixture Namkeen to Cart" [ref=f9e251]
+      - generic [ref=f9e253] [cursor=pointer]:
+        - generic [ref=f9e254]:
+          - img "Maggi 2-Minute Masala Instant Noodles" [ref=f9e255]
+          - button "Add to Wishlist" [ref=f9e256]
+          - generic [ref=f9e259]: Must Have
+        - generic [ref=f9e260]:
+          - heading "Maggi 2-Minute Masala Instant Noodles" [level=3] [ref=f9e261]
+          - generic [ref=f9e262]: 70g pack
+          - generic [ref=f9e263]:
+            - generic [ref=f9e264]:
+              - generic [ref=f9e265]: ₹14
+              - generic [ref=f9e266]: ₹15
+            - button "Add Maggi 2-Minute Masala Instant Noodles to Cart" [ref=f9e267]
+      - generic [ref=f9e269] [cursor=pointer]:
+        - generic [ref=f9e270]:
+          - img "Sunfeast YiPPee! Magic Masala Noodles" [ref=f9e271]
+          - button "Add to Wishlist" [ref=f9e272]
+          - generic [ref=f9e275]: Non-Sticky
+        - generic [ref=f9e276]:
+          - heading "Sunfeast YiPPee! Magic Masala Noodles" [level=3] [ref=f9e277]
+          - generic [ref=f9e278]: 65g pack
+          - generic [ref=f9e279]:
+            - generic [ref=f9e280]:
+              - generic [ref=f9e281]: ₹14
+              - generic [ref=f9e282]: ₹15
+            - button "Add Sunfeast YiPPee! Magic Masala Noodles to Cart" [ref=f9e283]
+      - generic [ref=f9e285] [cursor=pointer]:
+        - generic [ref=f9e286]:
+          - img "Nissin Cup Noodles Veggie Manchow" [ref=f9e287]
+          - button "Add to Wishlist" [ref=f9e288]
+          - generic [ref=f9e291]: Instant Pot
+        - generic [ref=f9e292]:
+          - heading "Nissin Cup Noodles Veggie Manchow" [level=3] [ref=f9e293]
+          - generic [ref=f9e294]: 70g cup
+          - generic [ref=f9e295]:
+            - generic [ref=f9e296]:
+              - generic [ref=f9e297]: ₹48
+              - generic [ref=f9e298]: ₹50
+            - button "Add Nissin Cup Noodles Veggie Manchow to Cart" [ref=f9e299]
+      - generic [ref=f9e301] [cursor=pointer]:
+        - generic [ref=f9e302]:
+          - img "Bambino Durum Wheat Fusilli Pasta 500g" [ref=f9e303]
+          - button "Add to Wishlist" [ref=f9e304]
+          - generic [ref=f9e307]: Italian Style
+        - generic [ref=f9e308]:
+          - heading "Bambino Durum Wheat Fusilli Pasta 500g" [level=3] [ref=f9e309]
+          - generic [ref=f9e310]: 500g pack
+          - generic [ref=f9e311]:
+            - generic [ref=f9e312]:
+              - generic [ref=f9e313]: ₹65
+              - generic [ref=f9e314]: ₹75
+            - button "Add Bambino Durum Wheat Fusilli Pasta 500g to Cart" [ref=f9e315]
+      - generic [ref=f9e317] [cursor=pointer]:
+        - generic [ref=f9e318]:
+          - img "Real Fruit Power Mixed Fruit Juice 1L" [ref=f9e319]
+          - button "Add to Wishlist" [ref=f9e320]
+          - generic [ref=f9e323]: 100% Real
+        - generic [ref=f9e324]:
+          - heading "Real Fruit Power Mixed Fruit Juice 1L" [level=3] [ref=f9e325]
+          - generic [ref=f9e326]: 1 L pack
+          - generic [ref=f9e327]:
+            - generic [ref=f9e328]:
+              - generic [ref=f9e329]: ₹110
+              - generic [ref=f9e330]: ₹130
+            - button "Add Real Fruit Power Mixed Fruit Juice 1L to Cart" [ref=f9e331]
+      - generic [ref=f9e333] [cursor=pointer]:
+        - generic [ref=f9e334]:
+          - img "Amul Taaza Homogenised Toned Milk 500ml" [ref=f9e335]
+          - button "Add to Wishlist" [ref=f9e336]
+          - generic [ref=f9e339]: Fresh Daily
+        - generic [ref=f9e340]:
+          - heading "Amul Taaza Homogenised Toned Milk 500ml" [level=3] [ref=f9e341]
+          - generic [ref=f9e342]: 500ml pouch
+          - generic [ref=f9e343]:
+            - generic [ref=f9e344]:
+              - generic [ref=f9e345]: ₹30
+              - generic [ref=f9e346]: ₹32
+            - button "Add Amul Taaza Homogenised Toned Milk 500ml to Cart" [ref=f9e347]
+      - generic [ref=f9e349] [cursor=pointer]:
+        - generic [ref=f9e350]:
+          - img "Amul Masti Dahi Fresh Curd 400g" [ref=f9e351]
+          - button "Add to Wishlist" [ref=f9e352]
+          - generic [ref=f9e355]: Thick & Creamy
+        - generic [ref=f9e356]:
+          - heading "Amul Masti Dahi Fresh Curd 400g" [level=3] [ref=f9e357]
+          - generic [ref=f9e358]: 400g tub
+          - generic [ref=f9e359]:
+            - generic [ref=f9e360]:
+              - generic [ref=f9e361]: ₹45
+              - generic [ref=f9e362]: ₹48
+            - button "Add Amul Masti Dahi Fresh Curd 400g to Cart" [ref=f9e363]
+      - generic [ref=f9e365] [cursor=pointer]:
+        - generic [ref=f9e366]:
+          - img "Amul Salted Butter 100g" [ref=f9e367]
+          - button "Add to Wishlist" [ref=f9e368]
+          - generic [ref=f9e371]: Utterly Butterly
+        - generic [ref=f9e372]:
+          - heading "Amul Salted Butter 100g" [level=3] [ref=f9e373]
+          - generic [ref=f9e374]: 100g pack
+          - generic [ref=f9e375]:
+            - generic [ref=f9e376]:
+              - generic [ref=f9e377]: ₹58
+              - generic [ref=f9e378]: ₹60
+            - button "Add Amul Salted Butter 100g to Cart" [ref=f9e379]
+      - generic [ref=f9e381] [cursor=pointer]:
+        - generic [ref=f9e382]:
+          - img "Farm Fresh Brown Eggs (Pack of 12)" [ref=f9e383]
+          - button "Add to Wishlist" [ref=f9e384]
+          - generic [ref=f9e387]: High Protein
+        - generic [ref=f9e388]:
+          - heading "Farm Fresh Brown Eggs (Pack of 12)" [level=3] [ref=f9e389]
+          - generic [ref=f9e390]: 12 eggs pack
+          - generic [ref=f9e391]:
+            - generic [ref=f9e392]:
+              - generic [ref=f9e393]: ₹88
+              - generic [ref=f9e394]: ₹100
+            - button "Add Farm Fresh Brown Eggs (Pack of 12) to Cart" [ref=f9e395]
+      - generic [ref=f9e397] [cursor=pointer]:
+        - generic [ref=f9e398]:
+          - img "India Gate Basmati Rice Feast 5 kg" [ref=f9e399]
+          - button "Add to Wishlist" [ref=f9e400]
+          - generic [ref=f9e403]: Aged Grains
+        - generic [ref=f9e404]:
+          - heading "India Gate Basmati Rice Feast 5 kg" [level=3] [ref=f9e405]
+          - generic [ref=f9e406]: 5 kg bag
+          - generic [ref=f9e407]:
+            - generic [ref=f9e408]:
+              - generic [ref=f9e409]: ₹375
+              - generic [ref=f9e410]: ₹450
+            - button "Add India Gate Basmati Rice Feast 5 kg to Cart" [ref=f9e411]
+      - generic [ref=f9e413] [cursor=pointer]:
+        - generic [ref=f9e414]:
+          - img "Aashirvaad Shudh Chakki Atta 5 kg" [ref=f9e415]
+          - button "Add to Wishlist" [ref=f9e416]
+          - generic [ref=f9e419]: 100% Whole Wheat
+        - generic [ref=f9e420]:
+          - heading "Aashirvaad Shudh Chakki Atta 5 kg" [level=3] [ref=f9e421]
+          - generic [ref=f9e422]: 5 kg bag
+          - generic [ref=f9e423]:
+            - generic [ref=f9e424]:
+              - generic [ref=f9e425]: ₹235
+              - generic [ref=f9e426]: ₹270
+            - button "Add Aashirvaad Shudh Chakki Atta 5 kg to Cart" [ref=f9e427]
+      - generic [ref=f9e429] [cursor=pointer]:
+        - generic [ref=f9e430]:
+          - img "Tata Sampann Unpolished Toor Dal 1 kg" [ref=f9e431]
+          - button "Add to Wishlist" [ref=f9e432]
+          - generic [ref=f9e435]: Unpolished
+        - generic [ref=f9e436]:
+          - heading "Tata Sampann Unpolished Toor Dal 1 kg" [level=3] [ref=f9e437]
+          - generic [ref=f9e438]: 1 kg pack
+          - generic [ref=f9e439]:
+            - generic [ref=f9e440]:
+              - generic [ref=f9e441]: ₹148
+              - generic [ref=f9e442]: ₹175
+            - button "Add Tata Sampann Unpolished Toor Dal 1 kg to Cart" [ref=f9e443]
+      - generic [ref=f9e445] [cursor=pointer]:
+        - generic [ref=f9e446]:
+          - img "Fortune Sunlite Refined Sunflower Oil 1 L" [ref=f9e447]
+          - button "Add to Wishlist" [ref=f9e448]
+          - generic [ref=f9e451]: Light & Healthy
+        - generic [ref=f9e452]:
+          - heading "Fortune Sunlite Refined Sunflower Oil 1 L" [level=3] [ref=f9e453]
+          - generic [ref=f9e454]: 1 L pouch
+          - generic [ref=f9e455]:
+            - generic [ref=f9e456]:
+              - generic [ref=f9e457]: ₹138
+              - generic [ref=f9e458]: ₹165
+            - button "Add Fortune Sunlite Refined Sunflower Oil 1 L to Cart" [ref=f9e459]
+      - generic [ref=f9e461] [cursor=pointer]:
+        - generic [ref=f9e462]:
+          - img "Fresh Hybrid Red Tomatoes 1 kg" [ref=f9e463]
+          - button "Add to Wishlist" [ref=f9e464]
+          - generic [ref=f9e467]: Farm Picked
+        - generic [ref=f9e468]:
+          - heading "Fresh Hybrid Red Tomatoes 1 kg" [level=3] [ref=f9e469]
+          - generic [ref=f9e470]: 1 kg pack
+          - generic [ref=f9e471]:
+            - generic [ref=f9e472]:
+              - generic [ref=f9e473]: ₹32
+              - generic [ref=f9e474]: ₹40
+            - button "Add Fresh Hybrid Red Tomatoes 1 kg to Cart" [ref=f9e475]
+      - generic [ref=f9e477] [cursor=pointer]:
+        - generic [ref=f9e478]:
+          - img "Farm Fresh Jyoti Potatoes 1 kg" [ref=f9e479]
+          - button "Add to Wishlist" [ref=f9e480]
+          - generic [ref=f9e483]: Daily Need
+        - generic [ref=f9e484]:
+          - heading "Farm Fresh Jyoti Potatoes 1 kg" [level=3] [ref=f9e485]
+          - generic [ref=f9e486]: 1 kg pack
+          - generic [ref=f9e487]:
+            - generic [ref=f9e488]:
+              - generic [ref=f9e489]: ₹26
+              - generic [ref=f9e490]: ₹35
+            - button "Add Farm Fresh Jyoti Potatoes 1 kg to Cart" [ref=f9e491]
+      - generic [ref=f9e493] [cursor=pointer]:
+        - generic [ref=f9e494]:
+          - img "Fresh Shimla Royal Apples 1 kg" [ref=f9e495]
+          - button "Add to Wishlist" [ref=f9e496]
+          - generic [ref=f9e499]: Crisp & Sweet
+        - generic [ref=f9e500]:
+          - heading "Fresh Shimla Royal Apples 1 kg" [level=3] [ref=f9e501]
+          - generic [ref=f9e502]: 1 kg pack (approx 4-5 apples)
+          - generic [ref=f9e503]:
+            - generic [ref=f9e504]:
+              - generic [ref=f9e505]: ₹155
+              - generic [ref=f9e506]: ₹190
+            - button "Add Fresh Shimla Royal Apples 1 kg to Cart" [ref=f9e507]
+  - generic [ref=f9e510]:
+    - generic [ref=f9e511]:
+      - heading "Daily Fresh Groceries" [level=2] [ref=f9e512]
+      - button "View all" [ref=f9e513] [cursor=pointer]
+    - generic [ref=f9e514]:
+      - generic [ref=f9e515] [cursor=pointer]:
+        - generic [ref=f9e516]:
+          - img "Fresh Red Apples (1kg)" [ref=f9e517]
+          - button "Add to Wishlist" [ref=f9e518]
+          - generic "100% Vegetarian" [ref=f9e521]
+        - generic [ref=f9e523]:
+          - heading "Fresh Red Apples (1kg)" [level=3] [ref=f9e524]
+          - generic [ref=f9e525]: Standard Pack (1kg)
+          - generic [ref=f9e526]:
+            - generic [ref=f9e527]:
+              - generic [ref=f9e528]: ₹2.99
+              - generic [ref=f9e529]: ₹3.74
+            - button "Add Fresh Red Apples (1kg) to Cart" [ref=f9e530]
+      - generic [ref=f9e532] [cursor=pointer]:
+        - generic [ref=f9e533]:
+          - img "Organic Bananas (Bunch)" [ref=f9e534]
+          - button "Add to Wishlist" [ref=f9e535]
+          - generic "100% Vegetarian" [ref=f9e538]
+        - generic [ref=f9e540]:
+          - heading "Organic Bananas (Bunch)" [level=3] [ref=f9e541]
+          - generic [ref=f9e542]: Standard bunch
+          - generic [ref=f9e543]:
+            - generic [ref=f9e544]:
+              - generic [ref=f9e545]: ₹1.99
+              - generic [ref=f9e546]: ₹2.49
+            - button "Add Organic Bananas (Bunch) to Cart" [ref=f9e547]
+      - generic [ref=f9e549] [cursor=pointer]:
+        - generic [ref=f9e550]:
+          - img "Maggi 2-Minute Masala Instant Noodles" [ref=f9e551]
+          - button "Add to Wishlist" [ref=f9e552]
+          - generic [ref=f9e555]: Must Have
+        - generic [ref=f9e556]:
+          - heading "Maggi 2-Minute Masala Instant Noodles" [level=3] [ref=f9e557]
+          - generic [ref=f9e558]: 70g pack
+          - generic [ref=f9e559]:
+            - generic [ref=f9e560]:
+              - generic [ref=f9e561]: ₹14
+              - generic [ref=f9e562]: ₹15
+            - button "Add Maggi 2-Minute Masala Instant Noodles to Cart" [ref=f9e563]
+      - generic [ref=f9e565] [cursor=pointer]:
+        - generic [ref=f9e566]:
+          - img "Sunfeast YiPPee! Magic Masala Noodles" [ref=f9e567]
+          - button "Add to Wishlist" [ref=f9e568]
+          - generic [ref=f9e571]: Non-Sticky
+        - generic [ref=f9e572]:
+          - heading "Sunfeast YiPPee! Magic Masala Noodles" [level=3] [ref=f9e573]
+          - generic [ref=f9e574]: 65g pack
+          - generic [ref=f9e575]:
+            - generic [ref=f9e576]:
+              - generic [ref=f9e577]: ₹14
+              - generic [ref=f9e578]: ₹15
+            - button "Add Sunfeast YiPPee! Magic Masala Noodles to Cart" [ref=f9e579]
+      - generic [ref=f9e581] [cursor=pointer]:
+        - generic [ref=f9e582]:
+          - img "Nissin Cup Noodles Veggie Manchow" [ref=f9e583]
+          - button "Add to Wishlist" [ref=f9e584]
+          - generic [ref=f9e587]: Instant Pot
+        - generic [ref=f9e588]:
+          - heading "Nissin Cup Noodles Veggie Manchow" [level=3] [ref=f9e589]
+          - generic [ref=f9e590]: 70g cup
+          - generic [ref=f9e591]:
+            - generic [ref=f9e592]:
+              - generic [ref=f9e593]: ₹48
+              - generic [ref=f9e594]: ₹50
+            - button "Add Nissin Cup Noodles Veggie Manchow to Cart" [ref=f9e595]
+      - generic [ref=f9e597] [cursor=pointer]:
+        - generic [ref=f9e598]:
+          - img "Bambino Durum Wheat Fusilli Pasta 500g" [ref=f9e599]
+          - button "Add to Wishlist" [ref=f9e600]
+          - generic [ref=f9e603]: Italian Style
+        - generic [ref=f9e604]:
+          - heading "Bambino Durum Wheat Fusilli Pasta 500g" [level=3] [ref=f9e605]
+          - generic [ref=f9e606]: 500g pack
+          - generic [ref=f9e607]:
+            - generic [ref=f9e608]:
+              - generic [ref=f9e609]: ₹65
+              - generic [ref=f9e610]: ₹75
+            - button "Add Bambino Durum Wheat Fusilli Pasta 500g to Cart" [ref=f9e611]
+      - generic [ref=f9e613] [cursor=pointer]:
+        - generic [ref=f9e614]:
+          - img "Amul Taaza Homogenised Toned Milk 500ml" [ref=f9e615]
+          - button "Add to Wishlist" [ref=f9e616]
+          - generic [ref=f9e619]: Fresh Daily
+        - generic [ref=f9e620]:
+          - heading "Amul Taaza Homogenised Toned Milk 500ml" [level=3] [ref=f9e621]
+          - generic [ref=f9e622]: 500ml pouch
+          - generic [ref=f9e623]:
+            - generic [ref=f9e624]:
+              - generic [ref=f9e625]: ₹30
+              - generic [ref=f9e626]: ₹32
+            - button "Add Amul Taaza Homogenised Toned Milk 500ml to Cart" [ref=f9e627]
+      - generic [ref=f9e629] [cursor=pointer]:
+        - generic [ref=f9e630]:
+          - img "Amul Masti Dahi Fresh Curd 400g" [ref=f9e631]
+          - button "Add to Wishlist" [ref=f9e632]
+          - generic [ref=f9e635]: Thick & Creamy
+        - generic [ref=f9e636]:
+          - heading "Amul Masti Dahi Fresh Curd 400g" [level=3] [ref=f9e637]
+          - generic [ref=f9e638]: 400g tub
+          - generic [ref=f9e639]:
+            - generic [ref=f9e640]:
+              - generic [ref=f9e641]: ₹45
+              - generic [ref=f9e642]: ₹48
+            - button "Add Amul Masti Dahi Fresh Curd 400g to Cart" [ref=f9e643]
+      - generic [ref=f9e645] [cursor=pointer]:
+        - generic [ref=f9e646]:
+          - img "Amul Salted Butter 100g" [ref=f9e647]
+          - button "Add to Wishlist" [ref=f9e648]
+          - generic [ref=f9e651]: Utterly Butterly
+        - generic [ref=f9e652]:
+          - heading "Amul Salted Butter 100g" [level=3] [ref=f9e653]
+          - generic [ref=f9e654]: 100g pack
+          - generic [ref=f9e655]:
+            - generic [ref=f9e656]:
+              - generic [ref=f9e657]: ₹58
+              - generic [ref=f9e658]: ₹60
+            - button "Add Amul Salted Butter 100g to Cart" [ref=f9e659]
+      - generic [ref=f9e661] [cursor=pointer]:
+        - generic [ref=f9e662]:
+          - img "Farm Fresh Brown Eggs (Pack of 12)" [ref=f9e663]
+          - button "Add to Wishlist" [ref=f9e664]
+          - generic [ref=f9e667]: High Protein
+        - generic [ref=f9e668]:
+          - heading "Farm Fresh Brown Eggs (Pack of 12)" [level=3] [ref=f9e669]
+          - generic [ref=f9e670]: 12 eggs pack
+          - generic [ref=f9e671]:
+            - generic [ref=f9e672]:
+              - generic [ref=f9e673]: ₹88
+              - generic [ref=f9e674]: ₹100
+            - button "Add Farm Fresh Brown Eggs (Pack of 12) to Cart" [ref=f9e675]
+      - generic [ref=f9e677] [cursor=pointer]:
+        - generic [ref=f9e678]:
+          - img "India Gate Basmati Rice Feast 5 kg" [ref=f9e679]
+          - button "Add to Wishlist" [ref=f9e680]
+          - generic [ref=f9e683]: Aged Grains
+        - generic [ref=f9e684]:
+          - heading "India Gate Basmati Rice Feast 5 kg" [level=3] [ref=f9e685]
+          - generic [ref=f9e686]: 5 kg bag
+          - generic [ref=f9e687]:
+            - generic [ref=f9e688]:
+              - generic [ref=f9e689]: ₹375
+              - generic [ref=f9e690]: ₹450
+            - button "Add India Gate Basmati Rice Feast 5 kg to Cart" [ref=f9e691]
+      - generic [ref=f9e693] [cursor=pointer]:
+        - generic [ref=f9e694]:
+          - img "Aashirvaad Shudh Chakki Atta 5 kg" [ref=f9e695]
+          - button "Add to Wishlist" [ref=f9e696]
+          - generic [ref=f9e699]: 100% Whole Wheat
+        - generic [ref=f9e700]:
+          - heading "Aashirvaad Shudh Chakki Atta 5 kg" [level=3] [ref=f9e701]
+          - generic [ref=f9e702]: 5 kg bag
+          - generic [ref=f9e703]:
+            - generic [ref=f9e704]:
+              - generic [ref=f9e705]: ₹235
+              - generic [ref=f9e706]: ₹270
+            - button "Add Aashirvaad Shudh Chakki Atta 5 kg to Cart" [ref=f9e707]
+      - generic [ref=f9e709] [cursor=pointer]:
+        - generic [ref=f9e710]:
+          - img "Tata Sampann Unpolished Toor Dal 1 kg" [ref=f9e711]
+          - button "Add to Wishlist" [ref=f9e712]
+          - generic [ref=f9e715]: Unpolished
+        - generic [ref=f9e716]:
+          - heading "Tata Sampann Unpolished Toor Dal 1 kg" [level=3] [ref=f9e717]
+          - generic [ref=f9e718]: 1 kg pack
+          - generic [ref=f9e719]:
+            - generic [ref=f9e720]:
+              - generic [ref=f9e721]: ₹148
+              - generic [ref=f9e722]: ₹175
+            - button "Add Tata Sampann Unpolished Toor Dal 1 kg to Cart" [ref=f9e723]
+      - generic [ref=f9e725] [cursor=pointer]:
+        - generic [ref=f9e726]:
+          - img "Fortune Sunlite Refined Sunflower Oil 1 L" [ref=f9e727]
+          - button "Add to Wishlist" [ref=f9e728]
+          - generic [ref=f9e731]: Light & Healthy
+        - generic [ref=f9e732]:
+          - heading "Fortune Sunlite Refined Sunflower Oil 1 L" [level=3] [ref=f9e733]
+          - generic [ref=f9e734]: 1 L pouch
+          - generic [ref=f9e735]:
+            - generic [ref=f9e736]:
+              - generic [ref=f9e737]: ₹138
+              - generic [ref=f9e738]: ₹165
+            - button "Add Fortune Sunlite Refined Sunflower Oil 1 L to Cart" [ref=f9e739]
+      - generic [ref=f9e741] [cursor=pointer]:
+        - generic [ref=f9e742]:
+          - img "Fresh Hybrid Red Tomatoes 1 kg" [ref=f9e743]
+          - button "Add to Wishlist" [ref=f9e744]
+          - generic [ref=f9e747]: Farm Picked
+        - generic [ref=f9e748]:
+          - heading "Fresh Hybrid Red Tomatoes 1 kg" [level=3] [ref=f9e749]
+          - generic [ref=f9e750]: 1 kg pack
+          - generic [ref=f9e751]:
+            - generic [ref=f9e752]:
+              - generic [ref=f9e753]: ₹32
+              - generic [ref=f9e754]: ₹40
+            - button "Add Fresh Hybrid Red Tomatoes 1 kg to Cart" [ref=f9e755]
+      - generic [ref=f9e757] [cursor=pointer]:
+        - generic [ref=f9e758]:
+          - img "Farm Fresh Jyoti Potatoes 1 kg" [ref=f9e759]
+          - button "Add to Wishlist" [ref=f9e760]
+          - generic [ref=f9e763]: Daily Need
+        - generic [ref=f9e764]:
+          - heading "Farm Fresh Jyoti Potatoes 1 kg" [level=3] [ref=f9e765]
+          - generic [ref=f9e766]: 1 kg pack
+          - generic [ref=f9e767]:
+            - generic [ref=f9e768]:
+              - generic [ref=f9e769]: ₹26
+              - generic [ref=f9e770]: ₹35
+            - button "Add Farm Fresh Jyoti Potatoes 1 kg to Cart" [ref=f9e771]
+      - generic [ref=f9e773] [cursor=pointer]:
+        - generic [ref=f9e774]:
+          - img "Fresh Shimla Royal Apples 1 kg" [ref=f9e775]
+          - button "Add to Wishlist" [ref=f9e776]
+          - generic [ref=f9e779]: Crisp & Sweet
+        - generic [ref=f9e780]:
+          - heading "Fresh Shimla Royal Apples 1 kg" [level=3] [ref=f9e781]
+          - generic [ref=f9e782]: 1 kg pack (approx 4-5 apples)
+          - generic [ref=f9e783]:
+            - generic [ref=f9e784]:
+              - generic [ref=f9e785]: ₹155
+              - generic [ref=f9e786]: ₹190
+            - button "Add Fresh Shimla Royal Apples 1 kg to Cart" [ref=f9e787]
+  - generic [ref=f9e790]:
+    - generic [ref=f9e791]:
+      - heading "Crunchy Snacks & Drinks" [level=2] [ref=f9e792]
+      - button "View all" [ref=f9e793] [cursor=pointer]
+    - generic [ref=f9e794]:
+      - generic [ref=f9e795] [cursor=pointer]:
+        - generic [ref=f9e796]:
+          - img "Organic Green Mangoes" [ref=f9e797]
+          - button "Add to Wishlist" [ref=f9e798]
+          - generic "100% Vegetarian" [ref=f9e801]
+        - generic [ref=f9e803]:
+          - heading "Organic Green Mangoes" [level=3] [ref=f9e804]
+          - generic [ref=f9e805]: Standard Pack
+          - generic [ref=f9e806]:
+            - generic [ref=f9e807]:
+              - generic [ref=f9e808]: ₹4.49
+              - generic [ref=f9e809]: ₹5.61
+            - button "Add Organic Green Mangoes to Cart" [ref=f9e810]
+      - generic [ref=f9e812] [cursor=pointer]:
+        - generic [ref=f9e813]:
+          - img "Fresh Orange Juice (1L)" [ref=f9e814]
+          - button "Add to Wishlist" [ref=f9e815]
+          - generic "100% Vegetarian" [ref=f9e818]
+        - generic [ref=f9e820]:
+          - heading "Fresh Orange Juice (1L)" [level=3] [ref=f9e821]
+          - generic [ref=f9e822]: Standard Bottle (1L)
+          - generic [ref=f9e823]:
+            - generic [ref=f9e824]:
+              - generic [ref=f9e825]: ₹3.99
+              - generic [ref=f9e826]: ₹4.99
+            - button "Add Fresh Orange Juice (1L) to Cart" [ref=f9e827]
+      - generic [ref=f9e829] [cursor=pointer]:
+        - generic [ref=f9e830]:
+          - img "Organic Whole Milk (1L)" [ref=f9e831]
+          - button "Add to Wishlist" [ref=f9e832]
+          - generic "100% Vegetarian" [ref=f9e835]
+        - generic [ref=f9e837]:
+          - heading "Organic Whole Milk (1L)" [level=3] [ref=f9e838]
+          - generic [ref=f9e839]: Standard Bottle (1L)
+          - generic [ref=f9e840]:
+            - generic [ref=f9e841]:
+              - generic [ref=f9e842]: ₹2.29
+              - generic [ref=f9e843]: ₹2.86
+            - button "Add Organic Whole Milk (1L) to Cart" [ref=f9e844]
+      - generic [ref=f9e846] [cursor=pointer]:
+        - generic [ref=f9e847]:
+          - img "Chocolate Chip Cookies (200g)" [ref=f9e848]
+          - button "Add to Wishlist" [ref=f9e849]
+          - generic "100% Vegetarian" [ref=f9e852]
+        - generic [ref=f9e854]:
+          - heading "Chocolate Chip Cookies (200g)" [level=3] [ref=f9e855]
+          - generic [ref=f9e856]: Standard Pack (200g)
+          - generic [ref=f9e857]:
+            - generic [ref=f9e858]:
+              - generic [ref=f9e859]: ₹3.49
+              - generic [ref=f9e860]: ₹4.36
+            - button "Add Chocolate Chip Cookies (200g) to Cart" [ref=f9e861]
+      - generic [ref=f9e863] [cursor=pointer]:
+        - generic [ref=f9e864]:
+          - img "Lays Classic Salted Potato Chips" [ref=f9e865]
+          - button "Add to Wishlist" [ref=f9e866]
+          - generic [ref=f9e869]: Popular
+        - generic [ref=f9e870]:
+          - heading "Lays Classic Salted Potato Chips" [level=3] [ref=f9e871]
+          - generic [ref=f9e872]: 50g pack
+          - generic [ref=f9e873]:
+            - generic [ref=f9e874]: ₹20
+            - button "Add Lays Classic Salted Potato Chips to Cart" [ref=f9e876]
+      - generic [ref=f9e878] [cursor=pointer]:
+        - generic [ref=f9e879]:
+          - img "Lays India's Magic Masala Chips" [ref=f9e880]
+          - button "Add to Wishlist" [ref=f9e881]
+          - generic [ref=f9e884]: Bestseller
+        - generic [ref=f9e885]:
+          - heading "Lays India's Magic Masala Chips" [level=3] [ref=f9e886]
+          - generic [ref=f9e887]: 50g pack
+          - generic [ref=f9e888]:
+            - generic [ref=f9e889]: ₹20
+            - button "Add Lays India's Magic Masala Chips to Cart" [ref=f9e891]
+      - generic [ref=f9e893] [cursor=pointer]:
+        - generic [ref=f9e894]:
+          - img "Kurkure Masala Munch" [ref=f9e895]
+          - button "Add to Wishlist" [ref=f9e896]
+          - generic [ref=f9e899]: Chatpata
+        - generic [ref=f9e900]:
+          - heading "Kurkure Masala Munch" [level=3] [ref=f9e901]
+          - generic [ref=f9e902]: 75g pack
+          - generic [ref=f9e903]:
+            - generic [ref=f9e904]: ₹20
+            - button "Add Kurkure Masala Munch to Cart" [ref=f9e906]
+      - generic [ref=f9e908] [cursor=pointer]:
+        - generic [ref=f9e909]:
+          - img "Bingo Mad Angles Achaari Masti" [ref=f9e910]
+          - button "Add to Wishlist" [ref=f9e911]
+          - generic [ref=f9e914]: Crunchy
+        - generic [ref=f9e915]:
+          - heading "Bingo Mad Angles Achaari Masti" [level=3] [ref=f9e916]
+          - generic [ref=f9e917]: 66g pack
+          - generic [ref=f9e918]:
+            - generic [ref=f9e919]: ₹20
+            - button "Add Bingo Mad Angles Achaari Masti to Cart" [ref=f9e921]
+      - generic [ref=f9e923] [cursor=pointer]:
+        - generic [ref=f9e924]:
+          - img "Uncle Chipps Spicy Treat" [ref=f9e925]
+          - button "Add to Wishlist" [ref=f9e926]
+          - generic [ref=f9e929]: Desi Crunch
+        - generic [ref=f9e930]:
+          - heading "Uncle Chipps Spicy Treat" [level=3] [ref=f9e931]
+          - generic [ref=f9e932]: 50g pack
+          - generic [ref=f9e933]:
+            - generic [ref=f9e934]: ₹20
+            - button "Add Uncle Chipps Spicy Treat to Cart" [ref=f9e936]
+      - generic [ref=f9e938] [cursor=pointer]:
+        - generic [ref=f9e939]:
+          - img "Haldiram Aloo Bhujia" [ref=f9e940]
+          - button "Add to Wishlist" [ref=f9e941]
+          - generic [ref=f9e944]: Bestseller
+        - generic [ref=f9e945]:
+          - heading "Haldiram Aloo Bhujia" [level=3] [ref=f9e946]
+          - generic [ref=f9e947]: 150g pack
+          - generic [ref=f9e948]:
+            - generic [ref=f9e949]:
+              - generic [ref=f9e950]: ₹30
+              - generic [ref=f9e951]: ₹35
+            - button "Add Haldiram Aloo Bhujia to Cart" [ref=f9e952]
+      - generic [ref=f9e954] [cursor=pointer]:
+        - generic [ref=f9e955]:
+          - img "Haldiram All in One Mixture Namkeen" [ref=f9e956]
+          - button "Add to Wishlist" [ref=f9e957]
+          - generic [ref=f9e960]: Popular
+        - generic [ref=f9e961]:
+          - heading "Haldiram All in One Mixture Namkeen" [level=3] [ref=f9e962]
+          - generic [ref=f9e963]: 150g pack
+          - generic [ref=f9e964]:
+            - generic [ref=f9e965]:
+              - generic [ref=f9e966]: ₹30
+              - generic [ref=f9e967]: ₹35
+            - button "Add Haldiram All in One Mixture Namkeen to Cart" [ref=f9e968]
+      - generic [ref=f9e970] [cursor=pointer]:
+        - generic [ref=f9e971]:
+          - img "Cadbury Oreo Vanilla Creme Biscuits" [ref=f9e972]
+          - button "Add to Wishlist" [ref=f9e973]
+          - generic [ref=f9e976]: Twist & Lick
+        - generic [ref=f9e977]:
+          - heading "Cadbury Oreo Vanilla Creme Biscuits" [level=3] [ref=f9e978]
+          - generic [ref=f9e979]: 120g pack
+          - generic [ref=f9e980]:
+            - generic [ref=f9e981]:
+              - generic [ref=f9e982]: ₹32
+              - generic [ref=f9e983]: ₹35
+            - button "Add Cadbury Oreo Vanilla Creme Biscuits to Cart" [ref=f9e984]
+      - generic [ref=f9e986] [cursor=pointer]:
+        - generic [ref=f9e987]:
+          - img "Parle-G Original Gluco Biscuits" [ref=f9e988]
+          - button "Add to Wishlist" [ref=f9e989]
+          - generic [ref=f9e992]: India's Favorite
+        - generic [ref=f9e993]:
+          - heading "Parle-G Original Gluco Biscuits" [level=3] [ref=f9e994]
+          - generic [ref=f9e995]: 130g pack
+          - generic [ref=f9e996]:
+            - generic [ref=f9e997]: ₹10
+            - button "Add Parle-G Original Gluco Biscuits to Cart" [ref=f9e999]
+      - generic [ref=f9e1001] [cursor=pointer]:
+        - generic [ref=f9e1002]:
+          - img "Parle Hide & Seek Chocolate Chip Biscuits" [ref=f9e1003]
+          - button "Add to Wishlist" [ref=f9e1004]
+          - generic [ref=f9e1007]: Real Choco Chips
+        - generic [ref=f9e1008]:
+          - heading "Parle Hide & Seek Chocolate Chip Biscuits" [level=3] [ref=f9e1009]
+          - generic [ref=f9e1010]: 120g pack
+          - generic [ref=f9e1011]:
+            - generic [ref=f9e1012]:
+              - generic [ref=f9e1013]: ₹32
+              - generic [ref=f9e1014]: ₹35
+            - button "Add Parle Hide & Seek Chocolate Chip Biscuits to Cart" [ref=f9e1015]
+      - generic [ref=f9e1017] [cursor=pointer]:
+        - generic [ref=f9e1018]:
+          - img "Cadbury Dairy Milk Chocolate Bar" [ref=f9e1019]
+          - button "Add to Wishlist" [ref=f9e1020]
+          - generic [ref=f9e1023]: Kuch Meetha
+        - generic [ref=f9e1024]:
+          - heading "Cadbury Dairy Milk Chocolate Bar" [level=3] [ref=f9e1025]
+          - generic [ref=f9e1026]: 50g bar
+          - generic [ref=f9e1027]:
+            - generic [ref=f9e1028]: ₹40
+            - button "Add Cadbury Dairy Milk Chocolate Bar to Cart" [ref=f9e1030]
+      - generic [ref=f9e1032] [cursor=pointer]:
+        - generic [ref=f9e1033]:
+          - img "Nestle KitKat 4-Finger Wafer Bar" [ref=f9e1034]
+          - button "Add to Wishlist" [ref=f9e1035]
+          - generic [ref=f9e1038]: Have a Break
+        - generic [ref=f9e1039]:
+          - heading "Nestle KitKat 4-Finger Wafer Bar" [level=3] [ref=f9e1040]
+          - generic [ref=f9e1041]: 38g bar
+          - generic [ref=f9e1042]:
+            - generic [ref=f9e1043]: ₹30
+            - button "Add Nestle KitKat 4-Finger Wafer Bar to Cart" [ref=f9e1045]
+      - generic [ref=f9e1047] [cursor=pointer]:
+        - generic [ref=f9e1048]:
+          - img "Coca-Cola Original Taste 750ml" [ref=f9e1049]
+          - button "Add to Wishlist" [ref=f9e1050]
+          - generic [ref=f9e1053]: Super Chilled
+        - generic [ref=f9e1054]:
+          - heading "Coca-Cola Original Taste 750ml" [level=3] [ref=f9e1055]
+          - generic [ref=f9e1056]: 750ml bottle
+          - generic [ref=f9e1057]:
+            - generic [ref=f9e1058]: ₹40
+            - button "Add Coca-Cola Original Taste 750ml to Cart" [ref=f9e1060]
+      - generic [ref=f9e1062] [cursor=pointer]:
+        - generic [ref=f9e1063]:
+          - img "Sprite Lemon Lime Sparkling Soda 750ml" [ref=f9e1064]
+          - button "Add to Wishlist" [ref=f9e1065]
+          - generic [ref=f9e1068]: Clear Hai
+        - generic [ref=f9e1069]:
+          - heading "Sprite Lemon Lime Sparkling Soda 750ml" [level=3] [ref=f9e1070]
+          - generic [ref=f9e1071]: 750ml bottle
+          - generic [ref=f9e1072]:
+            - generic [ref=f9e1073]: ₹40
+            - button "Add Sprite Lemon Lime Sparkling Soda 750ml to Cart" [ref=f9e1075]
+      - generic [ref=f9e1077] [cursor=pointer]:
+        - generic [ref=f9e1078]:
+          - img "Red Bull Energy Drink Can 250ml" [ref=f9e1079]
+          - button "Add to Wishlist" [ref=f9e1080]
+          - generic [ref=f9e1083]: Gives You Wings
+        - generic [ref=f9e1084]:
+          - heading "Red Bull Energy Drink Can 250ml" [level=3] [ref=f9e1085]
+          - generic [ref=f9e1086]: 250ml can
+          - generic [ref=f9e1087]:
+            - generic [ref=f9e1088]:
+              - generic [ref=f9e1089]: ₹120
+              - generic [ref=f9e1090]: ₹125
+            - button "Add Red Bull Energy Drink Can 250ml to Cart" [ref=f9e1091]
+      - generic [ref=f9e1093] [cursor=pointer]:
+        - generic [ref=f9e1094]:
+          - img "Sting Energy Drink Bottle 250ml" [ref=f9e1095]
+          - button "Add to Wishlist" [ref=f9e1096]
+          - generic [ref=f9e1099]: Electrifying
+        - generic [ref=f9e1100]:
+          - heading "Sting Energy Drink Bottle 250ml" [level=3] [ref=f9e1101]
+          - generic [ref=f9e1102]: 250ml bottle
+          - generic [ref=f9e1103]:
+            - generic [ref=f9e1104]: ₹20
+            - button "Add Sting Energy Drink Bottle 250ml to Cart" [ref=f9e1106]
+      - generic [ref=f9e1108] [cursor=pointer]:
+        - generic [ref=f9e1109]:
+          - img "Real Fruit Power Mixed Fruit Juice 1L" [ref=f9e1110]
+          - button "Add to Wishlist" [ref=f9e1111]
+          - generic [ref=f9e1114]: 100% Real
+        - generic [ref=f9e1115]:
+          - heading "Real Fruit Power Mixed Fruit Juice 1L" [level=3] [ref=f9e1116]
+          - generic [ref=f9e1117]: 1 L pack
+          - generic [ref=f9e1118]:
+            - generic [ref=f9e1119]:
+              - generic [ref=f9e1120]: ₹110
+              - generic [ref=f9e1121]: ₹130
+            - button "Add Real Fruit Power Mixed Fruit Juice 1L to Cart" [ref=f9e1122]
+  - generic [ref=f9e1125]:
+    - generic [ref=f9e1126]:
+      - heading "All Store Products" [level=2] [ref=f9e1127]
+      - generic [ref=f9e1128]: 43 items
+    - generic [ref=f9e1129]:
+      - generic [ref=f9e1130] [cursor=pointer]:
+        - generic [ref=f9e1131]:
+          - img "Organic Green Mangoes" [ref=f9e1132]
+          - button "Add to Wishlist" [ref=f9e1133]
+          - generic "100% Vegetarian" [ref=f9e1136]
+        - generic [ref=f9e1138]:
+          - heading "Organic Green Mangoes" [level=3] [ref=f9e1139]
+          - generic [ref=f9e1140]: Standard Pack
+          - generic [ref=f9e1141]:
+            - generic [ref=f9e1142]:
+              - generic [ref=f9e1143]: ₹4.49
+              - generic [ref=f9e1144]: ₹5.61
+            - button "Add Organic Green Mangoes to Cart" [ref=f9e1145]
+      - generic [ref=f9e1147] [cursor=pointer]:
+        - generic [ref=f9e1148]:
+          - img "Fresh Orange Juice (1L)" [ref=f9e1149]
+          - button "Add to Wishlist" [ref=f9e1150]
+          - generic "100% Vegetarian" [ref=f9e1153]
+        - generic [ref=f9e1155]:
+          - heading "Fresh Orange Juice (1L)" [level=3] [ref=f9e1156]
+          - generic [ref=f9e1157]: Standard Bottle (1L)
+          - generic [ref=f9e1158]:
+            - generic [ref=f9e1159]:
+              - generic [ref=f9e1160]: ₹3.99
+              - generic [ref=f9e1161]: ₹4.99
+            - button "Add Fresh Orange Juice (1L) to Cart" [ref=f9e1162]
+      - generic [ref=f9e1164] [cursor=pointer]:
+        - generic [ref=f9e1165]:
+          - img "Fresh Red Apples (1kg)" [ref=f9e1166]
+          - button "Add to Wishlist" [ref=f9e1167]
+          - generic "100% Vegetarian" [ref=f9e1170]
+        - generic [ref=f9e1172]:
+          - heading "Fresh Red Apples (1kg)" [level=3] [ref=f9e1173]
+          - generic [ref=f9e1174]: Standard Pack (1kg)
+          - generic [ref=f9e1175]:
+            - generic [ref=f9e1176]:
+              - generic [ref=f9e1177]: ₹2.99
+              - generic [ref=f9e1178]: ₹3.74
+            - button "Add Fresh Red Apples (1kg) to Cart" [ref=f9e1179]
+      - generic [ref=f9e1181] [cursor=pointer]:
+        - generic [ref=f9e1182]:
+          - img "Liquid Laundry Detergent (1.5L)" [ref=f9e1183]
+          - button "Add to Wishlist" [ref=f9e1184]
+          - generic "100% Vegetarian" [ref=f9e1187]
+        - generic [ref=f9e1189]:
+          - heading "Liquid Laundry Detergent (1.5L)" [level=3] [ref=f9e1190]
+          - generic [ref=f9e1191]: Standard (1.5L)
+          - generic [ref=f9e1192]:
+            - generic [ref=f9e1193]:
+              - generic [ref=f9e1194]: ₹8.99
+              - generic [ref=f9e1195]: ₹11.24
+            - button "Add Liquid Laundry Detergent (1.5L) to Cart" [ref=f9e1196]
+      - generic [ref=f9e1198] [cursor=pointer]:
+        - generic [ref=f9e1199]:
+          - img "Organic Whole Milk (1L)" [ref=f9e1200]
+          - button "Add to Wishlist" [ref=f9e1201]
+          - generic "100% Vegetarian" [ref=f9e1204]
+        - generic [ref=f9e1206]:
+          - heading "Organic Whole Milk (1L)" [level=3] [ref=f9e1207]
+          - generic [ref=f9e1208]: Standard Bottle (1L)
+          - generic [ref=f9e1209]:
+            - generic [ref=f9e1210]:
+              - generic [ref=f9e1211]: ₹2.29
+              - generic [ref=f9e1212]: ₹2.86
+            - button "Add Organic Whole Milk (1L) to Cart" [ref=f9e1213]
+      - generic [ref=f9e1215] [cursor=pointer]:
+        - generic [ref=f9e1216]:
+          - img "Chocolate Chip Cookies (200g)" [ref=f9e1217]
+          - button "Add to Wishlist" [ref=f9e1218]
+          - generic "100% Vegetarian" [ref=f9e1221]
+        - generic [ref=f9e1223]:
+          - heading "Chocolate Chip Cookies (200g)" [level=3] [ref=f9e1224]
+          - generic [ref=f9e1225]: Standard Pack (200g)
+          - generic [ref=f9e1226]:
+            - generic [ref=f9e1227]:
+              - generic [ref=f9e1228]: ₹3.49
+              - generic [ref=f9e1229]: ₹4.36
+            - button "Add Chocolate Chip Cookies (200g) to Cart" [ref=f9e1230]
+      - generic [ref=f9e1232] [cursor=pointer]:
+        - generic [ref=f9e1233]:
+          - img "Organic Bananas (Bunch)" [ref=f9e1234]
+          - button "Add to Wishlist" [ref=f9e1235]
+          - generic "100% Vegetarian" [ref=f9e1238]
+        - generic [ref=f9e1240]:
+          - heading "Organic Bananas (Bunch)" [level=3] [ref=f9e1241]
+          - generic [ref=f9e1242]: Standard bunch
+          - generic [ref=f9e1243]:
+            - generic [ref=f9e1244]:
+              - generic [ref=f9e1245]: ₹1.99
+              - generic [ref=f9e1246]: ₹2.49
+            - button "Add Organic Bananas (Bunch) to Cart" [ref=f9e1247]
+      - generic [ref=f9e1249] [cursor=pointer]:
+        - generic [ref=f9e1250]:
+          - img "Lays Classic Salted Potato Chips" [ref=f9e1251]
+          - button "Add to Wishlist" [ref=f9e1252]
+          - generic [ref=f9e1255]: Popular
+        - generic [ref=f9e1256]:
+          - heading "Lays Classic Salted Potato Chips" [level=3] [ref=f9e1257]
+          - generic [ref=f9e1258]: 50g pack
+          - generic [ref=f9e1259]:
+            - generic [ref=f9e1260]: ₹20
+            - button "Add Lays Classic Salted Potato Chips to Cart" [ref=f9e1262]
+      - generic [ref=f9e1264] [cursor=pointer]:
+        - generic [ref=f9e1265]:
+          - img "Lays India's Magic Masala Chips" [ref=f9e1266]
+          - button "Add to Wishlist" [ref=f9e1267]
+          - generic [ref=f9e1270]: Bestseller
+        - generic [ref=f9e1271]:
+          - heading "Lays India's Magic Masala Chips" [level=3] [ref=f9e1272]
+          - generic [ref=f9e1273]: 50g pack
+          - generic [ref=f9e1274]:
+            - generic [ref=f9e1275]: ₹20
+            - button "Add Lays India's Magic Masala Chips to Cart" [ref=f9e1277]
+      - generic [ref=f9e1279] [cursor=pointer]:
+        - generic [ref=f9e1280]:
+          - img "Kurkure Masala Munch" [ref=f9e1281]
+          - button "Add to Wishlist" [ref=f9e1282]
+          - generic [ref=f9e1285]: Chatpata
+        - generic [ref=f9e1286]:
+          - heading "Kurkure Masala Munch" [level=3] [ref=f9e1287]
+          - generic [ref=f9e1288]: 75g pack
+          - generic [ref=f9e1289]:
+            - generic [ref=f9e1290]: ₹20
+            - button "Add Kurkure Masala Munch to Cart" [ref=f9e1292]
+      - generic [ref=f9e1294] [cursor=pointer]:
+        - generic [ref=f9e1295]:
+          - img "Bingo Mad Angles Achaari Masti" [ref=f9e1296]
+          - button "Add to Wishlist" [ref=f9e1297]
+          - generic [ref=f9e1300]: Crunchy
+        - generic [ref=f9e1301]:
+          - heading "Bingo Mad Angles Achaari Masti" [level=3] [ref=f9e1302]
+          - generic [ref=f9e1303]: 66g pack
+          - generic [ref=f9e1304]:
+            - generic [ref=f9e1305]: ₹20
+            - button "Add Bingo Mad Angles Achaari Masti to Cart" [ref=f9e1307]
+      - generic [ref=f9e1309] [cursor=pointer]:
+        - generic [ref=f9e1310]:
+          - img "Uncle Chipps Spicy Treat" [ref=f9e1311]
+          - button "Add to Wishlist" [ref=f9e1312]
+          - generic [ref=f9e1315]: Desi Crunch
+        - generic [ref=f9e1316]:
+          - heading "Uncle Chipps Spicy Treat" [level=3] [ref=f9e1317]
+          - generic [ref=f9e1318]: 50g pack
+          - generic [ref=f9e1319]:
+            - generic [ref=f9e1320]: ₹20
+            - button "Add Uncle Chipps Spicy Treat to Cart" [ref=f9e1322]
+      - generic [ref=f9e1324] [cursor=pointer]:
+        - generic [ref=f9e1325]:
+          - img "Haldiram Aloo Bhujia" [ref=f9e1326]
+          - button "Add to Wishlist" [ref=f9e1327]
+          - generic [ref=f9e1330]: Bestseller
+        - generic [ref=f9e1331]:
+          - heading "Haldiram Aloo Bhujia" [level=3] [ref=f9e1332]
+          - generic [ref=f9e1333]: 150g pack
+          - generic [ref=f9e1334]:
+            - generic [ref=f9e1335]:
+              - generic [ref=f9e1336]: ₹30
+              - generic [ref=f9e1337]: ₹35
+            - button "Add Haldiram Aloo Bhujia to Cart" [ref=f9e1338]
+      - generic [ref=f9e1340] [cursor=pointer]:
+        - generic [ref=f9e1341]:
+          - img "Haldiram All in One Mixture Namkeen" [ref=f9e1342]
+          - button "Add to Wishlist" [ref=f9e1343]
+          - generic [ref=f9e1346]: Popular
+        - generic [ref=f9e1347]:
+          - heading "Haldiram All in One Mixture Namkeen" [level=3] [ref=f9e1348]
+          - generic [ref=f9e1349]: 150g pack
+          - generic [ref=f9e1350]:
+            - generic [ref=f9e1351]:
+              - generic [ref=f9e1352]: ₹30
+              - generic [ref=f9e1353]: ₹35
+            - button "Add Haldiram All in One Mixture Namkeen to Cart" [ref=f9e1354]
+      - generic [ref=f9e1356] [cursor=pointer]:
+        - generic [ref=f9e1357]:
+          - img "Maggi 2-Minute Masala Instant Noodles" [ref=f9e1358]
+          - button "Add to Wishlist" [ref=f9e1359]
+          - generic [ref=f9e1362]: Must Have
+        - generic [ref=f9e1363]:
+          - heading "Maggi 2-Minute Masala Instant Noodles" [level=3] [ref=f9e1364]
+          - generic [ref=f9e1365]: 70g pack
+          - generic [ref=f9e1366]:
+            - generic [ref=f9e1367]:
+              - generic [ref=f9e1368]: ₹14
+              - generic [ref=f9e1369]: ₹15
+            - button "Add Maggi 2-Minute Masala Instant Noodles to Cart" [ref=f9e1370]
+      - generic [ref=f9e1372] [cursor=pointer]:
+        - generic [ref=f9e1373]:
+          - img "Sunfeast YiPPee! Magic Masala Noodles" [ref=f9e1374]
+          - button "Add to Wishlist" [ref=f9e1375]
+          - generic [ref=f9e1378]: Non-Sticky
+        - generic [ref=f9e1379]:
+          - heading "Sunfeast YiPPee! Magic Masala Noodles" [level=3] [ref=f9e1380]
+          - generic [ref=f9e1381]: 65g pack
+          - generic [ref=f9e1382]:
+            - generic [ref=f9e1383]:
+              - generic [ref=f9e1384]: ₹14
+              - generic [ref=f9e1385]: ₹15
+            - button "Add Sunfeast YiPPee! Magic Masala Noodles to Cart" [ref=f9e1386]
+      - generic [ref=f9e1388] [cursor=pointer]:
+        - generic [ref=f9e1389]:
+          - img "Nissin Cup Noodles Veggie Manchow" [ref=f9e1390]
+          - button "Add to Wishlist" [ref=f9e1391]
+          - generic [ref=f9e1394]: Instant Pot
+        - generic [ref=f9e1395]:
+          - heading "Nissin Cup Noodles Veggie Manchow" [level=3] [ref=f9e1396]
+          - generic [ref=f9e1397]: 70g cup
+          - generic [ref=f9e1398]:
+            - generic [ref=f9e1399]:
+              - generic [ref=f9e1400]: ₹48
+              - generic [ref=f9e1401]: ₹50
+            - button "Add Nissin Cup Noodles Veggie Manchow to Cart" [ref=f9e1402]
+      - generic [ref=f9e1404] [cursor=pointer]:
+        - generic [ref=f9e1405]:
+          - img "Bambino Durum Wheat Fusilli Pasta 500g" [ref=f9e1406]
+          - button "Add to Wishlist" [ref=f9e1407]
+          - generic [ref=f9e1410]: Italian Style
+        - generic [ref=f9e1411]:
+          - heading "Bambino Durum Wheat Fusilli Pasta 500g" [level=3] [ref=f9e1412]
+          - generic [ref=f9e1413]: 500g pack
+          - generic [ref=f9e1414]:
+            - generic [ref=f9e1415]:
+              - generic [ref=f9e1416]: ₹65
+              - generic [ref=f9e1417]: ₹75
+            - button "Add Bambino Durum Wheat Fusilli Pasta 500g to Cart" [ref=f9e1418]
+      - generic [ref=f9e1420] [cursor=pointer]:
+        - generic [ref=f9e1421]:
+          - img "Cadbury Oreo Vanilla Creme Biscuits" [ref=f9e1422]
+          - button "Add to Wishlist" [ref=f9e1423]
+          - generic [ref=f9e1426]: Twist & Lick
+        - generic [ref=f9e1427]:
+          - heading "Cadbury Oreo Vanilla Creme Biscuits" [level=3] [ref=f9e1428]
+          - generic [ref=f9e1429]: 120g pack
+          - generic [ref=f9e1430]:
+            - generic [ref=f9e1431]:
+              - generic [ref=f9e1432]: ₹32
+              - generic [ref=f9e1433]: ₹35
+            - button "Add Cadbury Oreo Vanilla Creme Biscuits to Cart" [ref=f9e1434]
+      - generic [ref=f9e1436] [cursor=pointer]:
+        - generic [ref=f9e1437]:
+          - img "Parle-G Original Gluco Biscuits" [ref=f9e1438]
+          - button "Add to Wishlist" [ref=f9e1439]
+          - generic [ref=f9e1442]: India's Favorite
+        - generic [ref=f9e1443]:
+          - heading "Parle-G Original Gluco Biscuits" [level=3] [ref=f9e1444]
+          - generic [ref=f9e1445]: 130g pack
+          - generic [ref=f9e1446]:
+            - generic [ref=f9e1447]: ₹10
+            - button "Add Parle-G Original Gluco Biscuits to Cart" [ref=f9e1449]
+      - generic [ref=f9e1451] [cursor=pointer]:
+        - generic [ref=f9e1452]:
+          - img "Parle Hide & Seek Chocolate Chip Biscuits" [ref=f9e1453]
+          - button "Add to Wishlist" [ref=f9e1454]
+          - generic [ref=f9e1457]: Real Choco Chips
+        - generic [ref=f9e1458]:
+          - heading "Parle Hide & Seek Chocolate Chip Biscuits" [level=3] [ref=f9e1459]
+          - generic [ref=f9e1460]: 120g pack
+          - generic [ref=f9e1461]:
+            - generic [ref=f9e1462]:
+              - generic [ref=f9e1463]: ₹32
+              - generic [ref=f9e1464]: ₹35
+            - button "Add Parle Hide & Seek Chocolate Chip Biscuits to Cart" [ref=f9e1465]
+      - generic [ref=f9e1467] [cursor=pointer]:
+        - generic [ref=f9e1468]:
+          - img "Cadbury Dairy Milk Chocolate Bar" [ref=f9e1469]
+          - button "Add to Wishlist" [ref=f9e1470]
+          - generic [ref=f9e1473]: Kuch Meetha
+        - generic [ref=f9e1474]:
+          - heading "Cadbury Dairy Milk Chocolate Bar" [level=3] [ref=f9e1475]
+          - generic [ref=f9e1476]: 50g bar
+          - generic [ref=f9e1477]:
+            - generic [ref=f9e1478]: ₹40
+            - button "Add Cadbury Dairy Milk Chocolate Bar to Cart" [ref=f9e1480]
+      - generic [ref=f9e1482] [cursor=pointer]:
+        - generic [ref=f9e1483]:
+          - img "Nestle KitKat 4-Finger Wafer Bar" [ref=f9e1484]
+          - button "Add to Wishlist" [ref=f9e1485]
+          - generic [ref=f9e1488]: Have a Break
+        - generic [ref=f9e1489]:
+          - heading "Nestle KitKat 4-Finger Wafer Bar" [level=3] [ref=f9e1490]
+          - generic [ref=f9e1491]: 38g bar
+          - generic [ref=f9e1492]:
+            - generic [ref=f9e1493]: ₹30
+            - button "Add Nestle KitKat 4-Finger Wafer Bar to Cart" [ref=f9e1495]
+      - generic [ref=f9e1497] [cursor=pointer]:
+        - generic [ref=f9e1498]:
+          - img "Coca-Cola Original Taste 750ml" [ref=f9e1499]
+          - button "Add to Wishlist" [ref=f9e1500]
+          - generic [ref=f9e1503]: Super Chilled
+        - generic [ref=f9e1504]:
+          - heading "Coca-Cola Original Taste 750ml" [level=3] [ref=f9e1505]
+          - generic [ref=f9e1506]: 750ml bottle
+          - generic [ref=f9e1507]:
+            - generic [ref=f9e1508]: ₹40
+            - button "Add Coca-Cola Original Taste 750ml to Cart" [ref=f9e1510]
+      - generic [ref=f9e1512] [cursor=pointer]:
+        - generic [ref=f9e1513]:
+          - img "Sprite Lemon Lime Sparkling Soda 750ml" [ref=f9e1514]
+          - button "Add to Wishlist" [ref=f9e1515]
+          - generic [ref=f9e1518]: Clear Hai
+        - generic [ref=f9e1519]:
+          - heading "Sprite Lemon Lime Sparkling Soda 750ml" [level=3] [ref=f9e1520]
+          - generic [ref=f9e1521]: 750ml bottle
+          - generic [ref=f9e1522]:
+            - generic [ref=f9e1523]: ₹40
+            - button "Add Sprite Lemon Lime Sparkling Soda 750ml to Cart" [ref=f9e1525]
+      - generic [ref=f9e1527] [cursor=pointer]:
+        - generic [ref=f9e1528]:
+          - img "Red Bull Energy Drink Can 250ml" [ref=f9e1529]
+          - button "Add to Wishlist" [ref=f9e1530]
+          - generic [ref=f9e1533]: Gives You Wings
+        - generic [ref=f9e1534]:
+          - heading "Red Bull Energy Drink Can 250ml" [level=3] [ref=f9e1535]
+          - generic [ref=f9e1536]: 250ml can
+          - generic [ref=f9e1537]:
+            - generic [ref=f9e1538]:
+              - generic [ref=f9e1539]: ₹120
+              - generic [ref=f9e1540]: ₹125
+            - button "Add Red Bull Energy Drink Can 250ml to Cart" [ref=f9e1541]
+      - generic [ref=f9e1543] [cursor=pointer]:
+        - generic [ref=f9e1544]:
+          - img "Sting Energy Drink Bottle 250ml" [ref=f9e1545]
+          - button "Add to Wishlist" [ref=f9e1546]
+          - generic [ref=f9e1549]: Electrifying
+        - generic [ref=f9e1550]:
+          - heading "Sting Energy Drink Bottle 250ml" [level=3] [ref=f9e1551]
+          - generic [ref=f9e1552]: 250ml bottle
+          - generic [ref=f9e1553]:
+            - generic [ref=f9e1554]: ₹20
+            - button "Add Sting Energy Drink Bottle 250ml to Cart" [ref=f9e1556]
+      - generic [ref=f9e1558] [cursor=pointer]:
+        - generic [ref=f9e1559]:
+          - img "Real Fruit Power Mixed Fruit Juice 1L" [ref=f9e1560]
+          - button "Add to Wishlist" [ref=f9e1561]
+          - generic [ref=f9e1564]: 100% Real
+        - generic [ref=f9e1565]:
+          - heading "Real Fruit Power Mixed Fruit Juice 1L" [level=3] [ref=f9e1566]
+          - generic [ref=f9e1567]: 1 L pack
+          - generic [ref=f9e1568]:
+            - generic [ref=f9e1569]:
+              - generic [ref=f9e1570]: ₹110
+              - generic [ref=f9e1571]: ₹130
+            - button "Add Real Fruit Power Mixed Fruit Juice 1L to Cart" [ref=f9e1572]
+      - generic [ref=f9e1574] [cursor=pointer]:
+        - generic [ref=f9e1575]:
+          - img "Amul Taaza Homogenised Toned Milk 500ml" [ref=f9e1576]
+          - button "Add to Wishlist" [ref=f9e1577]
+          - generic [ref=f9e1580]: Fresh Daily
+        - generic [ref=f9e1581]:
+          - heading "Amul Taaza Homogenised Toned Milk 500ml" [level=3] [ref=f9e1582]
+          - generic [ref=f9e1583]: 500ml pouch
+          - generic [ref=f9e1584]:
+            - generic [ref=f9e1585]:
+              - generic [ref=f9e1586]: ₹30
+              - generic [ref=f9e1587]: ₹32
+            - button "Add Amul Taaza Homogenised Toned Milk 500ml to Cart" [ref=f9e1588]
+      - generic [ref=f9e1590] [cursor=pointer]:
+        - generic [ref=f9e1591]:
+          - img "Amul Masti Dahi Fresh Curd 400g" [ref=f9e1592]
+          - button "Add to Wishlist" [ref=f9e1593]
+          - generic [ref=f9e1596]: Thick & Creamy
+        - generic [ref=f9e1597]:
+          - heading "Amul Masti Dahi Fresh Curd 400g" [level=3] [ref=f9e1598]
+          - generic [ref=f9e1599]: 400g tub
+          - generic [ref=f9e1600]:
+            - generic [ref=f9e1601]:
+              - generic [ref=f9e1602]: ₹45
+              - generic [ref=f9e1603]: ₹48
+            - button "Add Amul Masti Dahi Fresh Curd 400g to Cart" [ref=f9e1604]
+      - generic [ref=f9e1606] [cursor=pointer]:
+        - generic [ref=f9e1607]:
+          - img "Amul Salted Butter 100g" [ref=f9e1608]
+          - button "Add to Wishlist" [ref=f9e1609]
+          - generic [ref=f9e1612]: Utterly Butterly
+        - generic [ref=f9e1613]:
+          - heading "Amul Salted Butter 100g" [level=3] [ref=f9e1614]
+          - generic [ref=f9e1615]: 100g pack
+          - generic [ref=f9e1616]:
+            - generic [ref=f9e1617]:
+              - generic [ref=f9e1618]: ₹58
+              - generic [ref=f9e1619]: ₹60
+            - button "Add Amul Salted Butter 100g to Cart" [ref=f9e1620]
+      - generic [ref=f9e1622] [cursor=pointer]:
+        - generic [ref=f9e1623]:
+          - img "Farm Fresh Brown Eggs (Pack of 12)" [ref=f9e1624]
+          - button "Add to Wishlist" [ref=f9e1625]
+          - generic [ref=f9e1628]: High Protein
+        - generic [ref=f9e1629]:
+          - heading "Farm Fresh Brown Eggs (Pack of 12)" [level=3] [ref=f9e1630]
+          - generic [ref=f9e1631]: 12 eggs pack
+          - generic [ref=f9e1632]:
+            - generic [ref=f9e1633]:
+              - generic [ref=f9e1634]: ₹88
+              - generic [ref=f9e1635]: ₹100
+            - button "Add Farm Fresh Brown Eggs (Pack of 12) to Cart" [ref=f9e1636]
+      - generic [ref=f9e1638] [cursor=pointer]:
+        - generic [ref=f9e1639]:
+          - img "India Gate Basmati Rice Feast 5 kg" [ref=f9e1640]
+          - button "Add to Wishlist" [ref=f9e1641]
+          - generic [ref=f9e1644]: Aged Grains
+        - generic [ref=f9e1645]:
+          - heading "India Gate Basmati Rice Feast 5 kg" [level=3] [ref=f9e1646]
+          - generic [ref=f9e1647]: 5 kg bag
+          - generic [ref=f9e1648]:
+            - generic [ref=f9e1649]:
+              - generic [ref=f9e1650]: ₹375
+              - generic [ref=f9e1651]: ₹450
+            - button "Add India Gate Basmati Rice Feast 5 kg to Cart" [ref=f9e1652]
+      - generic [ref=f9e1654] [cursor=pointer]:
+        - generic [ref=f9e1655]:
+          - img "Aashirvaad Shudh Chakki Atta 5 kg" [ref=f9e1656]
+          - button "Add to Wishlist" [ref=f9e1657]
+          - generic [ref=f9e1660]: 100% Whole Wheat
+        - generic [ref=f9e1661]:
+          - heading "Aashirvaad Shudh Chakki Atta 5 kg" [level=3] [ref=f9e1662]
+          - generic [ref=f9e1663]: 5 kg bag
+          - generic [ref=f9e1664]:
+            - generic [ref=f9e1665]:
+              - generic [ref=f9e1666]: ₹235
+              - generic [ref=f9e1667]: ₹270
+            - button "Add Aashirvaad Shudh Chakki Atta 5 kg to Cart" [ref=f9e1668]
+      - generic [ref=f9e1670] [cursor=pointer]:
+        - generic [ref=f9e1671]:
+          - img "Tata Sampann Unpolished Toor Dal 1 kg" [ref=f9e1672]
+          - button "Add to Wishlist" [ref=f9e1673]
+          - generic [ref=f9e1676]: Unpolished
+        - generic [ref=f9e1677]:
+          - heading "Tata Sampann Unpolished Toor Dal 1 kg" [level=3] [ref=f9e1678]
+          - generic [ref=f9e1679]: 1 kg pack
+          - generic [ref=f9e1680]:
+            - generic [ref=f9e1681]:
+              - generic [ref=f9e1682]: ₹148
+              - generic [ref=f9e1683]: ₹175
+            - button "Add Tata Sampann Unpolished Toor Dal 1 kg to Cart" [ref=f9e1684]
+      - generic [ref=f9e1686] [cursor=pointer]:
+        - generic [ref=f9e1687]:
+          - img "Fortune Sunlite Refined Sunflower Oil 1 L" [ref=f9e1688]
+          - button "Add to Wishlist" [ref=f9e1689]
+          - generic [ref=f9e1692]: Light & Healthy
+        - generic [ref=f9e1693]:
+          - heading "Fortune Sunlite Refined Sunflower Oil 1 L" [level=3] [ref=f9e1694]
+          - generic [ref=f9e1695]: 1 L pouch
+          - generic [ref=f9e1696]:
+            - generic [ref=f9e1697]:
+              - generic [ref=f9e1698]: ₹138
+              - generic [ref=f9e1699]: ₹165
+            - button "Add Fortune Sunlite Refined Sunflower Oil 1 L to Cart" [ref=f9e1700]
+      - generic [ref=f9e1702] [cursor=pointer]:
+        - generic [ref=f9e1703]:
+          - img "Fresh Hybrid Red Tomatoes 1 kg" [ref=f9e1704]
+          - button "Add to Wishlist" [ref=f9e1705]
+          - generic [ref=f9e1708]: Farm Picked
+        - generic [ref=f9e1709]:
+          - heading "Fresh Hybrid Red Tomatoes 1 kg" [level=3] [ref=f9e1710]
+          - generic [ref=f9e1711]: 1 kg pack
+          - generic [ref=f9e1712]:
+            - generic [ref=f9e1713]:
+              - generic [ref=f9e1714]: ₹32
+              - generic [ref=f9e1715]: ₹40
+            - button "Add Fresh Hybrid Red Tomatoes 1 kg to Cart" [ref=f9e1716]
+      - generic [ref=f9e1718] [cursor=pointer]:
+        - generic [ref=f9e1719]:
+          - img "Farm Fresh Jyoti Potatoes 1 kg" [ref=f9e1720]
+          - button "Add to Wishlist" [ref=f9e1721]
+          - generic [ref=f9e1724]: Daily Need
+        - generic [ref=f9e1725]:
+          - heading "Farm Fresh Jyoti Potatoes 1 kg" [level=3] [ref=f9e1726]
+          - generic [ref=f9e1727]: 1 kg pack
+          - generic [ref=f9e1728]:
+            - generic [ref=f9e1729]:
+              - generic [ref=f9e1730]: ₹26
+              - generic [ref=f9e1731]: ₹35
+            - button "Add Farm Fresh Jyoti Potatoes 1 kg to Cart" [ref=f9e1732]
+      - generic [ref=f9e1734] [cursor=pointer]:
+        - generic [ref=f9e1735]:
+          - img "Fresh Shimla Royal Apples 1 kg" [ref=f9e1736]
+          - button "Add to Wishlist" [ref=f9e1737]
+          - generic [ref=f9e1740]: Crisp & Sweet
+        - generic [ref=f9e1741]:
+          - heading "Fresh Shimla Royal Apples 1 kg" [level=3] [ref=f9e1742]
+          - generic [ref=f9e1743]: 1 kg pack (approx 4-5 apples)
+          - generic [ref=f9e1744]:
+            - generic [ref=f9e1745]:
+              - generic [ref=f9e1746]: ₹155
+              - generic [ref=f9e1747]: ₹190
+            - button "Add Fresh Shimla Royal Apples 1 kg to Cart" [ref=f9e1748]
+      - generic [ref=f9e1750] [cursor=pointer]:
+        - generic [ref=f9e1751]:
+          - img "Clinic Plus Strong & Long Shampoo Sachets (Pack of 10)" [ref=f9e1752]
+          - button "Add to Wishlist" [ref=f9e1753]
+          - generic [ref=f9e1756]: Hostel Essential
+        - generic [ref=f9e1757]:
+          - heading "Clinic Plus Strong & Long Shampoo Sachets (Pack of 10)" [level=3] [ref=f9e1758]
+          - generic [ref=f9e1759]: 60ml (10 sachets)
+          - generic [ref=f9e1760]:
+            - generic [ref=f9e1761]: ₹10
+            - button "Add Clinic Plus Strong & Long Shampoo Sachets (Pack of 10) to Cart" [ref=f9e1763]
+      - generic [ref=f9e1765] [cursor=pointer]:
+        - generic [ref=f9e1766]:
+          - img "Himalaya Purifying Neem Face Wash 100ml" [ref=f9e1767]
+          - button "Add to Wishlist" [ref=f9e1768]
+          - generic [ref=f9e1771]: Anti-Acne
+        - generic [ref=f9e1772]:
+          - heading "Himalaya Purifying Neem Face Wash 100ml" [level=3] [ref=f9e1773]
+          - generic [ref=f9e1774]: 100ml tube
+          - generic [ref=f9e1775]:
+            - generic [ref=f9e1776]:
+              - generic [ref=f9e1777]: ₹118
+              - generic [ref=f9e1778]: ₹140
+            - button "Add Himalaya Purifying Neem Face Wash 100ml to Cart" [ref=f9e1779]
+      - generic [ref=f9e1781] [cursor=pointer]:
+        - generic [ref=f9e1782]:
+          - img "Surf Excel Easy Wash Detergent Powder 1 kg" [ref=f9e1783]
+          - button "Add to Wishlist" [ref=f9e1784]
+          - generic [ref=f9e1787]: Stain Remover
+        - generic [ref=f9e1788]:
+          - heading "Surf Excel Easy Wash Detergent Powder 1 kg" [level=3] [ref=f9e1789]
+          - generic [ref=f9e1790]: 1 kg pack
+          - generic [ref=f9e1791]:
+            - generic [ref=f9e1792]:
+              - generic [ref=f9e1793]: ₹78
+              - generic [ref=f9e1794]: ₹85
+            - button "Add Surf Excel Easy Wash Detergent Powder 1 kg to Cart" [ref=f9e1795]
+      - generic [ref=f9e1797] [cursor=pointer]:
+        - generic [ref=f9e1798]:
+          - img "Vim Lemon Dishwash Liquid Gel 500ml" [ref=f9e1799]
+          - button "Add to Wishlist" [ref=f9e1800]
+          - generic [ref=f9e1803]: 100 Lemons
+        - generic [ref=f9e1804]:
+          - heading "Vim Lemon Dishwash Liquid Gel 500ml" [level=3] [ref=f9e1805]
+          - generic [ref=f9e1806]: 500ml bottle
+          - generic [ref=f9e1807]:
+            - generic [ref=f9e1808]:
+              - generic [ref=f9e1809]: ₹52
+              - generic [ref=f9e1810]: ₹60
+            - button "Add Vim Lemon Dishwash Liquid Gel 500ml to Cart" [ref=f9e1811]
+  - generic [ref=f9e1816]:
+    - generic [ref=f9e1817]:
+      - generic [ref=f9e1818]: Special Weekly Deal
+      - heading "Gourmet Fresh Fruit & Cheese Gift Basket" [level=2] [ref=f9e1820]
+      - paragraph [ref=f9e1821]: Artisan cheeses paired with handpicked organic grapes, strawberries, and crisp apples in a beautiful woven gift basket. Available this week only.
+      - generic [ref=f9e1822]:
+        - generic [ref=f9e1823]:
+          - generic [ref=f9e1824]: "02"
+          - generic [ref=f9e1825]: Days
+        - generic [ref=f9e1826]:
+          - generic [ref=f9e1827]: "02"
+          - generic [ref=f9e1828]: Hours
+        - generic [ref=f9e1829]:
+          - generic [ref=f9e1830]: "01"
+          - generic [ref=f9e1831]: Mins
+        - generic [ref=f9e1832]:
+          - generic [ref=f9e1833]: "11"
+          - generic [ref=f9e1834]: Secs
+      - button "Claim Offer • ₹399" [ref=f9e1836] [cursor=pointer]
+    - generic [ref=f9e1839]:
+      - img "Gourmet Gift Basket close up" [ref=f9e1840]
+      - generic [ref=f9e1841]:
+        - generic [ref=f9e1842]: 15%
+        - generic [ref=f9e1843]: "OFF"
+  - contentinfo [ref=f9e1844]:
+    - generic [ref=f9e1845]:
+      - generic [ref=f9e1846]:
+        - generic [ref=f9e1847]:
+          - link "G Mart" [ref=f9e1848] [cursor=pointer]:
+            - /url: "#hero"
+          - paragraph [ref=f9e1854]: Fresh organic groceries & essentials delivered fast.
+        - generic [ref=f9e1855]:
+          - generic [ref=f9e1856]: "Categories:"
+          - generic [ref=f9e1857]:
+            - link "🥨 Snacks" [ref=f9e1858] [cursor=pointer]:
+              - /url: "#products"
+            - link "🛒 Groceries" [ref=f9e1859] [cursor=pointer]:
+              - /url: "#products"
+            - link "🥤 Drinks" [ref=f9e1860] [cursor=pointer]:
+              - /url: "#products"
+            - link "🧺 Laundry Essentials" [ref=f9e1861] [cursor=pointer]:
+              - /url: "#products"
+            - link "🥬 Organic Farms" [ref=f9e1862] [cursor=pointer]:
+              - /url: "#products"
+      - generic [ref=f9e1863]:
+        - generic [ref=f9e1864]:
+          - generic [ref=f9e1865]: "Customer Care:"
+          - generic [ref=f9e1866]:
+            - link "🚚 Track Order" [ref=f9e1867] [cursor=pointer]:
+              - /url: "#"
+            - link "📦 Shipping Details" [ref=f9e1868] [cursor=pointer]:
+              - /url: "#"
+            - link "🔄 Returns & Refunds" [ref=f9e1869] [cursor=pointer]:
+              - /url: "#"
+            - link "🛡️ Freshness Guarantee" [ref=f9e1870] [cursor=pointer]:
+              - /url: "#"
+            - link "💬 Help & Support" [ref=f9e1871] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=f9e1872]:
+          - generic [ref=f9e1873]: 📞 +91 98765 43210
+          - generic [ref=f9e1874]: •
+          - generic [ref=f9e1875]: ✉️ support@gmartgrocery.com
+          - generic [ref=f9e1876]: •
+          - generic [ref=f9e1877]: 📍 Talwandi Sabo, Punjab, 151302
+      - generic [ref=f9e1878]:
+        - paragraph [ref=f9e1879]: © 2026 G Mart Marketplace. All Rights Reserved. Freshness on demand.
+        - generic [ref=f9e1880]:
+          - link "Facebook" [ref=f9e1881] [cursor=pointer]:
+            - /url: "#"
+          - link "Instagram" [ref=f9e1884] [cursor=pointer]:
+            - /url: "#"
+          - link "Twitter" [ref=f9e1888] [cursor=pointer]:
+            - /url: "#"
+  - generic [ref=f9e1891]:
+    - generic [ref=f9e1892]:
+      - generic [ref=f9e1893]:
+        - heading "Your Cart" [level=2] [ref=f9e1897]
+        - generic [ref=f9e1898]: "0"
+      - button "Close Cart" [ref=f9e1899] [cursor=pointer]
+    - generic [ref=f9e1904]:
+      - generic [ref=f9e1905]: 🛒
+      - heading "Your cart is empty" [level=3] [ref=f9e1906]
+      - paragraph [ref=f9e1907]: Add fresh organic produce and snacks to get started!
+  - generic [ref=f9e1909]:
+    - generic [ref=f9e1910] [cursor=pointer]: Home
+    - generic [ref=f9e1915] [cursor=pointer]: Categories
+    - generic [ref=f9e1922] [cursor=pointer]: Wishlist
+    - generic [ref=f9e1926] [cursor=pointer]: Offers

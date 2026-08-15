@@ -1,0 +1,13 @@
+- generic [ref=f11e2]:
+  - generic [ref=f11e3]:
+    - generic [ref=f11e4]: Campus Fast-Delivery
+    - img "Everything Your Hostel Needs" [ref=f11e10]
+    - generic [ref=f11e11]: 10-Min Room Delivery
+  - generic [ref=f11e15]:
+    - heading "Everything Your Hostel Needs, Delivered Fast" [level=1] [ref=f11e20]
+    - paragraph [ref=f11e21]: Skip the long canteen lines. Order late-night snacks, instant noodles, chilled drinks, and daily essentials delivered right to your hostel room.
+    - generic [ref=f11e22]:
+      - generic [ref=f11e23]: Free Delivery
+      - generic [ref=f11e28]: Campus Verified
+      - generic [ref=f11e33]: Instant Pay / COD
+    - button "Get Started" [ref=f11e37] [cursor=pointer]
