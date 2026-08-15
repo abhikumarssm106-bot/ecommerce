@@ -1,0 +1,225 @@
+- generic [ref=f4e3]:
+  - navigation [ref=f4e4]:
+    - generic [ref=f4e5]:
+      - link "G Mart" [ref=f4e6] [cursor=pointer]:
+        - /url: "#home"
+      - generic [ref=f4e12]:
+        - button "Search" [ref=f4e13] [cursor=pointer]
+        - button "Wishlist" [ref=f4e17] [cursor=pointer]
+        - button "Account" [ref=f4e21] [cursor=pointer]
+        - button "Cart" [ref=f4e25] [cursor=pointer]
+        - button "Menu" [ref=f4e29] [cursor=pointer]
+  - generic [ref=f4e313]:
+    - generic [ref=f4e315]:
+      - generic [ref=f4e316]:
+        - button "Back to Categories" [ref=f4e509] [cursor=pointer]
+        - generic [ref=f4e320]:
+          - generic [ref=f4e321]: CATEGORIES
+          - heading "Fruits & Vegetables" [level=1] [ref=f4e510]
+      - textbox "Search in Fruits & Vegetables..." [ref=f4e511]
+    - generic [ref=f4e512]:
+      - generic [ref=f4e513]:
+        - generic [ref=f4e514]: 100% Organic
+        - heading "Fruits & Vegetables" [level=2] [ref=f4e518]
+        - paragraph [ref=f4e519]: Organic fruits, green vegetables & seasonal harvests
+      - generic [ref=f4e520]:
+        - generic [ref=f4e521]: "Filter by Sub-Department:"
+        - generic [ref=f4e523]:
+          - generic [ref=f4e524] [cursor=pointer]: All Fresh Produce
+          - generic [ref=f4e526] [cursor=pointer]:
+            - generic [ref=f4e527]: Exotic & Seasonal Fruits
+            - generic [ref=f4e528]: Fresh
+          - generic [ref=f4e529] [cursor=pointer]:
+            - generic [ref=f4e530]: Daily Green Vegetables
+            - generic [ref=f4e531]: Organic
+          - generic [ref=f4e532] [cursor=pointer]: Fresh Herbs & Seasonings
+          - generic [ref=f4e534] [cursor=pointer]:
+            - generic [ref=f4e535]: Hydroponic Greens
+            - generic [ref=f4e536]: Premium
+      - generic [ref=f4e538]:
+        - heading "Popular in Fruits & Vegetables" [level=3] [ref=f4e539]
+        - generic [ref=f4e540]: Showing 6 items
+      - generic [ref=f4e541]:
+        - generic [ref=f4e542] [cursor=pointer]:
+          - generic [ref=f4e543]:
+            - img "Organic Green Mangoes" [ref=f4e544]
+            - button "Add to Wishlist" [ref=f4e545]
+            - generic "100% Vegetarian" [ref=f4e548]
+          - generic [ref=f4e550]:
+            - heading "Organic Green Mangoes" [level=3] [ref=f4e551]
+            - generic [ref=f4e552]: Standard Pack
+            - generic [ref=f4e553]:
+              - generic [ref=f4e554]:
+                - generic [ref=f4e555]: ₹4.49
+                - generic [ref=f4e556]: ₹5.61
+              - button "Add Organic Green Mangoes to Cart" [ref=f4e557]
+        - generic [ref=f4e559] [cursor=pointer]:
+          - generic [ref=f4e560]:
+            - img "Fresh Orange Juice (1L)" [ref=f4e561]
+            - button "Add to Wishlist" [ref=f4e562]
+            - generic [ref=f4e565]: Sale
+          - generic [ref=f4e566]:
+            - heading "Fresh Orange Juice (1L)" [level=3] [ref=f4e567]
+            - generic [ref=f4e568]: Standard Bottle (1L)
+            - generic [ref=f4e569]:
+              - generic [ref=f4e570]:
+                - generic [ref=f4e571]: ₹3.99
+                - generic [ref=f4e572]: ₹4.99
+              - button "Add Fresh Orange Juice (1L) to Cart" [ref=f4e573]
+        - generic [ref=f4e575] [cursor=pointer]:
+          - generic [ref=f4e576]:
+            - img "Fresh Red Apples (1kg)" [ref=f4e577]
+            - button "Add to Wishlist" [ref=f4e578]
+            - generic [ref=f4e581]: Bestseller
+          - generic [ref=f4e582]:
+            - heading "Fresh Red Apples (1kg)" [level=3] [ref=f4e583]
+            - generic [ref=f4e584]: Standard Pack (1kg)
+            - generic [ref=f4e585]:
+              - generic [ref=f4e586]:
+                - generic [ref=f4e587]: ₹2.99
+                - generic [ref=f4e588]: ₹3.49
+              - button "Add Fresh Red Apples (1kg) to Cart" [ref=f4e589]
+        - generic [ref=f4e591] [cursor=pointer]:
+          - generic [ref=f4e592]:
+            - img "Organic Whole Milk (1L)" [ref=f4e593]
+            - button "Add to Wishlist" [ref=f4e594]
+            - generic [ref=f4e597]: Fresh
+          - generic [ref=f4e598]:
+            - heading "Organic Whole Milk (1L)" [level=3] [ref=f4e599]
+            - generic [ref=f4e600]: Standard Bottle (1L)
+            - generic [ref=f4e601]:
+              - generic [ref=f4e602]:
+                - generic [ref=f4e603]: ₹2.29
+                - generic [ref=f4e604]: ₹2.79
+              - button "Add Organic Whole Milk (1L) to Cart" [ref=f4e605]
+        - generic [ref=f4e607] [cursor=pointer]:
+          - generic [ref=f4e608]:
+            - img "Chocolate Chip Cookies (200g)" [ref=f4e609]
+            - button "Add to Wishlist" [ref=f4e610]
+            - generic [ref=f4e613]: Sale
+          - generic [ref=f4e614]:
+            - heading "Chocolate Chip Cookies (200g)" [level=3] [ref=f4e615]
+            - generic [ref=f4e616]: Standard Pack (200g)
+            - generic [ref=f4e617]:
+              - generic [ref=f4e618]:
+                - generic [ref=f4e619]: ₹3.49
+                - generic [ref=f4e620]: ₹4.29
+              - button "Add Chocolate Chip Cookies (200g) to Cart" [ref=f4e621]
+        - generic [ref=f4e623] [cursor=pointer]:
+          - generic [ref=f4e624]:
+            - img "Organic Bananas (Bunch)" [ref=f4e625]
+            - button "Add to Wishlist" [ref=f4e626]
+            - generic [ref=f4e629]: Fresh
+          - generic [ref=f4e630]:
+            - heading "Organic Bananas (Bunch)" [level=3] [ref=f4e631]
+            - generic [ref=f4e632]: Standard bunch
+            - generic [ref=f4e633]:
+              - generic [ref=f4e634]:
+                - generic [ref=f4e635]: ₹1.99
+                - generic [ref=f4e636]: ₹2.49
+              - button "Add Organic Bananas (Bunch) to Cart" [ref=f4e637]
+      - generic [ref=f4e639]:
+        - generic [ref=f4e640]:
+          - heading "Explore Other Departments" [level=4] [ref=f4e641]
+          - generic [ref=f4e642]: Tap to browse another grocery aisle
+        - generic [ref=f4e643]:
+          - generic [ref=f4e644] [cursor=pointer]:
+            - img "Dairy, Bread & Eggs" [ref=f4e646]
+            - generic [ref=f4e647]: Dairy, Bread & Eggs
+          - generic [ref=f4e648] [cursor=pointer]:
+            - img "Snacks & Munchies" [ref=f4e650]
+            - generic [ref=f4e651]: Snacks & Munchies
+          - generic [ref=f4e652] [cursor=pointer]:
+            - img "Bakery & Biscuits" [ref=f4e654]
+            - generic [ref=f4e655]: Bakery & Biscuits
+          - generic [ref=f4e656] [cursor=pointer]:
+            - img "Breakfast & Instant" [ref=f4e658]
+            - generic [ref=f4e659]: Breakfast & Instant
+          - generic [ref=f4e660] [cursor=pointer]:
+            - img "Tea, Coffee & More" [ref=f4e662]
+            - generic [ref=f4e663]: Tea, Coffee & More
+          - generic [ref=f4e664] [cursor=pointer]:
+            - img "Cold Drinks & Juices" [ref=f4e666]
+            - generic [ref=f4e667]: Cold Drinks & Juices
+          - generic [ref=f4e668] [cursor=pointer]:
+            - img "Sweet Tooth & Desserts" [ref=f4e670]
+            - generic [ref=f4e671]: Sweet Tooth & Desserts
+          - generic [ref=f4e672] [cursor=pointer]:
+            - img "Atta, Rice & Dal" [ref=f4e674]
+            - generic [ref=f4e675]: Atta, Rice & Dal
+          - generic [ref=f4e676] [cursor=pointer]:
+            - img "Masala, Oil & Spices" [ref=f4e678]
+            - generic [ref=f4e679]: Masala, Oil & Spices
+          - generic [ref=f4e680] [cursor=pointer]:
+            - img "Sauces & Spreads" [ref=f4e682]
+            - generic [ref=f4e683]: Sauces & Spreads
+          - generic [ref=f4e684] [cursor=pointer]:
+            - img "Chicken, Meat & Fish" [ref=f4e686]
+            - generic [ref=f4e687]: Chicken, Meat & Fish
+          - generic [ref=f4e688] [cursor=pointer]:
+            - img "Organic & Healthy" [ref=f4e690]
+            - generic [ref=f4e691]: Organic & Healthy
+  - contentinfo [ref=f4e224]:
+    - generic [ref=f4e225]:
+      - generic [ref=f4e226]:
+        - generic [ref=f4e227]:
+          - link "G Mart" [ref=f4e228] [cursor=pointer]:
+            - /url: "#hero"
+          - paragraph [ref=f4e234]: Fresh organic groceries & essentials delivered fast.
+        - generic [ref=f4e235]:
+          - generic [ref=f4e236]: "Categories:"
+          - generic [ref=f4e237]:
+            - link "🥨 Snacks" [ref=f4e238] [cursor=pointer]:
+              - /url: "#products"
+            - link "🛒 Groceries" [ref=f4e239] [cursor=pointer]:
+              - /url: "#products"
+            - link "🥤 Drinks" [ref=f4e240] [cursor=pointer]:
+              - /url: "#products"
+            - link "🧺 Laundry Essentials" [ref=f4e241] [cursor=pointer]:
+              - /url: "#products"
+            - link "🥬 Organic Farms" [ref=f4e242] [cursor=pointer]:
+              - /url: "#products"
+      - generic [ref=f4e243]:
+        - generic [ref=f4e244]:
+          - generic [ref=f4e245]: "Customer Care:"
+          - generic [ref=f4e246]:
+            - link "🚚 Track Order" [ref=f4e247] [cursor=pointer]:
+              - /url: "#"
+            - link "📦 Shipping Details" [ref=f4e248] [cursor=pointer]:
+              - /url: "#"
+            - link "🔄 Returns & Refunds" [ref=f4e249] [cursor=pointer]:
+              - /url: "#"
+            - link "🛡️ Freshness Guarantee" [ref=f4e250] [cursor=pointer]:
+              - /url: "#"
+            - link "💬 Help & Support" [ref=f4e251] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=f4e252]:
+          - generic [ref=f4e253]: 📞 +91 98765 43210
+          - generic [ref=f4e254]: •
+          - generic [ref=f4e255]: ✉️ support@gmartgrocery.com
+          - generic [ref=f4e256]: •
+          - generic [ref=f4e257]: 📍 Talwandi Sabo, Punjab, 151302
+      - generic [ref=f4e258]:
+        - paragraph [ref=f4e259]: © 2026 G Mart Marketplace. All Rights Reserved. Freshness on demand.
+        - generic [ref=f4e260]:
+          - link "Facebook" [ref=f4e261] [cursor=pointer]:
+            - /url: "#"
+          - link "Instagram" [ref=f4e264] [cursor=pointer]:
+            - /url: "#"
+          - link "Twitter" [ref=f4e268] [cursor=pointer]:
+            - /url: "#"
+  - generic [ref=f4e271]:
+    - generic [ref=f4e272]:
+      - generic [ref=f4e273]:
+        - heading "Your Cart" [level=2] [ref=f4e277]
+        - generic [ref=f4e278]: "0"
+      - button "Close Cart" [ref=f4e279] [cursor=pointer]
+    - generic [ref=f4e284]:
+      - generic [ref=f4e285]: 🛒
+      - heading "Your cart is empty" [level=3] [ref=f4e286]
+      - paragraph [ref=f4e287]: Add fresh organic produce and snacks to get started!
+  - generic [ref=f4e289]:
+    - generic [ref=f4e290] [cursor=pointer]: Home
+    - generic [ref=f4e295] [cursor=pointer]: Categories
+    - generic [ref=f4e302] [cursor=pointer]: Wishlist
+    - generic [ref=f4e306] [cursor=pointer]: Offers

@@ -3,6 +3,7 @@ import { useCart } from '../context/CartContext';
 import { useAuth } from '../context/AuthContext';
 import api from '../services/api';
 import { X, Check, Plus } from 'lucide-react';
+import { formatINR } from '../utils/formatCurrency';
 
 interface CheckoutModalProps {
   isOpen: boolean;
@@ -11,7 +12,7 @@ interface CheckoutModalProps {
 
 export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose }) => {
   const { cart, clearCart } = useCart();
-  const { isAuthenticated, addresses, addAddress, fetchAddresses } = useAuth();
+  const { user, isAuthenticated, addresses, addAddress, fetchAddresses } = useAuth();
   
   const [currentStep, setCurrentStep] = useState<number>(1);
   const [isPlacing, setIsPlacing] = useState<boolean>(false);
@@ -19,17 +20,25 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
   const [showNewAddressForm, setShowNewAddressForm] = useState<boolean>(false);
   
   const [addressForm, setAddressForm] = useState({
-    firstName: '',
-    lastName: '',
-    line1: '',
-    city: '',
-    state: '',
-    pincode: '',
-    country: 'India',
+    firstName: user?.firstName || '',
+    lastName: user?.lastName || '',
+    hostelName: '',
+    roomNo: '',
   });
   
   const [payment, setPayment] = useState<string>('COD');
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
+
+  // Auto-fill user names when modal opens
+  useEffect(() => {
+    if (user) {
+      setAddressForm(prev => ({
+        ...prev,
+        firstName: prev.firstName || user.firstName || '',
+        lastName: prev.lastName || user.lastName || ''
+      }));
+    }
+  }, [user, isOpen]);
 
   // Load addresses when checkout opens
   useEffect(() => {
@@ -50,9 +59,9 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
 
   if (!isOpen) return null;
 
-  const subtotal = cart.reduce((sum, item) => sum + (item.price * item.qty), 0);
-  const shippingCharge = subtotal >= 30 ? 0 : (subtotal > 0 ? 2.99 : 0);
-  const total = subtotal + shippingCharge;
+  const subtotal = cart.reduce((sum, item) => sum + (Number(item.price) * Number(item.qty)), 0);
+  const shippingCharge = 0; // FREE Delivery on all orders
+  const total = subtotal;
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -67,30 +76,37 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
     setErrorMessage(null);
 
     if (currentStep === 1) {
-      if (showNewAddressForm) {
-        // Validate address fields
-        const { firstName, lastName, line1, city, state, pincode } = addressForm;
-        if (!firstName.trim() || !lastName.trim() || !line1.trim() || !city.trim() || !state.trim() || !pincode.trim()) {
-          setErrorMessage('Please fill out all address fields.');
+      if (showNewAddressForm || addresses.length === 0) {
+        const { firstName, lastName, hostelName, roomNo } = addressForm;
+        if (!firstName.trim() || !lastName.trim() || !hostelName.trim()) {
+          setErrorMessage('Please enter First Name, Last Name, and Hostel Name.');
           return;
         }
         try {
           setIsPlacing(true);
+          const fullAddressString = `${hostelName.trim()}${roomNo.trim() ? ', Room ' + roomNo.trim() : ''}`;
           await addAddress({
-            ...addressForm,
+            firstName: firstName.trim(),
+            lastName: lastName.trim(),
+            line1: fullAddressString,
+            city: 'Campus',
+            state: 'Hostel',
+            pincode: '151302',
+            country: 'India',
             isDefault: addresses.length === 0
           });
           setShowNewAddressForm(false);
           setErrorMessage(null);
           setCurrentStep(2);
-        } catch (err: any) {
-          setErrorMessage('Failed to save address. Please try again.');
+        } catch {
+          // If backend address save fails or guest, still proceed to payment
+          setCurrentStep(2);
         } finally {
           setIsPlacing(false);
         }
       } else {
         if (!selectedAddressId) {
-          setErrorMessage('Please select a shipping address.');
+          setErrorMessage('Please select a delivery hostel address.');
           return;
         }
         setCurrentStep(2);
@@ -100,15 +116,13 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
     } else if (currentStep === 3) {
       setIsPlacing(true);
       try {
-        // 1. Submit order to backend
         const { data } = await api.post('/orders/checkout', {
-          shippingAddressId: selectedAddressId,
-          notes: `Delivery by ${payment}`
+          shippingAddressId: selectedAddressId || undefined,
+          notes: `Hostel Delivery: ${addressForm.hostelName} Room: ${addressForm.roomNo}. Payment: ${payment}`
         });
 
         const order = data.data;
 
-        // 2. If online payment, verify/simulate payment capture
         if (payment === 'CARD' || payment === 'APPLE') {
           await api.post('/payments/verify', {
             orderId: order.id,
@@ -117,9 +131,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
           });
         }
 
-        // 3. Clear cart in DB and local
         await clearCart();
-        
         setCurrentStep(4);
       } catch (err: any) {
         const msg = err.response?.data?.error?.message || 'Failed to place order. Out of stock or invalid session.';
@@ -138,7 +150,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
 
   const handleDone = () => {
     setCurrentStep(1);
-    setAddressForm({ firstName: '', lastName: '', line1: '', city: '', state: '', pincode: '', country: 'India' });
+    setAddressForm({ firstName: '', lastName: '', hostelName: '', roomNo: '' });
     setPayment('COD');
     setSelectedAddressId('');
     setShowNewAddressForm(false);
@@ -244,7 +256,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
                     </div>
                   )}
 
-                  {/* Add New Address Form */}
+                  {/* Add New Address / Hostel Details Form */}
                   {showNewAddressForm && (
                     <div className="form-grid">
                       <div className="form-group">
@@ -254,7 +266,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
                           name="firstName"
                           value={addressForm.firstName}
                           onChange={handleInputChange}
-                          placeholder="John"
+                          placeholder="e.g. Mohit"
                           required
                         />
                       </div>
@@ -265,63 +277,29 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
                           name="lastName"
                           value={addressForm.lastName}
                           onChange={handleInputChange}
-                          placeholder="Doe"
+                          placeholder="e.g. Kumar"
                           required
                         />
                       </div>
                       <div className="form-group full-width">
-                        <label>Street Address</label>
+                        <label>Hostel Name / Building Block</label>
                         <input
                           type="text"
-                          name="line1"
-                          value={addressForm.line1}
+                          name="hostelName"
+                          value={addressForm.hostelName}
                           onChange={handleInputChange}
-                          placeholder="Apt 4B, 128 Broadway St"
+                          placeholder="e.g. Boys Hostel A, Block 3 / Girls Hostel B"
                           required
                         />
                       </div>
-                      <div className="form-group">
-                        <label>City</label>
+                      <div className="form-group full-width">
+                        <label>Room Number / Floor (Optional)</label>
                         <input
                           type="text"
-                          name="city"
-                          value={addressForm.city}
+                          name="roomNo"
+                          value={addressForm.roomNo}
                           onChange={handleInputChange}
-                          placeholder="Bangalore"
-                          required
-                        />
-                      </div>
-                      <div className="form-group">
-                        <label>State</label>
-                        <input
-                          type="text"
-                          name="state"
-                          value={addressForm.state}
-                          onChange={handleInputChange}
-                          placeholder="Karnataka"
-                          required
-                        />
-                      </div>
-                      <div className="form-group">
-                        <label>Pincode / Zip</label>
-                        <input
-                          type="text"
-                          name="pincode"
-                          value={addressForm.pincode}
-                          onChange={handleInputChange}
-                          placeholder="560001"
-                          required
-                        />
-                      </div>
-                      <div className="form-group">
-                        <label>Country</label>
-                        <input
-                          type="text"
-                          name="country"
-                          value={addressForm.country}
-                          onChange={handleInputChange}
-                          placeholder="India"
-                          required
+                          placeholder="e.g. Room 204, 2nd Floor"
                         />
                       </div>
                       
@@ -412,15 +390,15 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
                   <div className="checkout-review-summary">
                     <div className="checkout-review-row">
                       <span>Items Total</span>
-                      <span>${subtotal.toFixed(2)}</span>
+                      <span>{formatINR(subtotal)}</span>
                     </div>
                     <div className="checkout-review-row">
                       <span>Delivery Charges</span>
-                      <span>{shippingCharge === 0 ? 'Free' : `$${shippingCharge.toFixed(2)}`}</span>
+                      <span>{shippingCharge === 0 ? 'Free' : formatINR(shippingCharge)}</span>
                     </div>
                     <div className="checkout-review-row total">
                       <span>Grand Total</span>
-                      <span>${total.toFixed(2)}</span>
+                      <span style={{ color: 'var(--clr-accent)', fontWeight: 800 }}>{formatINR(total)}</span>
                     </div>
                   </div>
                   <div style={{ fontSize: '0.8rem', color: 'var(--clr-text-secondary)', lineHeight: 1.5, background: 'var(--clr-bg-secondary)', padding: '12px', borderRadius: 'var(--radius-md)', display: 'flex', gap: '8px', alignItems: 'flex-start', textAlign: 'left' }}>

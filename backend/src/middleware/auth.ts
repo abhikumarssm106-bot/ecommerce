@@ -24,7 +24,8 @@ export const authGuard = async (req: Request, _res: Response, next: NextFunction
 
   const token = authHeader.split(' ')[1];
   try {
-    const decoded = jwt.verify(token, process.env.JWT_ACCESS_SECRET!) as JwtPayload;
+    const accessSecret = process.env.JWT_ACCESS_SECRET || 'megamart_jwt_access_secret_super_secure_key_2026';
+    const decoded = jwt.verify(token, accessSecret) as JwtPayload;
     req.user = decoded;
     next();
   } catch (err: any) {

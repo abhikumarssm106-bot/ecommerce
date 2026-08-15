@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
 import api from '../services/api';
 import { X, Edit, Trash2, Plus, RefreshCw, ShoppingBag, Settings, Layers, LogOut } from 'lucide-react';
+import { formatINR } from '../utils/formatCurrency';
 
 interface AdminDashboardProps {
   onClose: () => void;
@@ -183,10 +184,10 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ onClose, showToa
       </header>
 
       {/* Main Panel Layout */}
-      <div style={{ display: 'flex', flex: 1, overflow: 'hidden' }}>
+      <div className="admin-layout-container">
         {/* Sidebar Nav */}
-        <aside style={{ width: '240px', borderRight: '1px solid var(--clr-border)', background: 'var(--clr-bg-secondary)', padding: 'var(--space-md)' }}>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+        <aside className="admin-sidebar">
+          <div className="admin-sidebar-nav">
             <button
               onClick={() => setActiveTab('products')}
               style={{
@@ -233,7 +234,7 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ onClose, showToa
         </aside>
 
         {/* Content Panel */}
-        <main style={{ flex: 1, padding: 'var(--space-xl)', overflowY: 'auto' }}>
+        <main className="admin-main-panel">
           {loading ? (
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
               <p style={{ fontWeight: 600, color: 'var(--clr-text-secondary)' }}>Loading panel resources...</p>
@@ -243,7 +244,7 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ onClose, showToa
               {/* Products Tab */}
               {activeTab === 'products' && (
                 <div>
-                  <div style={{ display: 'flex', justifyContent: 'between', alignItems: 'center', marginBottom: 'var(--space-xl)' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 'var(--space-xl)', flexWrap: 'wrap', gap: 'var(--space-md)' }}>
                     <div>
                       <h3 style={{ fontSize: '1.5rem', fontWeight: 800 }}>Product Inventory</h3>
                       <p style={{ fontSize: '0.85rem', color: 'var(--clr-text-secondary)' }}>Update and manage standard product listings.</p>
@@ -262,45 +263,47 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ onClose, showToa
                     </button>
                   </div>
 
-                  <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left' }}>
-                    <thead>
-                      <tr style={{ borderBottom: '2px solid var(--clr-border)', color: 'var(--clr-text-secondary)', fontWeight: 600 }}>
-                        <th style={{ padding: '12px' }}>Name</th>
-                        <th style={{ padding: '12px' }}>Slug</th>
-                        <th style={{ padding: '12px' }}>Category</th>
-                        <th style={{ padding: '12px' }}>Price</th>
-                        <th style={{ padding: '12px' }}>Stock</th>
-                        <th style={{ padding: '12px', textAlign: 'right' }}>Actions</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {products.map((prod) => (
-                        <tr key={prod.id} style={{ borderBottom: '1px solid var(--clr-border)', transition: 'background var(--transition)' }} className="table-row-hover">
-                          <td style={{ padding: '12px', fontWeight: 600 }}>{prod.name}</td>
-                          <td style={{ padding: '12px', color: 'var(--clr-text-secondary)', fontSize: '0.85rem' }}>{prod.slug}</td>
-                          <td style={{ padding: '12px' }}>
-                            <span style={{ padding: '4px 8px', borderRadius: 'var(--radius-full)', background: 'var(--clr-surface)', fontSize: '0.75rem', fontWeight: 600 }}>
-                              {prod.category?.name || 'General'}
-                            </span>
-                          </td>
-                          <td style={{ padding: '12px', fontWeight: 700 }}>${prod.price}</td>
-                          <td style={{ padding: '12px' }}>
-                            <span style={{ color: prod.variants?.[0]?.stock > 5 ? 'var(--clr-success)' : 'var(--clr-danger)', fontWeight: 600 }}>
-                              {prod.variants?.[0]?.stock ?? 0} left
-                            </span>
-                          </td>
-                          <td style={{ padding: '12px', textAlign: 'right' }}>
-                            <button className="btn-ghost" onClick={() => handleEditProduct(prod)} style={{ padding: '6px', marginRight: '6px' }} aria-label="Edit Product">
-                              <Edit size={16} />
-                            </button>
-                            <button className="btn-ghost" onClick={() => handleDeleteProduct(prod.id)} style={{ padding: '6px', color: 'var(--clr-danger)' }} aria-label="Delete Product">
-                              <Trash2 size={16} />
-                            </button>
-                          </td>
+                  <div className="admin-table-wrap">
+                    <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left' }}>
+                      <thead>
+                        <tr style={{ borderBottom: '2px solid var(--clr-border)', color: 'var(--clr-text-secondary)', fontWeight: 600 }}>
+                          <th style={{ padding: '12px' }}>Name</th>
+                          <th style={{ padding: '12px' }}>Slug</th>
+                          <th style={{ padding: '12px' }}>Category</th>
+                          <th style={{ padding: '12px' }}>Price</th>
+                          <th style={{ padding: '12px' }}>Stock</th>
+                          <th style={{ padding: '12px', textAlign: 'right' }}>Actions</th>
                         </tr>
-                      ))}
-                    </tbody>
-                  </table>
+                      </thead>
+                      <tbody>
+                        {products.map((prod) => (
+                          <tr key={prod.id} style={{ borderBottom: '1px solid var(--clr-border)', transition: 'background var(--transition)' }} className="table-row-hover">
+                            <td style={{ padding: '12px', fontWeight: 600 }}>{prod.name}</td>
+                            <td style={{ padding: '12px', color: 'var(--clr-text-secondary)', fontSize: '0.85rem' }}>{prod.slug}</td>
+                            <td style={{ padding: '12px' }}>
+                              <span style={{ padding: '4px 8px', borderRadius: 'var(--radius-full)', background: 'var(--clr-surface)', fontSize: '0.75rem', fontWeight: 600 }}>
+                                {prod.category?.name || 'General'}
+                              </span>
+                            </td>
+                            <td style={{ padding: '12px', fontWeight: 700 }}>{formatINR(prod.price)}</td>
+                            <td style={{ padding: '12px' }}>
+                              <span style={{ color: prod.variants?.[0]?.stock > 5 ? 'var(--clr-success)' : 'var(--clr-danger)', fontWeight: 600 }}>
+                                {prod.variants?.[0]?.stock ?? 0} left
+                              </span>
+                            </td>
+                            <td style={{ padding: '12px', textAlign: 'right' }}>
+                              <button className="btn-ghost" onClick={() => handleEditProduct(prod)} style={{ padding: '6px', marginRight: '6px' }} aria-label="Edit Product">
+                                <Edit size={16} />
+                              </button>
+                              <button className="btn-ghost" onClick={() => handleDeleteProduct(prod.id)} style={{ padding: '6px', color: 'var(--clr-danger)' }} aria-label="Delete Product">
+                                <Trash2 size={16} />
+                              </button>
+                            </td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
                 </div>
               )}
 
@@ -312,7 +315,8 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ onClose, showToa
                     <p style={{ fontSize: '0.85rem', color: 'var(--clr-text-secondary)' }}>Review order pipelines and dispatch statuses.</p>
                   </div>
 
-                  <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left' }}>
+                  <div className="admin-table-wrap">
+                    <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left' }}>
                     <thead>
                       <tr style={{ borderBottom: '2px solid var(--clr-border)', color: 'var(--clr-text-secondary)', fontWeight: 600 }}>
                         <th style={{ padding: '12px' }}>Order ID</th>
@@ -328,7 +332,7 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ onClose, showToa
                         <tr key={order.id} style={{ borderBottom: '1px solid var(--clr-border)' }}>
                           <td style={{ padding: '12px', fontWeight: 600, fontSize: '0.8rem', fontFamily: 'monospace' }}>{order.id}</td>
                           <td style={{ padding: '12px', fontSize: '0.85rem' }}>{new Date(order.createdAt).toLocaleDateString()}</td>
-                          <td style={{ padding: '12px', fontWeight: 700 }}>${Number(order.total).toFixed(2)}</td>
+                          <td style={{ padding: '12px', fontWeight: 700 }}>{formatINR(order.total)}</td>
                           <td style={{ padding: '12px', fontSize: '0.85rem', color: 'var(--clr-text-secondary)' }}>
                             {order.orderItems?.map((i: any) => `${i.productName} (x${i.quantity})`).join(', ')}
                           </td>
@@ -378,7 +382,8 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ onClose, showToa
                     </tbody>
                   </table>
                 </div>
-              )}
+              </div>
+            )}
             </>
           )}
         </main>

@@ -1,0 +1,201 @@
+- generic [ref=f3e3]:
+  - navigation [ref=f3e4]:
+    - generic [ref=f3e5]:
+      - link "G Mart" [ref=f3e6] [cursor=pointer]:
+        - /url: "#home"
+      - generic [ref=f3e12]:
+        - button "Search" [ref=f3e13] [cursor=pointer]
+        - button "Wishlist" [ref=f3e17] [cursor=pointer]
+        - button "Account" [ref=f3e21] [cursor=pointer]
+        - button "Cart" [ref=f3e25] [cursor=pointer]
+        - button "Menu" [ref=f3e29] [cursor=pointer]
+  - generic [ref=f3e313]:
+    - generic [ref=f3e315]:
+      - generic [ref=f3e316]:
+        - button "Back to Home" [ref=f3e317] [cursor=pointer]
+        - generic [ref=f3e320]:
+          - generic [ref=f3e321]: ALL AISLES
+          - heading "Explore All Categories" [level=1] [ref=f3e322]
+      - textbox "Search 20+ departments & groceries..." [ref=f3e328]
+    - generic [ref=f3e330]:
+      - generic [ref=f3e332]:
+        - generic [ref=f3e333]: Mega Fresh Harvest Festival
+        - heading "Farm-Picked Quality at Direct Wholesale Prices" [level=2] [ref=f3e337]
+        - paragraph [ref=f3e338]: Get up to 45% discount on certified organic greens, fruits, cold-pressed oils & dairy.
+        - button "Explore Fresh Produce" [ref=f3e339] [cursor=pointer]
+      - generic [ref=f3e342]:
+        - button "All Departments (20)" [ref=f3e343] [cursor=pointer]
+        - button "🌿 Farm & Organic" [ref=f3e344] [cursor=pointer]
+        - button "🌾 Daily Staples" [ref=f3e345] [cursor=pointer]
+        - button "🥨 Snack Munchies" [ref=f3e346] [cursor=pointer]
+        - button "🥤 Cold Drinks & Tea" [ref=f3e347] [cursor=pointer]
+      - generic [ref=f3e348]:
+        - generic [ref=f3e349] [cursor=pointer]:
+          - img "Fruits & Vegetables" [ref=f3e351]
+          - generic [ref=f3e352]: Fruits & Vegetables
+        - generic [ref=f3e353] [cursor=pointer]:
+          - img "Dairy, Bread & Eggs" [ref=f3e355]
+          - generic [ref=f3e356]: Dairy, Bread & Eggs
+        - generic [ref=f3e357] [cursor=pointer]:
+          - img "Snacks & Munchies" [ref=f3e359]
+          - generic [ref=f3e360]: Snacks & Munchies
+        - generic [ref=f3e361] [cursor=pointer]:
+          - img "Bakery & Biscuits" [ref=f3e363]
+          - generic [ref=f3e364]: Bakery & Biscuits
+        - generic [ref=f3e365] [cursor=pointer]:
+          - img "Breakfast & Instant" [ref=f3e367]
+          - generic [ref=f3e368]: Breakfast & Instant
+        - generic [ref=f3e369] [cursor=pointer]:
+          - img "Tea, Coffee & More" [ref=f3e371]
+          - generic [ref=f3e372]: Tea, Coffee & More
+        - generic [ref=f3e373] [cursor=pointer]:
+          - img "Cold Drinks & Juices" [ref=f3e375]
+          - generic [ref=f3e376]: Cold Drinks & Juices
+        - generic [ref=f3e377] [cursor=pointer]:
+          - img "Sweet Tooth & Desserts" [ref=f3e379]
+          - generic [ref=f3e380]: Sweet Tooth & Desserts
+        - generic [ref=f3e381] [cursor=pointer]:
+          - img "Atta, Rice & Dal" [ref=f3e383]
+          - generic [ref=f3e384]: Atta, Rice & Dal
+        - generic [ref=f3e385] [cursor=pointer]:
+          - img "Masala, Oil & Spices" [ref=f3e387]
+          - generic [ref=f3e388]: Masala, Oil & Spices
+        - generic [ref=f3e389] [cursor=pointer]:
+          - img "Sauces & Spreads" [ref=f3e391]
+          - generic [ref=f3e392]: Sauces & Spreads
+        - generic [ref=f3e393] [cursor=pointer]:
+          - img "Chicken, Meat & Fish" [ref=f3e395]
+          - generic [ref=f3e396]: Chicken, Meat & Fish
+        - generic [ref=f3e397] [cursor=pointer]:
+          - img "Organic & Healthy" [ref=f3e399]
+          - generic [ref=f3e400]: Organic & Healthy
+        - generic [ref=f3e401] [cursor=pointer]:
+          - img "Paan Corner" [ref=f3e403]
+          - generic [ref=f3e404]: Paan Corner
+        - generic [ref=f3e405] [cursor=pointer]:
+          - img "Baby Care" [ref=f3e407]
+          - generic [ref=f3e408]: Baby Care
+        - generic [ref=f3e409] [cursor=pointer]:
+          - img "Pharma & Wellness" [ref=f3e411]
+          - generic [ref=f3e412]: Pharma & Wellness
+        - generic [ref=f3e413] [cursor=pointer]:
+          - img "Cleaning Essentials" [ref=f3e415]
+          - generic [ref=f3e416]: Cleaning Essentials
+        - generic [ref=f3e417] [cursor=pointer]:
+          - img "Home & Office" [ref=f3e419]
+          - generic [ref=f3e420]: Home & Office
+        - generic [ref=f3e421] [cursor=pointer]:
+          - img "Personal Care" [ref=f3e423]
+          - generic [ref=f3e424]: Personal Care
+        - generic [ref=f3e425] [cursor=pointer]:
+          - img "Smart Tech & Gadgets" [ref=f3e427]
+          - generic [ref=f3e428]: Smart Tech & Gadgets
+      - generic [ref=f3e429]:
+        - generic [ref=f3e431]:
+          - heading "Value Combo Boxes" [level=3] [ref=f3e432]
+          - generic [ref=f3e433]: Pre-packaged family essentials for maximum savings
+        - generic [ref=f3e434]:
+          - generic [ref=f3e435]:
+            - generic [ref=f3e436]: Save 25%
+            - heading "Weekly Fresh Basket" [level=4] [ref=f3e441]
+            - paragraph [ref=f3e442]: Bananas + Apples + Farm Veggies + Whole Milk
+            - generic [ref=f3e443]:
+              - generic [ref=f3e444]:
+                - strong [ref=f3e445]: ₹349
+                - generic [ref=f3e446]: ₹470
+              - button "+ Quick Add" [ref=f3e447] [cursor=pointer]
+          - generic [ref=f3e448]:
+            - generic [ref=f3e449]: Save 30%
+            - heading "Breakfast Power Pack" [level=4] [ref=f3e454]
+            - paragraph [ref=f3e455]: Organic Oats + Farm Brown Eggs + Pure Butter
+            - generic [ref=f3e456]:
+              - generic [ref=f3e457]:
+                - strong [ref=f3e458]: ₹289
+                - generic [ref=f3e459]: ₹399
+              - button "+ Quick Add" [ref=f3e460] [cursor=pointer]
+          - generic [ref=f3e461]:
+            - generic [ref=f3e462]: Save 20%
+            - heading "Movie Night Snack Box" [level=4] [ref=f3e467]
+            - paragraph [ref=f3e468]: Gourmet Nachos + Chocolate Cookies + Cold Sodas
+            - generic [ref=f3e469]:
+              - generic [ref=f3e470]:
+                - strong [ref=f3e471]: ₹249
+                - generic [ref=f3e472]: ₹315
+              - button "+ Quick Add" [ref=f3e473] [cursor=pointer]
+      - generic [ref=f3e474]:
+        - generic [ref=f3e480]:
+          - strong [ref=f3e481]: 100% Quality Inspected
+          - generic [ref=f3e482]: Every item undergoes strict grading before packing
+        - generic [ref=f3e490]:
+          - strong [ref=f3e491]: Express Farm Delivery
+          - generic [ref=f3e492]: Direct to your doorstep in temperature-controlled boxes
+        - generic [ref=f3e498]:
+          - strong [ref=f3e499]: Instant Return Guarantee
+          - generic [ref=f3e500]: No questions asked return if you are not 100% satisfied
+        - generic [ref=f3e506]:
+          - strong [ref=f3e507]: 7 AM – 11 PM Support
+          - generic [ref=f3e508]: Dedicated customer care for seamless order tracking
+  - contentinfo [ref=f3e224]:
+    - generic [ref=f3e225]:
+      - generic [ref=f3e226]:
+        - generic [ref=f3e227]:
+          - link "G Mart" [ref=f3e228] [cursor=pointer]:
+            - /url: "#hero"
+          - paragraph [ref=f3e234]: Fresh organic groceries & essentials delivered fast.
+        - generic [ref=f3e235]:
+          - generic [ref=f3e236]: "Categories:"
+          - generic [ref=f3e237]:
+            - link "🥨 Snacks" [ref=f3e238] [cursor=pointer]:
+              - /url: "#products"
+            - link "🛒 Groceries" [ref=f3e239] [cursor=pointer]:
+              - /url: "#products"
+            - link "🥤 Drinks" [ref=f3e240] [cursor=pointer]:
+              - /url: "#products"
+            - link "🧺 Laundry Essentials" [ref=f3e241] [cursor=pointer]:
+              - /url: "#products"
+            - link "🥬 Organic Farms" [ref=f3e242] [cursor=pointer]:
+              - /url: "#products"
+      - generic [ref=f3e243]:
+        - generic [ref=f3e244]:
+          - generic [ref=f3e245]: "Customer Care:"
+          - generic [ref=f3e246]:
+            - link "🚚 Track Order" [ref=f3e247] [cursor=pointer]:
+              - /url: "#"
+            - link "📦 Shipping Details" [ref=f3e248] [cursor=pointer]:
+              - /url: "#"
+            - link "🔄 Returns & Refunds" [ref=f3e249] [cursor=pointer]:
+              - /url: "#"
+            - link "🛡️ Freshness Guarantee" [ref=f3e250] [cursor=pointer]:
+              - /url: "#"
+            - link "💬 Help & Support" [ref=f3e251] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=f3e252]:
+          - generic [ref=f3e253]: 📞 +91 98765 43210
+          - generic [ref=f3e254]: •
+          - generic [ref=f3e255]: ✉️ support@gmartgrocery.com
+          - generic [ref=f3e256]: •
+          - generic [ref=f3e257]: 📍 Talwandi Sabo, Punjab, 151302
+      - generic [ref=f3e258]:
+        - paragraph [ref=f3e259]: © 2026 G Mart Marketplace. All Rights Reserved. Freshness on demand.
+        - generic [ref=f3e260]:
+          - link "Facebook" [ref=f3e261] [cursor=pointer]:
+            - /url: "#"
+          - link "Instagram" [ref=f3e264] [cursor=pointer]:
+            - /url: "#"
+          - link "Twitter" [ref=f3e268] [cursor=pointer]:
+            - /url: "#"
+  - generic [ref=f3e271]:
+    - generic [ref=f3e272]:
+      - generic [ref=f3e273]:
+        - heading "Your Cart" [level=2] [ref=f3e277]
+        - generic [ref=f3e278]: "0"
+      - button "Close Cart" [ref=f3e279] [cursor=pointer]
+    - generic [ref=f3e284]:
+      - generic [ref=f3e285]: 🛒
+      - heading "Your cart is empty" [level=3] [ref=f3e286]
+      - paragraph [ref=f3e287]: Add fresh organic produce and snacks to get started!
+  - generic [ref=f3e289]:
+    - generic [ref=f3e290] [cursor=pointer]: Home
+    - generic [ref=f3e295] [cursor=pointer]: Categories
+    - generic [ref=f3e302] [cursor=pointer]: Wishlist
+    - generic [ref=f3e306] [cursor=pointer]: Offers

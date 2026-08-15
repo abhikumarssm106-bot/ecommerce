@@ -1,0 +1,436 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link [ref=e6] [cursor=pointer]:
+        - /url: "#hero"
+      - generic [ref=e11]:
+        - link "Home" [ref=e12] [cursor=pointer]:
+          - /url: "#home"
+        - link "Categories" [ref=e13] [cursor=pointer]:
+          - /url: "#categories"
+        - link "Products" [ref=e14] [cursor=pointer]:
+          - /url: "#products"
+        - link "Offers" [ref=e15] [cursor=pointer]:
+          - /url: "#promo"
+      - generic [ref=e16]:
+        - button "Search Products" [ref=e17] [cursor=pointer]
+        - button "Open Wishlist" [ref=e21] [cursor=pointer]
+        - button "Account" [ref=e25] [cursor=pointer]
+        - button "Open Cart" [ref=e29] [cursor=pointer]:
+          - generic: "0"
+  - banner [ref=e33]:
+    - generic [ref=e34]:
+      - generic [ref=e40] [cursor=pointer]:
+        - generic [ref=e41]: Location
+        - generic [ref=e42]: Talwandi Sabo, Punjab, 151302, India
+      - generic [ref=e45]:
+        - textbox "Search for 'Mobiles', 'Groceries', 'Snacks'..." [ref=e50]
+        - button "Account" [ref=e52] [cursor=pointer]
+      - generic [ref=e56]:
+        - button "🛒 Smart Buys" [ref=e57] [cursor=pointer]:
+          - generic [ref=e58]: 🛒
+          - generic [ref=e59]: Smart Buys
+        - button "🔥 Hot Deals" [ref=e61] [cursor=pointer]:
+          - generic [ref=e62]: 🔥
+          - generic [ref=e63]: Hot Deals
+        - button "🥬 Groceries" [ref=e64] [cursor=pointer]:
+          - generic [ref=e65]: 🥬
+          - generic [ref=e66]: Groceries
+        - button "🥨 Snacks" [ref=e67] [cursor=pointer]:
+          - generic [ref=e68]: 🥨
+          - generic [ref=e69]: Snacks
+        - button "🥤 Drinks" [ref=e70] [cursor=pointer]:
+          - generic [ref=e71]: 🥤
+          - generic [ref=e72]: Drinks
+        - button "🧺 Daily Needs" [ref=e73] [cursor=pointer]:
+          - generic [ref=e74]: 🧺
+          - generic [ref=e75]: Daily Needs
+        - button "🎧 Electronics" [ref=e76] [cursor=pointer]:
+          - generic [ref=e77]: 🎧
+          - generic [ref=e78]: Electronics
+        - button "🔲 Explore All" [ref=e79] [cursor=pointer]:
+          - generic [ref=e80]: 🔲
+          - generic [ref=e81]: Explore All
+      - generic [ref=e82]:
+        - generic [ref=e83] [cursor=pointer]:
+          - generic [ref=e84]: Daily Essentials
+          - img "Daily Essentials" [ref=e86]
+          - generic [ref=e87]: Up to 70% off
+        - generic [ref=e88] [cursor=pointer]:
+          - generic [ref=e89]: The Crunch Edit
+          - img "The Crunch Edit" [ref=e91]
+          - generic [ref=e92]: From ₹120
+        - generic [ref=e93] [cursor=pointer]:
+          - generic [ref=e94]: Realme P4R
+          - img "Realme P4R" [ref=e96]
+          - generic [ref=e97]: From ₹17,599*
+        - generic [ref=e98] [cursor=pointer]:
+          - generic [ref=e99]: 32" Smart OLED
+          - img "32\" Smart OLED" [ref=e101]
+          - generic [ref=e102]: From ₹12,490*
+        - generic [ref=e103] [cursor=pointer]:
+          - generic [ref=e104]: Cold Beverages
+          - img "Cold Beverages" [ref=e106]
+          - generic [ref=e107]: From ₹35
+        - generic [ref=e108] [cursor=pointer]:
+          - generic [ref=e109]: Laundry Packs
+          - img "Laundry Packs" [ref=e111]
+          - generic [ref=e112]: From ₹99
+  - generic [ref=e115]:
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - generic [ref=e118]:
+          - generic [ref=e119]:
+            - generic [ref=e120]:  iPad
+            - generic [ref=e121]: GRAND SALE
+          - heading "Apple iPad A16" [level=3] [ref=e122]
+          - generic [ref=e123]:
+            - generic [ref=e124]: From
+            - generic [ref=e125]: ₹41,399
+            - generic [ref=e126]: ₹47,900
+          - paragraph [ref=e127]: FLAT ₹6,000 OFF & No Cost EMI
+          - button "Shop now" [ref=e128] [cursor=pointer]
+        - img "Apple iPad A16" [ref=e130]
+      - generic [ref=e131]:
+        - generic [ref=e132]:
+          - generic [ref=e133]:
+            - generic [ref=e134]: Tata Sampann
+            - generic [ref=e135]: FRESH HARVEST
+          - heading "Organic Dry Fruits & Nuts" [level=3] [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e138]: Special
+            - generic [ref=e139]: ₹349
+            - generic [ref=e140]: ₹499
+          - paragraph [ref=e141]: California Almonds & Walnuts
+          - button "Claim 30% Off" [ref=e142] [cursor=pointer]
+        - img "Organic Dry Fruits & Nuts" [ref=e144]
+      - generic [ref=e145]:
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - generic [ref=e148]: Snack Treats
+            - generic [ref=e149]: SUPER SAVER
+          - heading "Gourmet Crunch & Snacks" [level=3] [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Starting at
+            - generic [ref=e153]: ₹199
+            - generic [ref=e154]: ₹280
+          - paragraph [ref=e155]: Crispy Chips & Cold Beverages
+          - button "Order in 10 Mins" [ref=e156] [cursor=pointer]
+        - img "Gourmet Crunch & Snacks" [ref=e158]
+    - button "Previous Slide" [ref=e159] [cursor=pointer]
+    - button "Next Slide" [ref=e162] [cursor=pointer]
+    - generic [ref=e165]:
+      - button "Go to slide 1" [ref=e166] [cursor=pointer]
+      - button "Go to slide 2" [ref=e167] [cursor=pointer]
+      - button "Go to slide 3" [ref=e168] [cursor=pointer]
+  - generic [ref=e170]:
+    - generic [ref=e171]:
+      - heading "Nutty Deals" [level=2] [ref=e172]
+      - button "View all" [ref=e173] [cursor=pointer]
+    - generic [ref=e174]:
+      - generic [ref=e175] [cursor=pointer]:
+        - generic [ref=e176]:
+          - img "Fresh Red Apples (1kg)" [ref=e177]
+          - button "Add to Wishlist" [ref=e178]
+          - generic [ref=e181]: Bestseller
+        - generic [ref=e182]:
+          - heading "Fresh Red Apples (1kg)" [level=3] [ref=e183]
+          - generic [ref=e184]: Standard Pack (1kg)
+          - generic [ref=e185]:
+            - generic [ref=e186]:
+              - generic [ref=e187]: ₹2.99
+              - generic [ref=e188]: ₹3.49
+            - button "Add Fresh Red Apples (1kg) to Cart" [ref=e189]
+      - generic [ref=e191] [cursor=pointer]:
+        - generic [ref=e192]:
+          - img "Organic Whole Milk (1L)" [ref=e193]
+          - button "Add to Wishlist" [ref=e194]
+          - generic [ref=e197]: Fresh
+        - generic [ref=e198]:
+          - heading "Organic Whole Milk (1L)" [level=3] [ref=e199]
+          - generic [ref=e200]: Standard Bottle (1L)
+          - generic [ref=e201]:
+            - generic [ref=e202]:
+              - generic [ref=e203]: ₹2.29
+              - generic [ref=e204]: ₹2.79
+            - button "Add Organic Whole Milk (1L) to Cart" [ref=e205]
+      - generic [ref=e207] [cursor=pointer]:
+        - generic [ref=e208]:
+          - img "Organic Bananas (Bunch)" [ref=e209]
+          - button "Add to Wishlist" [ref=e210]
+          - generic [ref=e213]: Fresh
+        - generic [ref=e214]:
+          - heading "Organic Bananas (Bunch)" [level=3] [ref=e215]
+          - generic [ref=e216]: Standard bunch
+          - generic [ref=e217]:
+            - generic [ref=e218]:
+              - generic [ref=e219]: ₹1.99
+              - generic [ref=e220]: ₹2.49
+            - button "Add Organic Bananas (Bunch) to Cart" [ref=e221]
+  - generic [ref=e224]:
+    - generic [ref=e225]:
+      - heading "Daily Fresh Groceries" [level=2] [ref=e226]
+      - button "View all" [ref=e227] [cursor=pointer]
+    - generic [ref=e228]:
+      - generic [ref=e229] [cursor=pointer]:
+        - generic [ref=e230]:
+          - img "Fresh Red Apples (1kg)" [ref=e231]
+          - button "Add to Wishlist" [ref=e232]
+          - generic [ref=e235]: Bestseller
+        - generic [ref=e236]:
+          - heading "Fresh Red Apples (1kg)" [level=3] [ref=e237]
+          - generic [ref=e238]: Standard Pack (1kg)
+          - generic [ref=e239]:
+            - generic [ref=e240]:
+              - generic [ref=e241]: ₹2.99
+              - generic [ref=e242]: ₹3.49
+            - button "Add Fresh Red Apples (1kg) to Cart" [ref=e243]
+      - generic [ref=e245] [cursor=pointer]:
+        - generic [ref=e246]:
+          - img "Organic Bananas (Bunch)" [ref=e247]
+          - button "Add to Wishlist" [ref=e248]
+          - generic [ref=e251]: Fresh
+        - generic [ref=e252]:
+          - heading "Organic Bananas (Bunch)" [level=3] [ref=e253]
+          - generic [ref=e254]: Standard bunch
+          - generic [ref=e255]:
+            - generic [ref=e256]:
+              - generic [ref=e257]: ₹1.99
+              - generic [ref=e258]: ₹2.49
+            - button "Add Organic Bananas (Bunch) to Cart" [ref=e259]
+  - generic [ref=e262]:
+    - generic [ref=e263]:
+      - heading "Crunchy Snacks & Drinks" [level=2] [ref=e264]
+      - button "View all" [ref=e265] [cursor=pointer]
+    - generic [ref=e266]:
+      - generic [ref=e267] [cursor=pointer]:
+        - generic [ref=e268]:
+          - img "Organic Green Mangoes" [ref=e269]
+          - button "Add to Wishlist" [ref=e270]
+          - generic "100% Vegetarian" [ref=e273]
+        - generic [ref=e275]:
+          - heading "Organic Green Mangoes" [level=3] [ref=e276]
+          - generic [ref=e277]: Standard Pack
+          - generic [ref=e278]:
+            - generic [ref=e279]:
+              - generic [ref=e280]: ₹4.49
+              - generic [ref=e281]: ₹5.61
+            - button "Add Organic Green Mangoes to Cart" [ref=e282]
+      - generic [ref=e284] [cursor=pointer]:
+        - generic [ref=e285]:
+          - img "Fresh Orange Juice (1L)" [ref=e286]
+          - button "Add to Wishlist" [ref=e287]
+          - generic [ref=e290]: Sale
+        - generic [ref=e291]:
+          - heading "Fresh Orange Juice (1L)" [level=3] [ref=e292]
+          - generic [ref=e293]: Standard Bottle (1L)
+          - generic [ref=e294]:
+            - generic [ref=e295]:
+              - generic [ref=e296]: ₹3.99
+              - generic [ref=e297]: ₹4.99
+            - button "Add Fresh Orange Juice (1L) to Cart" [ref=e298]
+      - generic [ref=e300] [cursor=pointer]:
+        - generic [ref=e301]:
+          - img "Organic Whole Milk (1L)" [ref=e302]
+          - button "Add to Wishlist" [ref=e303]
+          - generic [ref=e306]: Fresh
+        - generic [ref=e307]:
+          - heading "Organic Whole Milk (1L)" [level=3] [ref=e308]
+          - generic [ref=e309]: Standard Bottle (1L)
+          - generic [ref=e310]:
+            - generic [ref=e311]:
+              - generic [ref=e312]: ₹2.29
+              - generic [ref=e313]: ₹2.79
+            - button "Add Organic Whole Milk (1L) to Cart" [ref=e314]
+      - generic [ref=e316] [cursor=pointer]:
+        - generic [ref=e317]:
+          - img "Chocolate Chip Cookies (200g)" [ref=e318]
+          - button "Add to Wishlist" [ref=e319]
+          - generic [ref=e322]: Sale
+        - generic [ref=e323]:
+          - heading "Chocolate Chip Cookies (200g)" [level=3] [ref=e324]
+          - generic [ref=e325]: Standard Pack (200g)
+          - generic [ref=e326]:
+            - generic [ref=e327]:
+              - generic [ref=e328]: ₹3.49
+              - generic [ref=e329]: ₹4.29
+            - button "Add Chocolate Chip Cookies (200g) to Cart" [ref=e330]
+  - generic [ref=e333]:
+    - generic [ref=e334]:
+      - heading "All Store Products" [level=2] [ref=e335]
+      - generic [ref=e336]: 7 items
+    - generic [ref=e337]:
+      - generic [ref=e338] [cursor=pointer]:
+        - generic [ref=e339]:
+          - img "Organic Green Mangoes" [ref=e340]
+          - button "Add to Wishlist" [ref=e341]
+          - generic "100% Vegetarian" [ref=e344]
+        - generic [ref=e346]:
+          - heading "Organic Green Mangoes" [level=3] [ref=e347]
+          - generic [ref=e348]: Standard Pack
+          - generic [ref=e349]:
+            - generic [ref=e350]:
+              - generic [ref=e351]: ₹4.49
+              - generic [ref=e352]: ₹5.61
+            - button "Add Organic Green Mangoes to Cart" [ref=e353]
+      - generic [ref=e355] [cursor=pointer]:
+        - generic [ref=e356]:
+          - img "Fresh Orange Juice (1L)" [ref=e357]
+          - button "Add to Wishlist" [ref=e358]
+          - generic [ref=e361]: Sale
+        - generic [ref=e362]:
+          - heading "Fresh Orange Juice (1L)" [level=3] [ref=e363]
+          - generic [ref=e364]: Standard Bottle (1L)
+          - generic [ref=e365]:
+            - generic [ref=e366]:
+              - generic [ref=e367]: ₹3.99
+              - generic [ref=e368]: ₹4.99
+            - button "Add Fresh Orange Juice (1L) to Cart" [ref=e369]
+      - generic [ref=e371] [cursor=pointer]:
+        - generic [ref=e372]:
+          - img "Fresh Red Apples (1kg)" [ref=e373]
+          - button "Add to Wishlist" [ref=e374]
+          - generic [ref=e377]: Bestseller
+        - generic [ref=e378]:
+          - heading "Fresh Red Apples (1kg)" [level=3] [ref=e379]
+          - generic [ref=e380]: Standard Pack (1kg)
+          - generic [ref=e381]:
+            - generic [ref=e382]:
+              - generic [ref=e383]: ₹2.99
+              - generic [ref=e384]: ₹3.49
+            - button "Add Fresh Red Apples (1kg) to Cart" [ref=e385]
+      - generic [ref=e387] [cursor=pointer]:
+        - generic [ref=e388]:
+          - img "Liquid Laundry Detergent (1.5L)" [ref=e389]
+          - button "Add to Wishlist" [ref=e390]
+          - generic "100% Vegetarian" [ref=e393]
+        - generic [ref=e395]:
+          - heading "Liquid Laundry Detergent (1.5L)" [level=3] [ref=e396]
+          - generic [ref=e397]: Standard (1.5L)
+          - generic [ref=e398]:
+            - generic [ref=e399]:
+              - generic [ref=e400]: ₹8.99
+              - generic [ref=e401]: ₹11.24
+            - button "Add Liquid Laundry Detergent (1.5L) to Cart" [ref=e402]
+      - generic [ref=e404] [cursor=pointer]:
+        - generic [ref=e405]:
+          - img "Organic Whole Milk (1L)" [ref=e406]
+          - button "Add to Wishlist" [ref=e407]
+          - generic [ref=e410]: Fresh
+        - generic [ref=e411]:
+          - heading "Organic Whole Milk (1L)" [level=3] [ref=e412]
+          - generic [ref=e413]: Standard Bottle (1L)
+          - generic [ref=e414]:
+            - generic [ref=e415]:
+              - generic [ref=e416]: ₹2.29
+              - generic [ref=e417]: ₹2.79
+            - button "Add Organic Whole Milk (1L) to Cart" [ref=e418]
+      - generic [ref=e420] [cursor=pointer]:
+        - generic [ref=e421]:
+          - img "Chocolate Chip Cookies (200g)" [ref=e422]
+          - button "Add to Wishlist" [ref=e423]
+          - generic [ref=e426]: Sale
+        - generic [ref=e427]:
+          - heading "Chocolate Chip Cookies (200g)" [level=3] [ref=e428]
+          - generic [ref=e429]: Standard Pack (200g)
+          - generic [ref=e430]:
+            - generic [ref=e431]:
+              - generic [ref=e432]: ₹3.49
+              - generic [ref=e433]: ₹4.29
+            - button "Add Chocolate Chip Cookies (200g) to Cart" [ref=e434]
+      - generic [ref=e436] [cursor=pointer]:
+        - generic [ref=e437]:
+          - img "Organic Bananas (Bunch)" [ref=e438]
+          - button "Add to Wishlist" [ref=e439]
+          - generic [ref=e442]: Fresh
+        - generic [ref=e443]:
+          - heading "Organic Bananas (Bunch)" [level=3] [ref=e444]
+          - generic [ref=e445]: Standard bunch
+          - generic [ref=e446]:
+            - generic [ref=e447]:
+              - generic [ref=e448]: ₹1.99
+              - generic [ref=e449]: ₹2.49
+            - button "Add Organic Bananas (Bunch) to Cart" [ref=e450]
+  - generic [ref=e455]:
+    - generic [ref=e456]:
+      - generic [ref=e457]: Special Weekly Deal
+      - heading "Gourmet Fresh Fruit & Cheese Gift Basket" [level=2] [ref=e459]
+      - paragraph [ref=e460]: Artisan cheeses paired with handpicked organic grapes, strawberries, and crisp apples in a beautiful woven gift basket. Available this week only.
+      - generic [ref=e461]:
+        - generic [ref=e462]:
+          - generic [ref=e463]: "02"
+          - generic [ref=e464]: Days
+        - generic [ref=e465]:
+          - generic [ref=e466]: "03"
+          - generic [ref=e467]: Hours
+        - generic [ref=e468]:
+          - generic [ref=e469]: "59"
+          - generic [ref=e470]: Mins
+        - generic [ref=e471]:
+          - generic [ref=e472]: "55"
+          - generic [ref=e473]: Secs
+      - button "Claim Offer • ₹399" [ref=e475] [cursor=pointer]
+    - generic [ref=e478]:
+      - img "Gourmet Gift Basket close up" [ref=e479]
+      - generic [ref=e480]:
+        - generic [ref=e481]: 15%
+        - generic [ref=e482]: "OFF"
+  - contentinfo [ref=e483]:
+    - generic [ref=e484]:
+      - generic [ref=e485]:
+        - generic [ref=e486]:
+          - link "G Mart" [ref=e487] [cursor=pointer]:
+            - /url: "#hero"
+          - paragraph [ref=e493]: Fresh organic groceries & essentials delivered fast.
+        - generic [ref=e494]:
+          - generic [ref=e495]: "Categories:"
+          - generic [ref=e496]:
+            - link "🥨 Snacks" [ref=e497] [cursor=pointer]:
+              - /url: "#products"
+            - link "🛒 Groceries" [ref=e498] [cursor=pointer]:
+              - /url: "#products"
+            - link "🥤 Drinks" [ref=e499] [cursor=pointer]:
+              - /url: "#products"
+            - link "🧺 Laundry Essentials" [ref=e500] [cursor=pointer]:
+              - /url: "#products"
+            - link "🥬 Organic Farms" [ref=e501] [cursor=pointer]:
+              - /url: "#products"
+      - generic [ref=e502]:
+        - generic [ref=e503]:
+          - generic [ref=e504]: "Customer Care:"
+          - generic [ref=e505]:
+            - link "🚚 Track Order" [ref=e506] [cursor=pointer]:
+              - /url: "#"
+            - link "📦 Shipping Details" [ref=e507] [cursor=pointer]:
+              - /url: "#"
+            - link "🔄 Returns & Refunds" [ref=e508] [cursor=pointer]:
+              - /url: "#"
+            - link "🛡️ Freshness Guarantee" [ref=e509] [cursor=pointer]:
+              - /url: "#"
+            - link "💬 Help & Support" [ref=e510] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=e511]:
+          - generic [ref=e512]: 📞 +91 98765 43210
+          - generic [ref=e513]: •
+          - generic [ref=e514]: ✉️ support@gmartgrocery.com
+          - generic [ref=e515]: •
+          - generic [ref=e516]: 📍 Talwandi Sabo, Punjab, 151302
+      - generic [ref=e517]:
+        - paragraph [ref=e518]: © 2026 G Mart Marketplace. All Rights Reserved. Freshness on demand.
+        - generic [ref=e519]:
+          - link "Facebook" [ref=e520] [cursor=pointer]:
+            - /url: "#"
+          - link "Instagram" [ref=e523] [cursor=pointer]:
+            - /url: "#"
+          - link "Twitter" [ref=e527] [cursor=pointer]:
+            - /url: "#"
+  - generic [ref=e530]:
+    - generic [ref=e531]:
+      - generic [ref=e532]:
+        - heading "Your Cart" [level=2] [ref=e536]
+        - generic [ref=e537]: "0"
+      - button "Close Cart" [ref=e538] [cursor=pointer]
+    - generic [ref=e543]:
+      - generic [ref=e544]: 🛒
+      - heading "Your cart is empty" [level=3] [ref=e545]
+      - paragraph [ref=e546]: Add fresh organic produce and snacks to get started!

@@ -7,9 +7,12 @@ import { AppError } from '../middleware/errorHandler';
 const ACCESS_TOKEN_EXPIRY = '15m';
 const REFRESH_TOKEN_EXPIRY_DAYS = 7;
 
+const ACCESS_SECRET = process.env.JWT_ACCESS_SECRET || 'megamart_jwt_access_secret_super_secure_key_2026';
+const REFRESH_SECRET = process.env.JWT_REFRESH_SECRET || 'megamart_jwt_refresh_secret_super_secure_key_2026';
+
 // Helper to sign access token
 const generateAccessToken = (userId: string, role: string): string => {
-  return jwt.sign({ userId, role }, process.env.JWT_ACCESS_SECRET!, {
+  return jwt.sign({ userId, role }, ACCESS_SECRET, {
     expiresIn: ACCESS_TOKEN_EXPIRY,
   });
 };
@@ -18,7 +21,7 @@ const generateAccessToken = (userId: string, role: string): string => {
 const generateRefreshToken = (userId: string): string => {
   return jwt.sign(
     { userId, salt: Math.random().toString(36).substring(2) },
-    process.env.JWT_REFRESH_SECRET!,
+    REFRESH_SECRET,
     { expiresIn: `${REFRESH_TOKEN_EXPIRY_DAYS}d` }
   );
 };

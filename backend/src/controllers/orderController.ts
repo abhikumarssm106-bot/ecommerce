@@ -64,7 +64,7 @@ export const createOrder = async (req: Request, res: Response, next: NextFunctio
           data: { stock: variant.stock - item.quantity },
         });
 
-        const unitPrice = variant.price.toNumber();
+        const unitPrice = Number(variant.price);
         const totalPrice = unitPrice * item.quantity;
         subtotal += totalPrice;
 
@@ -72,11 +72,11 @@ export const createOrder = async (req: Request, res: Response, next: NextFunctio
           productId: item.productId,
           variantId: item.variantId,
           productName: item.variant.product.name,
-          variantDetails: {
+          variantDetails: JSON.stringify({
             size: item.variant.size,
             color: item.variant.color,
             sku: item.variant.sku,
-          },
+          }),
           quantity: item.quantity,
           unitPrice,
           totalPrice,
@@ -96,13 +96,13 @@ export const createOrder = async (req: Request, res: Response, next: NextFunctio
           coupon.isActive &&
           coupon.expiresAt > new Date() &&
           coupon.currentUsageCount < coupon.maxUsageCount &&
-          subtotal >= coupon.minOrderAmount.toNumber()
+          subtotal >= Number(coupon.minOrderAmount)
         ) {
           couponId = coupon.id;
           if (coupon.type === 'PERCENTAGE') {
-            discount = subtotal * (coupon.value.toNumber() / 100);
+            discount = subtotal * (Number(coupon.value) / 100);
           } else {
-            discount = coupon.value.toNumber();
+            discount = Number(coupon.value);
           }
           discount = Math.min(discount, subtotal); // Cannot discount more than subtotal
 

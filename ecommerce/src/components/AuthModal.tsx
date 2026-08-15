@@ -55,7 +55,14 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, showToast
         setIsLogin(true);
       }
     } catch (err: any) {
-      const msg = err.response?.data?.error?.message || 'Something went wrong. Please try again.';
+      let msg = err.response?.data?.error?.message || 'Something went wrong. Please try again.';
+      if (
+        err.response?.data?.error?.details &&
+        Array.isArray(err.response.data.error.details) &&
+        err.response.data.error.details.length > 0
+      ) {
+        msg = err.response.data.error.details.map((d: any) => d.issue || d.message).join(' • ');
+      }
       setErrorMessage(msg);
       showToast(msg, false);
     } finally {

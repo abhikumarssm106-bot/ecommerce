@@ -5,7 +5,7 @@ import { AppError } from '../middleware/errorHandler';
 // Helper to calculate cart sums
 const calculateCartTotals = (items: any[]) => {
   const subtotal = items.reduce((sum, item) => {
-    const price = item.variant.price.toNumber();
+    const price = Number(item.variant.price);
     return sum + price * item.quantity;
   }, 0);
 
@@ -58,7 +58,7 @@ export const getCart = async (req: Request, res: Response, next: NextFunction) =
     }
 
     const items = (cart?.items || []).map((item: any) => {
-      const price = item.variant.price.toNumber();
+      const price = Number(item.variant.price);
       const primaryImage = item.variant.product.images[0]?.url || '';
 
       return {

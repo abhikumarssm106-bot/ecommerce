@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useCart } from '../context/CartContext';
 import type { Product, Variant } from '../types';
-import { ArrowLeft, ShoppingBag, Star } from 'lucide-react';
+import { ArrowLeft, ShoppingBag } from 'lucide-react';
+import { formatINR } from '../utils/formatCurrency';
 
 const getFilterStyle = (styleStr?: string): React.CSSProperties | undefined => {
   if (!styleStr) return undefined;
@@ -169,7 +170,7 @@ export const ProductDetails: React.FC<ProductDetailsProps> = ({ products }) => {
       if (item) bundleOldSum += item.price;
     });
   }
-  const bundlePrice = product.bundle ? (bundleOldSum * (1 - product.bundle.discount)).toFixed(2) : '0.00';
+  const bundlePrice = product.bundle ? (bundleOldSum * (1 - product.bundle.discount)) : 0;
 
   const cartTotalQty = cart.reduce((sum, item) => sum + item.qty, 0);
 
@@ -204,6 +205,13 @@ export const ProductDetails: React.FC<ProductDetailsProps> = ({ products }) => {
                   id="pdpMainImage"
                   src={activeImage}
                   alt={product.name}
+                  referrerPolicy="no-referrer"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    if (!target.src.includes('unsplash')) {
+                      target.src = 'https://images.unsplash.com/photo-1542838132-92c53300491e?w=400&q=80';
+                    }
+                  }}
                   style={getFilterStyle(activeImageStyle)}
                 />
                 {product.badge && (
@@ -223,6 +231,13 @@ export const ProductDetails: React.FC<ProductDetailsProps> = ({ products }) => {
                     <img
                       src={t.url}
                       alt={`Thumbnail ${idx + 1}`}
+                      referrerPolicy="no-referrer"
+                      onError={(e) => {
+                        const target = e.target as HTMLImageElement;
+                        if (!target.src.includes('unsplash')) {
+                          target.src = 'https://images.unsplash.com/photo-1542838132-92c53300491e?w=400&q=80';
+                        }
+                      }}
                       style={getFilterStyle(t.style)}
                     />
                   </button>
@@ -239,10 +254,10 @@ export const ProductDetails: React.FC<ProductDetailsProps> = ({ products }) => {
               
               {/* Pricing */}
               <div className="pdp-price-row">
-                <span className="pdp-price" id="pdpPrice">${activePrice.toFixed(2)}</span>
+                <span className="pdp-price" id="pdpPrice">{formatINR(activePrice)}</span>
                 {originalPrice && (
                   <>
-                    <span className="pdp-price-old" id="pdpOldPrice">${originalPrice.toFixed(2)}</span>
+                    <span className="pdp-price-old" id="pdpOldPrice">{formatINR(originalPrice)}</span>
                     <span className="pdp-discount-badge" id="pdpDiscount">{discountPercent}% OFF</span>
                   </>
                 )}
@@ -253,7 +268,7 @@ export const ProductDetails: React.FC<ProductDetailsProps> = ({ products }) => {
                 <h3>Select Pack Size / Variant</h3>
                 <div className="pdp-variants-grid" id="pdpVariants">
                   {product.variants.map((v, idx) => {
-                    const diffText = v.priceOffset > 0 ? ` (+ $${v.priceOffset.toFixed(2)})` : '';
+                    const diffText = v.priceOffset > 0 ? ` (+ ${formatINR(v.priceOffset)})` : '';
                     return (
                       <button
                         key={idx}
@@ -284,7 +299,7 @@ export const ProductDetails: React.FC<ProductDetailsProps> = ({ products }) => {
                   <button className="pdp-qty-btn" onClick={() => setCurrentQty(q => q + 1)} aria-label="Increase Quantity">+</button>
                 </div>
                 <button className="btn-primary" onClick={handleAddToCart} style={{ flex: 1, color: '#ffffff' }}>
-                  Add to Cart
+                  Add to Cart ({formatINR(activePrice * currentQty)})
                 </button>
                 <button className="btn-ghost" onClick={handleBuyNow}>
                   Buy Now
@@ -376,7 +391,7 @@ export const ProductDetails: React.FC<ProductDetailsProps> = ({ products }) => {
                       <div className="pdp-bundle-item-card">
                         <img src={product.image} alt={product.name} style={getFilterStyle(product.imageStyle)} />
                         <span className="pdp-bundle-item-name">{product.name}</span>
-                        <span className="pdp-bundle-item-price">${product.price.toFixed(2)}</span>
+                        <span className="pdp-bundle-item-price">{formatINR(product.price)}</span>
                       </div>
                       
                       {/* Plus symbols and combo items */}
@@ -389,7 +404,7 @@ export const ProductDetails: React.FC<ProductDetailsProps> = ({ products }) => {
                             <div className="pdp-bundle-item-card">
                               <img src={itemInfo.image} alt={itemInfo.name} style={getFilterStyle(itemInfo.imageStyle)} />
                               <span className="pdp-bundle-item-name">{itemInfo.name}</span>
-                              <span className="pdp-bundle-item-price">${itemInfo.price.toFixed(2)}</span>
+                              <span className="pdp-bundle-item-price">{formatINR(itemInfo.price)}</span>
                             </div>
                           </React.Fragment>
                         );
@@ -400,55 +415,20 @@ export const ProductDetails: React.FC<ProductDetailsProps> = ({ products }) => {
                       <div className="pdp-bundle-price">
                         <span className="bundle-label">Bundle Price:</span>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                          <span className="bundle-price-val" id="pdpBundleTotal">${bundlePrice}</span>
-                          <span className="bundle-price-old" id="pdpBundleOldTotal">${bundleOldSum.toFixed(2)}</span>
+                          <span className="bundle-price-val" id="pdpBundleTotal">{formatINR(bundlePrice)}</span>
+                          <span className="bundle-price-old" id="pdpBundleOldTotal">{formatINR(bundleOldSum)}</span>
                         </div>
                         <span className="bundle-savings" id="pdpBundleSavings">
                           Save {Math.round(product.bundle.discount * 100)}% on Combo Bundle!
                         </span>
                       </div>
                       <button className="btn-primary" onClick={handleAddBundle} style={{ fontSize: '0.85rem', padding: '10px 20px', color: '#ffffff' }}>
-                        Add Bundle
+                        Add Bundle ({formatINR(bundlePrice)})
                       </button>
                     </div>
                   </div>
                 </div>
               )}
-
-              {/* Customer Reviews */}
-              <div className="pdp-section pdp-reviews-section">
-                <h3>Ratings & Customer Reviews</h3>
-                <div className="pdp-rating-summary">
-                  <div className="rating-number-big" id="pdpRatingBig">4.9</div>
-                  <div>
-                    <div className="stars" id="pdpStarsSummary" style={{ display: 'flex', gap: '2px', fontSize: '1.25rem' }}>
-                      {[...Array(5)].map((_, i) => (
-                        <Star key={i} className="star fill" size={18} style={{ fill: 'var(--clr-accent)', stroke: 'var(--clr-accent)' }} />
-                      ))}
-                    </div>
-                    <span style={{ fontSize: '0.85rem', color: 'var(--clr-text-secondary)' }} id="pdpReviewsCount">
-                      Based on {product.reviews.length * 60 + 4} reviews
-                    </span>
-                  </div>
-                </div>
-                
-                <div className="pdp-reviews-list" id="pdpReviewsList">
-                  {product.reviews.map((r, idx) => (
-                    <div className="pdp-review-card" key={idx}>
-                      <div className="pdp-review-header">
-                        <span className="pdp-reviewer-name">{r.name}</span>
-                        <span className="pdp-review-date">{r.date}</span>
-                      </div>
-                      <div className="stars" style={{ display: 'flex', gap: '2px', marginBottom: '6px' }}>
-                        {[...Array(r.rating)].map((_, i) => (
-                          <Star key={i} className="star fill" size={12} style={{ fill: 'var(--clr-accent)', stroke: 'var(--clr-accent)' }} />
-                        ))}
-                      </div>
-                      <p className="pdp-review-text">"{r.text}"</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
 
               {/* Related Products */}
               <div className="pdp-section pdp-related-section">
@@ -478,9 +458,9 @@ export const ProductDetails: React.FC<ProductDetailsProps> = ({ products }) => {
                           </h3>
                           <span className="product-weight" style={{ fontSize: '0.65rem' }}>{relInfo.weight.split(' ')[0]}</span>
                           <div className="product-price-row" style={{ marginTop: '4px' }}>
-                            <span className="product-price" style={{ fontSize: '0.85rem' }}>${relInfo.price.toFixed(2)}</span>
+                            <span className="product-price" style={{ fontSize: '0.85rem' }}>{formatINR(relInfo.price)}</span>
                             {relInfo.oldPrice && (
-                              <span className="product-price-old">${relInfo.oldPrice.toFixed(2)}</span>
+                              <span className="product-price-old">{formatINR(relInfo.oldPrice)}</span>
                             )}
                           </div>
                         </div>
@@ -503,11 +483,11 @@ export const ProductDetails: React.FC<ProductDetailsProps> = ({ products }) => {
           </span>
           <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
             <span className="pdp-mobile-price" id="pdpMobilePrice">
-              ${(activePrice * currentQty).toFixed(2)}
+              {formatINR(activePrice * currentQty)}
             </span>
             {originalPrice && (
               <span className="pdp-mobile-old-price" id="pdpMobileOldPrice">
-                ${(originalPrice * currentQty).toFixed(2)}
+                {formatINR(originalPrice * currentQty)}
               </span>
             )}
           </div>
@@ -518,8 +498,8 @@ export const ProductDetails: React.FC<ProductDetailsProps> = ({ products }) => {
             <span className="pdp-qty-value" id="pdpMobileQtyValue">{currentQty}</span>
             <button className="pdp-qty-btn" onClick={() => setCurrentQty(q => q + 1)} aria-label="Increase Quantity">+</button>
           </div>
-          <button className="btn-primary" onClick={handleAddToCart} style={{ padding: '12px 24px', fontSize: '0.9rem', boxShadow: 'none', strokeWidth: 0, whiteSpace: 'nowrap', color: '#ffffff' }}>
-            Add to Cart
+          <button className="btn-primary" onClick={handleAddToCart} style={{ padding: '12px 20px', fontSize: '0.9rem', boxShadow: 'none', strokeWidth: 0, whiteSpace: 'nowrap', color: '#ffffff' }}>
+            Add ({formatINR(activePrice * currentQty)})
           </button>
         </div>
       </div>

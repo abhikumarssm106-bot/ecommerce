@@ -1,0 +1,162 @@
+- generic [ref=f2e3]:
+  - navigation [ref=f2e4]:
+    - generic [ref=f2e5]:
+      - link "G Mart" [ref=f2e6] [cursor=pointer]:
+        - /url: "#home"
+      - generic [ref=f2e12]:
+        - button "Search" [ref=f2e13] [cursor=pointer]
+        - button "Wishlist" [ref=f2e17] [cursor=pointer]
+        - button "Account" [ref=f2e21] [cursor=pointer]
+        - button "Cart" [ref=f2e25] [cursor=pointer]
+        - button "Menu" [ref=f2e29] [cursor=pointer]
+  - generic [ref=f2e32]:
+    - generic [ref=f2e34]:
+      - generic [ref=f2e35]:
+        - button "Back to Categories" [ref=f2e315] [cursor=pointer]
+        - generic [ref=f2e39]:
+          - text: CATEGORIES
+          - heading "Snacks & Munchies" [level=1] [ref=f2e316]
+      - textbox "Search in Snacks & Munchies..." [ref=f2e317]
+    - generic [ref=f2e318]:
+      - generic [ref=f2e319]:
+        - generic [ref=f2e320]: Trending
+        - heading "Snacks & Munchies" [level=2] [ref=f2e324]
+        - paragraph [ref=f2e325]: Crispy potato chips, nachos, wafers & namkeen
+      - generic [ref=f2e326]:
+        - generic [ref=f2e327]: "Filter by Sub-Department:"
+        - generic [ref=f2e329]:
+          - generic [ref=f2e330] [cursor=pointer]: All Snacks
+          - generic [ref=f2e332] [cursor=pointer]:
+            - generic [ref=f2e333]: Chips, Crisps & Nachos
+            - generic [ref=f2e334]: Crunchy
+          - generic [ref=f2e335] [cursor=pointer]: Traditional Namkeen & Bhujia
+          - generic [ref=f2e337] [cursor=pointer]: Popcorn & Puffs
+      - generic [ref=f2e340]:
+        - heading "Popular in Snacks & Munchies" [level=3] [ref=f2e341]
+        - generic [ref=f2e342]: Showing 3 certified items
+      - generic [ref=f2e343]:
+        - generic [ref=f2e344] [cursor=pointer]:
+          - generic [ref=f2e345]:
+            - img "Fresh Red Apples (1kg)" [ref=f2e346]
+            - button "Add to Wishlist" [ref=f2e347]
+            - generic [ref=f2e350]: Bestseller
+          - generic [ref=f2e351]:
+            - heading "Fresh Red Apples (1kg)" [level=3] [ref=f2e352]
+            - generic [ref=f2e353]: Standard Pack (1kg)
+            - generic [ref=f2e354]:
+              - generic [ref=f2e355]:
+                - generic [ref=f2e356]: ₹2.99
+                - generic [ref=f2e357]: ₹3.49
+              - button "Add Fresh Red Apples (1kg) to Cart" [ref=f2e358]
+        - generic [ref=f2e360] [cursor=pointer]:
+          - generic [ref=f2e361]:
+            - img "Chocolate Chip Cookies (200g)" [ref=f2e362]
+            - button "Add to Wishlist" [ref=f2e363]
+            - generic [ref=f2e366]: Sale
+          - generic [ref=f2e367]:
+            - heading "Chocolate Chip Cookies (200g)" [level=3] [ref=f2e368]
+            - generic [ref=f2e369]: Standard Pack (200g)
+            - generic [ref=f2e370]:
+              - generic [ref=f2e371]:
+                - generic [ref=f2e372]: ₹3.49
+                - generic [ref=f2e373]: ₹4.29
+              - button "Add Chocolate Chip Cookies (200g) to Cart" [ref=f2e374]
+        - generic [ref=f2e376] [cursor=pointer]:
+          - generic [ref=f2e377]:
+            - img "Organic Bananas (Bunch)" [ref=f2e378]
+            - button "Add to Wishlist" [ref=f2e379]
+            - generic [ref=f2e382]: Fresh
+          - generic [ref=f2e383]:
+            - heading "Organic Bananas (Bunch)" [level=3] [ref=f2e384]
+            - generic [ref=f2e385]: Standard bunch
+            - generic [ref=f2e386]:
+              - generic [ref=f2e387]:
+                - generic [ref=f2e388]: ₹1.99
+                - generic [ref=f2e389]: ₹2.49
+              - button "Add Organic Bananas (Bunch) to Cart" [ref=f2e390]
+      - generic [ref=f2e392]:
+        - heading "Explore Other Departments" [level=4] [ref=f2e393]
+        - generic [ref=f2e394]:
+          - button "Fruits & Vegetables" [ref=f2e395] [cursor=pointer]
+          - button "Dairy, Bread & Eggs" [ref=f2e406] [cursor=pointer]
+          - button "Bakery & Biscuits" [ref=f2e413] [cursor=pointer]
+          - button "Breakfast & Instant" [ref=f2e417] [cursor=pointer]
+          - button "Tea, Coffee & More" [ref=f2e422] [cursor=pointer]
+          - button "Cold Drinks & Juices" [ref=f2e426] [cursor=pointer]
+          - button "Sweet Tooth & Desserts" [ref=f2e430] [cursor=pointer]
+          - button "Atta, Rice & Dal" [ref=f2e434] [cursor=pointer]
+          - button "Masala, Oil & Spices" [ref=f2e439] [cursor=pointer]
+          - button "Sauces & Spreads" [ref=f2e444] [cursor=pointer]
+          - button "Chicken, Meat & Fish" [ref=f2e449] [cursor=pointer]
+          - button "Organic & Healthy" [ref=f2e460] [cursor=pointer]
+          - button "Paan Corner" [ref=f2e471] [cursor=pointer]
+          - button "Baby Care" [ref=f2e475] [cursor=pointer]
+          - button "Pharma & Wellness" [ref=f2e480] [cursor=pointer]
+          - button "Cleaning Essentials" [ref=f2e485] [cursor=pointer]
+          - button "Home & Office" [ref=f2e490] [cursor=pointer]
+          - button "Personal Care" [ref=f2e495] [cursor=pointer]
+          - button "Smart Tech & Gadgets" [ref=f2e500] [cursor=pointer]
+  - contentinfo [ref=f2e227]:
+    - generic [ref=f2e228]:
+      - generic [ref=f2e229]:
+        - generic [ref=f2e230]:
+          - link "G Mart" [ref=f2e231] [cursor=pointer]:
+            - /url: "#hero"
+          - paragraph [ref=f2e237]: Fresh organic groceries & essentials delivered fast.
+        - generic [ref=f2e238]:
+          - generic [ref=f2e239]: "Categories:"
+          - generic [ref=f2e240]:
+            - link "🥨 Snacks" [ref=f2e241] [cursor=pointer]:
+              - /url: "#products"
+            - link "🛒 Groceries" [ref=f2e242] [cursor=pointer]:
+              - /url: "#products"
+            - link "🥤 Drinks" [ref=f2e243] [cursor=pointer]:
+              - /url: "#products"
+            - link "🧺 Laundry Essentials" [ref=f2e244] [cursor=pointer]:
+              - /url: "#products"
+            - link "🥬 Organic Farms" [ref=f2e245] [cursor=pointer]:
+              - /url: "#products"
+      - generic [ref=f2e246]:
+        - generic [ref=f2e247]:
+          - generic [ref=f2e248]: "Customer Care:"
+          - generic [ref=f2e249]:
+            - link "🚚 Track Order" [ref=f2e250] [cursor=pointer]:
+              - /url: "#"
+            - link "📦 Shipping Details" [ref=f2e251] [cursor=pointer]:
+              - /url: "#"
+            - link "🔄 Returns & Refunds" [ref=f2e252] [cursor=pointer]:
+              - /url: "#"
+            - link "🛡️ Freshness Guarantee" [ref=f2e253] [cursor=pointer]:
+              - /url: "#"
+            - link "💬 Help & Support" [ref=f2e254] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=f2e255]:
+          - generic [ref=f2e256]: 📞 +91 98765 43210
+          - generic [ref=f2e257]: •
+          - generic [ref=f2e258]: ✉️ support@gmartgrocery.com
+          - generic [ref=f2e259]: •
+          - generic [ref=f2e260]: 📍 Talwandi Sabo, Punjab, 151302
+      - generic [ref=f2e261]:
+        - paragraph [ref=f2e262]: © 2026 G Mart Marketplace. All Rights Reserved. Freshness on demand.
+        - generic [ref=f2e263]:
+          - link "Facebook" [ref=f2e264] [cursor=pointer]:
+            - /url: "#"
+          - link "Instagram" [ref=f2e267] [cursor=pointer]:
+            - /url: "#"
+          - link "Twitter" [ref=f2e271] [cursor=pointer]:
+            - /url: "#"
+  - generic [ref=f2e274]:
+    - generic [ref=f2e275]:
+      - generic [ref=f2e276]:
+        - heading "Your Cart" [level=2] [ref=f2e280]
+        - generic [ref=f2e281]: "0"
+      - button "Close Cart" [ref=f2e282] [cursor=pointer]
+    - generic [ref=f2e287]:
+      - generic [ref=f2e288]: 🛒
+      - heading "Your cart is empty" [level=3] [ref=f2e289]
+      - paragraph [ref=f2e290]: Add fresh organic produce and snacks to get started!
+  - generic [ref=f2e292]:
+    - generic [ref=f2e293] [cursor=pointer]: Home
+    - generic [ref=f2e298] [cursor=pointer]: Categories
+    - generic [ref=f2e305] [cursor=pointer]: Wishlist
+    - generic [ref=f2e309] [cursor=pointer]: Offers

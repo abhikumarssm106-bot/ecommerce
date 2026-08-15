@@ -1,4 +1,4 @@
-import { PrismaClient, Role } from '@prisma/client';
+import { PrismaClient } from '@prisma/client';
 import bcrypt from 'bcryptjs';
 
 const prisma = new PrismaClient();
@@ -34,7 +34,7 @@ async function main() {
       firstName: 'Super',
       lastName: 'Admin',
       phone: '+919999999999',
-      role: Role.SUPER_ADMIN,
+      role: 'SUPER_ADMIN',
       isEmailVerified: true,
     },
   });
@@ -46,7 +46,7 @@ async function main() {
       firstName: 'Kavita',
       lastName: 'Sharma',
       phone: '+919876543210',
-      role: Role.ADMIN,
+      role: 'ADMIN',
       isEmailVerified: true,
     },
   });
@@ -58,7 +58,7 @@ async function main() {
       firstName: 'Rohan',
       lastName: 'Malhotra',
       phone: '+919876543211',
-      role: Role.CUSTOMER,
+      role: 'CUSTOMER',
       isEmailVerified: true,
     },
   });

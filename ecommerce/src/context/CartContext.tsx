@@ -234,14 +234,13 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   // Add to Recently Viewed (stored locally)
   const addToRecentlyViewed = (productId: string) => {
-    let newRecently = [...recentlyViewed];
-    newRecently = newRecently.filter((id) => id !== productId);
-    newRecently.unshift(productId);
-    if (newRecently.length > 5) {
-      newRecently.pop();
-    }
-    setRecentlyViewed(newRecently);
-    localStorage.setItem('gmart_recently_viewed', JSON.stringify(newRecently));
+    if (!productId) return;
+    setRecentlyViewed((prev) => {
+      const filtered = prev.filter((id) => id !== productId);
+      const updated = [productId, ...filtered].slice(0, 10);
+      localStorage.setItem('gmart_recently_viewed', JSON.stringify(updated));
+      return updated;
+    });
   };
 
   return (

@@ -1,0 +1,257 @@
+- generic [ref=f2e3]:
+  - navigation [ref=f2e4]:
+    - generic [ref=f2e5]:
+      - link [ref=f2e6] [cursor=pointer]:
+        - /url: "#hero"
+      - generic [ref=f2e11]:
+        - button "Search Products" [ref=f2e12] [cursor=pointer]
+        - button "Open Wishlist" [ref=f2e16] [cursor=pointer]
+        - button "Account" [ref=f2e20] [cursor=pointer]
+        - button "Open Cart" [ref=f2e24] [cursor=pointer]:
+          - generic: "0"
+        - button "Toggle Menu" [ref=f2e28] [cursor=pointer]
+  - generic [ref=f2e312]:
+    - generic [ref=f2e314]:
+      - generic [ref=f2e315]:
+        - heading "Explore Aisles & Categories" [level=1] [ref=f2e316]
+        - generic [ref=f2e317]: Over 900+ curated farm essentials & daily needs
+      - button "Search Categories" [ref=f2e319] [cursor=pointer]
+    - generic [ref=f2e324]:
+      - generic [ref=f2e326]:
+        - generic [ref=f2e327]: Mega Fresh Harvest Festival
+        - heading "Farm-Picked Quality at Direct Wholesale Prices" [level=2] [ref=f2e331]
+        - paragraph [ref=f2e332]: Get up to 45% discount on certified organic greens, fruits, cold-pressed oils & dairy.
+        - button "Explore Fresh Produce" [ref=f2e333] [cursor=pointer]
+      - generic [ref=f2e336]:
+        - button "All Departments (9)" [ref=f2e337] [cursor=pointer]
+        - button "🌿 Farm & Organic" [ref=f2e338] [cursor=pointer]
+        - button "🌾 Daily Staples" [ref=f2e339] [cursor=pointer]
+        - button "🥨 Snack Munchies" [ref=f2e340] [cursor=pointer]
+        - button "🥤 Cold Drinks & Tea" [ref=f2e341] [cursor=pointer]
+      - generic [ref=f2e342]:
+        - generic [ref=f2e343] [cursor=pointer]:
+          - generic [ref=f2e344]: 100% Organic
+          - generic [ref=f2e356]:
+            - heading "Fresh Farm Produce" [level=3] [ref=f2e357]
+            - paragraph [ref=f2e358]: Organic fruits, green vegetables & seasonal harvests
+          - generic [ref=f2e359]:
+            - generic [ref=f2e360]: Exotic & Seasonal Fruits
+            - generic [ref=f2e361]: Daily Green Vegetables
+            - generic [ref=f2e362]: Fresh Herbs & Seasonings
+            - generic [ref=f2e363]: +1 more
+          - generic [ref=f2e364]:
+            - generic [ref=f2e365]: 24+ Items available
+            - generic [ref=f2e369]: Browse Department
+        - generic [ref=f2e372] [cursor=pointer]:
+          - generic [ref=f2e373]: Best Value
+          - generic [ref=f2e379]:
+            - heading "Pantry & Grocery Staples" [level=3] [ref=f2e380]
+            - paragraph [ref=f2e381]: Atta, premium basmati rice, dals & cold-pressed oils
+          - generic [ref=f2e382]:
+            - generic [ref=f2e383]: Atta, Flours & Rice
+            - generic [ref=f2e384]: Dals & Organic Pulses
+            - generic [ref=f2e385]: Cooking Oils & Pure Ghee
+            - generic [ref=f2e386]: +2 more
+          - generic [ref=f2e387]:
+            - generic [ref=f2e388]: 38+ Items available
+            - generic [ref=f2e392]: Browse Department
+        - generic [ref=f2e395] [cursor=pointer]:
+          - generic [ref=f2e396]: Chilled Daily
+          - generic [ref=f2e404]:
+            - heading "Dairy, Eggs & Breakfast" [level=3] [ref=f2e405]
+            - paragraph [ref=f2e406]: Farm fresh milk, artisanal cheese, curd & butter
+          - generic [ref=f2e407]:
+            - generic [ref=f2e408]: Pasteurized & Whole Milk
+            - generic [ref=f2e409]: Paneer, Butter & Cheese
+            - generic [ref=f2e410]: Farm Brown & White Eggs
+            - generic [ref=f2e411]: +1 more
+          - generic [ref=f2e412]:
+            - generic [ref=f2e413]: 19+ Items available
+            - generic [ref=f2e417]: Browse Department
+        - generic [ref=f2e420] [cursor=pointer]:
+          - generic [ref=f2e421]: Trending
+          - generic [ref=f2e426]:
+            - heading "Gourmet Snacks & Munchies" [level=3] [ref=f2e427]
+            - paragraph [ref=f2e428]: Crispy potato chips, Belgian cookies & namkeen
+          - generic [ref=f2e429]:
+            - generic [ref=f2e430]: Chips, Crisps & Nachos
+            - generic [ref=f2e431]: Artisan Cookies & Biscuits
+            - generic [ref=f2e432]: Traditional Namkeen & Bhujia
+            - generic [ref=f2e433]: +1 more
+          - generic [ref=f2e434]:
+            - generic [ref=f2e435]: 32+ Items available
+            - generic [ref=f2e439]: Browse Department
+        - generic [ref=f2e442] [cursor=pointer]:
+          - generic [ref=f2e443]: Refreshing
+          - generic [ref=f2e448]:
+            - heading "Beverages, Juices & Cafe" [level=3] [ref=f2e449]
+            - paragraph [ref=f2e450]: Cold-pressed juices, organic teas, sodas & coffees
+          - generic [ref=f2e451]:
+            - generic [ref=f2e452]: Cold-Pressed Fruit Juices
+            - generic [ref=f2e453]: Gourmet Teas & Roast Coffee
+            - generic [ref=f2e454]: Sparkling Sodas & Energy Drinks
+            - generic [ref=f2e455]: +1 more
+          - generic [ref=f2e456]:
+            - generic [ref=f2e457]: 26+ Items available
+            - generic [ref=f2e461]: Browse Department
+        - generic [ref=f2e464] [cursor=pointer]:
+          - generic [ref=f2e465]: Self Care
+          - generic [ref=f2e471]:
+            - heading "Personal Care & Wellness" [level=3] [ref=f2e472]
+            - paragraph [ref=f2e473]: Dermatological skincare, haircare & hygiene essentials
+          - generic [ref=f2e474]:
+            - generic [ref=f2e475]: Face Wash & Skincare
+            - generic [ref=f2e476]: Shampoos & Hair Oils
+            - generic [ref=f2e477]: Body Lotions & Bath Essentials
+            - generic [ref=f2e478]: +1 more
+          - generic [ref=f2e479]:
+            - generic [ref=f2e480]: 22+ Items available
+            - generic [ref=f2e484]: Browse Department
+        - generic [ref=f2e487] [cursor=pointer]:
+          - generic [ref=f2e488]: Sparkling Clean
+          - generic [ref=f2e494]:
+            - heading "Home Care & Cleaning" [level=3] [ref=f2e495]
+            - paragraph [ref=f2e496]: Eco detergents, surface cleaners, air fresheners & bags
+          - generic [ref=f2e497]:
+            - generic [ref=f2e498]: Liquid Detergents & Softeners
+            - generic [ref=f2e499]: Dishwash & Surface Sprays
+            - generic [ref=f2e500]: Air Fresheners & Aromas
+            - generic [ref=f2e501]: +1 more
+          - generic [ref=f2e502]:
+            - generic [ref=f2e503]: 18+ Items available
+            - generic [ref=f2e507]: Browse Department
+        - generic [ref=f2e510] [cursor=pointer]:
+          - generic [ref=f2e511]: Chef Choice
+          - generic [ref=f2e519]:
+            - heading "Kitchenware & Table Essentials" [level=3] [ref=f2e520]
+            - paragraph [ref=f2e521]: Non-stick pans, food storage containers & serveware
+          - generic [ref=f2e522]:
+            - generic [ref=f2e523]: Non-Stick Pans & Cookers
+            - generic [ref=f2e524]: Glass & Airtight Storage Jars
+            - generic [ref=f2e525]: Chef Knives & Serving Tools
+            - generic [ref=f2e526]: +1 more
+          - generic [ref=f2e527]:
+            - generic [ref=f2e528]: 16+ Items available
+            - generic [ref=f2e532]: Browse Department
+        - generic [ref=f2e535] [cursor=pointer]:
+          - generic [ref=f2e536]: 1-Year Warranty
+          - generic [ref=f2e541]:
+            - heading "Smart Tech & Gadgets" [level=3] [ref=f2e542]
+            - paragraph [ref=f2e543]: Wireless earbuds, fast chargers, smart cables & accessories
+          - generic [ref=f2e544]:
+            - generic [ref=f2e545]: True Wireless Earbuds & Audio
+            - generic [ref=f2e546]: Fast Chargers & Braided Cables
+            - generic [ref=f2e547]: Smart Fitness Watches
+            - generic [ref=f2e548]: +1 more
+          - generic [ref=f2e549]:
+            - generic [ref=f2e550]: 15+ Items available
+            - generic [ref=f2e554]: Browse Department
+      - generic [ref=f2e557]:
+        - generic [ref=f2e559]:
+          - heading "Value Combo Boxes" [level=3] [ref=f2e560]
+          - generic [ref=f2e561]: Pre-packaged family essentials for maximum savings
+        - generic [ref=f2e562]:
+          - generic [ref=f2e563]:
+            - generic [ref=f2e564]: Save 25%
+            - heading "Weekly Fresh Basket" [level=4] [ref=f2e569]
+            - paragraph [ref=f2e570]: Bananas + Apples + Farm Veggies + Whole Milk
+            - generic [ref=f2e571]:
+              - generic [ref=f2e572]:
+                - strong [ref=f2e573]: ₹349
+                - generic [ref=f2e574]: ₹470
+              - button "+ Quick Add" [ref=f2e575] [cursor=pointer]
+          - generic [ref=f2e576]:
+            - generic [ref=f2e577]: Save 30%
+            - heading "Breakfast Power Pack" [level=4] [ref=f2e582]
+            - paragraph [ref=f2e583]: Organic Oats + Farm Brown Eggs + Pure Butter
+            - generic [ref=f2e584]:
+              - generic [ref=f2e585]:
+                - strong [ref=f2e586]: ₹289
+                - generic [ref=f2e587]: ₹399
+              - button "+ Quick Add" [ref=f2e588] [cursor=pointer]
+          - generic [ref=f2e589]:
+            - generic [ref=f2e590]: Save 20%
+            - heading "Movie Night Snack Box" [level=4] [ref=f2e595]
+            - paragraph [ref=f2e596]: Gourmet Nachos + Chocolate Cookies + Cold Sodas
+            - generic [ref=f2e597]:
+              - generic [ref=f2e598]:
+                - strong [ref=f2e599]: ₹249
+                - generic [ref=f2e600]: ₹315
+              - button "+ Quick Add" [ref=f2e601] [cursor=pointer]
+      - generic [ref=f2e602]:
+        - generic [ref=f2e608]:
+          - strong [ref=f2e609]: 100% Quality Inspected
+          - generic [ref=f2e610]: Every item undergoes strict grading before packing
+        - generic [ref=f2e618]:
+          - strong [ref=f2e619]: Express Farm Delivery
+          - generic [ref=f2e620]: Direct to your doorstep in temperature-controlled boxes
+        - generic [ref=f2e626]:
+          - strong [ref=f2e627]: Instant Return Guarantee
+          - generic [ref=f2e628]: No questions asked return if you are not 100% satisfied
+        - generic [ref=f2e634]:
+          - strong [ref=f2e635]: 7 AM – 11 PM Support
+          - generic [ref=f2e636]: Dedicated customer care for seamless order tracking
+  - contentinfo [ref=f2e223]:
+    - generic [ref=f2e224]:
+      - generic [ref=f2e225]:
+        - generic [ref=f2e226]:
+          - link "G Mart" [ref=f2e227] [cursor=pointer]:
+            - /url: "#hero"
+          - paragraph [ref=f2e233]: Fresh organic groceries & essentials delivered fast.
+        - generic [ref=f2e234]:
+          - generic [ref=f2e235]: "Categories:"
+          - generic [ref=f2e236]:
+            - link "🥨 Snacks" [ref=f2e237] [cursor=pointer]:
+              - /url: "#products"
+            - link "🛒 Groceries" [ref=f2e238] [cursor=pointer]:
+              - /url: "#products"
+            - link "🥤 Drinks" [ref=f2e239] [cursor=pointer]:
+              - /url: "#products"
+            - link "🧺 Laundry Essentials" [ref=f2e240] [cursor=pointer]:
+              - /url: "#products"
+            - link "🥬 Organic Farms" [ref=f2e241] [cursor=pointer]:
+              - /url: "#products"
+      - generic [ref=f2e242]:
+        - generic [ref=f2e243]:
+          - generic [ref=f2e244]: "Customer Care:"
+          - generic [ref=f2e245]:
+            - link "🚚 Track Order" [ref=f2e246] [cursor=pointer]:
+              - /url: "#"
+            - link "📦 Shipping Details" [ref=f2e247] [cursor=pointer]:
+              - /url: "#"
+            - link "🔄 Returns & Refunds" [ref=f2e248] [cursor=pointer]:
+              - /url: "#"
+            - link "🛡️ Freshness Guarantee" [ref=f2e249] [cursor=pointer]:
+              - /url: "#"
+            - link "💬 Help & Support" [ref=f2e250] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=f2e251]:
+          - generic [ref=f2e252]: 📞 +91 98765 43210
+          - generic [ref=f2e253]: •
+          - generic [ref=f2e254]: ✉️ support@gmartgrocery.com
+          - generic [ref=f2e255]: •
+          - generic [ref=f2e256]: 📍 Talwandi Sabo, Punjab, 151302
+      - generic [ref=f2e257]:
+        - paragraph [ref=f2e258]: © 2026 G Mart Marketplace. All Rights Reserved. Freshness on demand.
+        - generic [ref=f2e259]:
+          - link "Facebook" [ref=f2e260] [cursor=pointer]:
+            - /url: "#"
+          - link "Instagram" [ref=f2e263] [cursor=pointer]:
+            - /url: "#"
+          - link "Twitter" [ref=f2e267] [cursor=pointer]:
+            - /url: "#"
+  - generic [ref=f2e270]:
+    - generic [ref=f2e271]:
+      - generic [ref=f2e272]:
+        - heading "Your Cart" [level=2] [ref=f2e276]
+        - generic [ref=f2e277]: "0"
+      - button "Close Cart" [ref=f2e278] [cursor=pointer]
+    - generic [ref=f2e283]:
+      - generic [ref=f2e284]: 🛒
+      - heading "Your cart is empty" [level=3] [ref=f2e285]
+      - paragraph [ref=f2e286]: Add fresh organic produce and snacks to get started!
+  - generic [ref=f2e288]:
+    - generic [ref=f2e289] [cursor=pointer]: Home
+    - generic [ref=f2e294] [cursor=pointer]: Categories
+    - generic [ref=f2e301] [cursor=pointer]: Wishlist
+    - generic [ref=f2e305] [cursor=pointer]: Offers

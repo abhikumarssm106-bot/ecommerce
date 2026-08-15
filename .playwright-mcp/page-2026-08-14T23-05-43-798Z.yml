@@ -1,0 +1,356 @@
+- generic [ref=f7e3]:
+  - navigation [ref=f7e4]:
+    - generic [ref=f7e5]:
+      - link "G Mart" [ref=f7e6] [cursor=pointer]:
+        - /url: "#home"
+      - generic [ref=f7e12]:
+        - button "Search" [ref=f7e13] [cursor=pointer]
+        - button "Wishlist" [ref=f7e17] [cursor=pointer]
+        - button "Account" [ref=f7e21] [cursor=pointer]
+        - button "Cart" [ref=f7e25] [cursor=pointer]
+        - button "Menu" [ref=f7e29] [cursor=pointer]
+  - generic [ref=f7e313]:
+    - generic [ref=f7e315]:
+      - generic [ref=f7e316]:
+        - button "Back to Categories" [ref=f7e509] [cursor=pointer]
+        - generic [ref=f7e320]:
+          - generic [ref=f7e321]: CATEGORIES
+          - heading "Snacks & Munchies" [level=1] [ref=f7e510]
+      - textbox "Search in Snacks & Munchies..." [ref=f7e511]
+    - generic [ref=f7e512]:
+      - generic [ref=f7e513]:
+        - generic [ref=f7e514]: Trending
+        - heading "Snacks & Munchies" [level=2] [ref=f7e518]
+        - paragraph [ref=f7e519]: Crispy potato chips, nachos, wafers & namkeen
+      - generic [ref=f7e520]:
+        - generic [ref=f7e521]: "Filter by Sub-Department:"
+        - generic [ref=f7e523]:
+          - generic [ref=f7e524] [cursor=pointer]: All Snacks
+          - generic [ref=f7e526] [cursor=pointer]:
+            - generic [ref=f7e527]: Chips, Crisps & Nachos
+            - generic [ref=f7e528]: Crunchy
+          - generic [ref=f7e529] [cursor=pointer]: Traditional Namkeen & Bhujia
+          - generic [ref=f7e531] [cursor=pointer]: Popcorn & Puffs
+      - generic [ref=f7e534]:
+        - heading "Popular in Snacks & Munchies" [level=3] [ref=f7e535]
+        - generic [ref=f7e536]: Showing 18 items
+      - generic [ref=f7e537]:
+        - generic [ref=f7e538] [cursor=pointer]:
+          - generic [ref=f7e539]:
+            - img "Fresh Red Apples (1kg)" [ref=f7e540]
+            - button "Add to Wishlist" [ref=f7e541]
+            - generic "100% Vegetarian" [ref=f7e544]
+          - generic [ref=f7e546]:
+            - heading "Fresh Red Apples (1kg)" [level=3] [ref=f7e547]
+            - generic [ref=f7e548]: Standard Pack (1kg)
+            - generic [ref=f7e549]:
+              - generic [ref=f7e550]:
+                - generic [ref=f7e551]: ₹2.99
+                - generic [ref=f7e552]: ₹3.74
+              - button "Add Fresh Red Apples (1kg) to Cart" [ref=f7e553]
+        - generic [ref=f7e555] [cursor=pointer]:
+          - generic [ref=f7e556]:
+            - img "Chocolate Chip Cookies (200g)" [ref=f7e557]
+            - button "Add to Wishlist" [ref=f7e558]
+            - generic "100% Vegetarian" [ref=f7e561]
+          - generic [ref=f7e563]:
+            - heading "Chocolate Chip Cookies (200g)" [level=3] [ref=f7e564]
+            - generic [ref=f7e565]: Standard Pack (200g)
+            - generic [ref=f7e566]:
+              - generic [ref=f7e567]:
+                - generic [ref=f7e568]: ₹3.49
+                - generic [ref=f7e569]: ₹4.36
+              - button "Add Chocolate Chip Cookies (200g) to Cart" [ref=f7e570]
+        - generic [ref=f7e572] [cursor=pointer]:
+          - generic [ref=f7e573]:
+            - img "Lays Classic Salted Potato Chips" [ref=f7e574]
+            - button "Add to Wishlist" [ref=f7e575]
+            - generic [ref=f7e578]: Popular
+          - generic [ref=f7e579]:
+            - heading "Lays Classic Salted Potato Chips" [level=3] [ref=f7e580]
+            - generic [ref=f7e581]: 50g pack
+            - generic [ref=f7e582]:
+              - generic [ref=f7e583]: ₹20
+              - button "Add Lays Classic Salted Potato Chips to Cart" [ref=f7e585]
+        - generic [ref=f7e587] [cursor=pointer]:
+          - generic [ref=f7e588]:
+            - img "Lays India's Magic Masala Chips" [ref=f7e589]
+            - button "Add to Wishlist" [ref=f7e590]
+            - generic [ref=f7e593]: Bestseller
+          - generic [ref=f7e594]:
+            - heading "Lays India's Magic Masala Chips" [level=3] [ref=f7e595]
+            - generic [ref=f7e596]: 50g pack
+            - generic [ref=f7e597]:
+              - generic [ref=f7e598]: ₹20
+              - button "Add Lays India's Magic Masala Chips to Cart" [ref=f7e600]
+        - generic [ref=f7e602] [cursor=pointer]:
+          - generic [ref=f7e603]:
+            - img "Kurkure Masala Munch" [ref=f7e604]
+            - button "Add to Wishlist" [ref=f7e605]
+            - generic [ref=f7e608]: Chatpata
+          - generic [ref=f7e609]:
+            - heading "Kurkure Masala Munch" [level=3] [ref=f7e610]
+            - generic [ref=f7e611]: 75g pack
+            - generic [ref=f7e612]:
+              - generic [ref=f7e613]: ₹20
+              - button "Add Kurkure Masala Munch to Cart" [ref=f7e615]
+        - generic [ref=f7e617] [cursor=pointer]:
+          - generic [ref=f7e618]:
+            - img "Bingo Mad Angles Achaari Masti" [ref=f7e619]
+            - button "Add to Wishlist" [ref=f7e620]
+            - generic [ref=f7e623]: Crunchy
+          - generic [ref=f7e624]:
+            - heading "Bingo Mad Angles Achaari Masti" [level=3] [ref=f7e625]
+            - generic [ref=f7e626]: 66g pack
+            - generic [ref=f7e627]:
+              - generic [ref=f7e628]: ₹20
+              - button "Add Bingo Mad Angles Achaari Masti to Cart" [ref=f7e630]
+        - generic [ref=f7e632] [cursor=pointer]:
+          - generic [ref=f7e633]:
+            - img "Uncle Chipps Spicy Treat" [ref=f7e634]
+            - button "Add to Wishlist" [ref=f7e635]
+            - generic [ref=f7e638]: Desi Crunch
+          - generic [ref=f7e639]:
+            - heading "Uncle Chipps Spicy Treat" [level=3] [ref=f7e640]
+            - generic [ref=f7e641]: 50g pack
+            - generic [ref=f7e642]:
+              - generic [ref=f7e643]: ₹20
+              - button "Add Uncle Chipps Spicy Treat to Cart" [ref=f7e645]
+        - generic [ref=f7e647] [cursor=pointer]:
+          - generic [ref=f7e648]:
+            - img "Haldiram Aloo Bhujia" [ref=f7e649]
+            - button "Add to Wishlist" [ref=f7e650]
+            - generic [ref=f7e653]: Bestseller
+          - generic [ref=f7e654]:
+            - heading "Haldiram Aloo Bhujia" [level=3] [ref=f7e655]
+            - generic [ref=f7e656]: 150g pack
+            - generic [ref=f7e657]:
+              - generic [ref=f7e658]:
+                - generic [ref=f7e659]: ₹30
+                - generic [ref=f7e660]: ₹35
+              - button "Add Haldiram Aloo Bhujia to Cart" [ref=f7e661]
+        - generic [ref=f7e663] [cursor=pointer]:
+          - generic [ref=f7e664]:
+            - img "Haldiram All in One Mixture Namkeen" [ref=f7e665]
+            - button "Add to Wishlist" [ref=f7e666]
+            - generic [ref=f7e669]: Popular
+          - generic [ref=f7e670]:
+            - heading "Haldiram All in One Mixture Namkeen" [level=3] [ref=f7e671]
+            - generic [ref=f7e672]: 150g pack
+            - generic [ref=f7e673]:
+              - generic [ref=f7e674]:
+                - generic [ref=f7e675]: ₹30
+                - generic [ref=f7e676]: ₹35
+              - button "Add Haldiram All in One Mixture Namkeen to Cart" [ref=f7e677]
+        - generic [ref=f7e679] [cursor=pointer]:
+          - generic [ref=f7e680]:
+            - img "Cadbury Oreo Vanilla Creme Biscuits" [ref=f7e681]
+            - button "Add to Wishlist" [ref=f7e682]
+            - generic [ref=f7e685]: Twist & Lick
+          - generic [ref=f7e686]:
+            - heading "Cadbury Oreo Vanilla Creme Biscuits" [level=3] [ref=f7e687]
+            - generic [ref=f7e688]: 120g pack
+            - generic [ref=f7e689]:
+              - generic [ref=f7e690]:
+                - generic [ref=f7e691]: ₹32
+                - generic [ref=f7e692]: ₹35
+              - button "Add Cadbury Oreo Vanilla Creme Biscuits to Cart" [ref=f7e693]
+        - generic [ref=f7e695] [cursor=pointer]:
+          - generic [ref=f7e696]:
+            - img "Parle-G Original Gluco Biscuits" [ref=f7e697]
+            - button "Add to Wishlist" [ref=f7e698]
+            - generic [ref=f7e701]: India's Favorite
+          - generic [ref=f7e702]:
+            - heading "Parle-G Original Gluco Biscuits" [level=3] [ref=f7e703]
+            - generic [ref=f7e704]: 130g pack
+            - generic [ref=f7e705]:
+              - generic [ref=f7e706]: ₹10
+              - button "Add Parle-G Original Gluco Biscuits to Cart" [ref=f7e708]
+        - generic [ref=f7e710] [cursor=pointer]:
+          - generic [ref=f7e711]:
+            - img "Parle Hide & Seek Chocolate Chip Biscuits" [ref=f7e712]
+            - button "Add to Wishlist" [ref=f7e713]
+            - generic [ref=f7e716]: Real Choco Chips
+          - generic [ref=f7e717]:
+            - heading "Parle Hide & Seek Chocolate Chip Biscuits" [level=3] [ref=f7e718]
+            - generic [ref=f7e719]: 120g pack
+            - generic [ref=f7e720]:
+              - generic [ref=f7e721]:
+                - generic [ref=f7e722]: ₹32
+                - generic [ref=f7e723]: ₹35
+              - button "Add Parle Hide & Seek Chocolate Chip Biscuits to Cart" [ref=f7e724]
+        - generic [ref=f7e726] [cursor=pointer]:
+          - generic [ref=f7e727]:
+            - img "Cadbury Dairy Milk Chocolate Bar" [ref=f7e728]
+            - button "Add to Wishlist" [ref=f7e729]
+            - generic [ref=f7e732]: Kuch Meetha
+          - generic [ref=f7e733]:
+            - heading "Cadbury Dairy Milk Chocolate Bar" [level=3] [ref=f7e734]
+            - generic [ref=f7e735]: 50g bar
+            - generic [ref=f7e736]:
+              - generic [ref=f7e737]: ₹40
+              - button "Add Cadbury Dairy Milk Chocolate Bar to Cart" [ref=f7e739]
+        - generic [ref=f7e741] [cursor=pointer]:
+          - generic [ref=f7e742]:
+            - img "Nestle KitKat 4-Finger Wafer Bar" [ref=f7e743]
+            - button "Add to Wishlist" [ref=f7e744]
+            - generic [ref=f7e747]: Have a Break
+          - generic [ref=f7e748]:
+            - heading "Nestle KitKat 4-Finger Wafer Bar" [level=3] [ref=f7e749]
+            - generic [ref=f7e750]: 38g bar
+            - generic [ref=f7e751]:
+              - generic [ref=f7e752]: ₹30
+              - button "Add Nestle KitKat 4-Finger Wafer Bar to Cart" [ref=f7e754]
+        - generic [ref=f7e756] [cursor=pointer]:
+          - generic [ref=f7e757]:
+            - img "Coca-Cola Original Taste 750ml" [ref=f7e758]
+            - button "Add to Wishlist" [ref=f7e759]
+            - generic [ref=f7e762]: Super Chilled
+          - generic [ref=f7e763]:
+            - heading "Coca-Cola Original Taste 750ml" [level=3] [ref=f7e764]
+            - generic [ref=f7e765]: 750ml bottle
+            - generic [ref=f7e766]:
+              - generic [ref=f7e767]: ₹40
+              - button "Add Coca-Cola Original Taste 750ml to Cart" [ref=f7e769]
+        - generic [ref=f7e771] [cursor=pointer]:
+          - generic [ref=f7e772]:
+            - img "Sprite Lemon Lime Sparkling Soda 750ml" [ref=f7e773]
+            - button "Add to Wishlist" [ref=f7e774]
+            - generic [ref=f7e777]: Clear Hai
+          - generic [ref=f7e778]:
+            - heading "Sprite Lemon Lime Sparkling Soda 750ml" [level=3] [ref=f7e779]
+            - generic [ref=f7e780]: 750ml bottle
+            - generic [ref=f7e781]:
+              - generic [ref=f7e782]: ₹40
+              - button "Add Sprite Lemon Lime Sparkling Soda 750ml to Cart" [ref=f7e784]
+        - generic [ref=f7e786] [cursor=pointer]:
+          - generic [ref=f7e787]:
+            - img "Farm Fresh Jyoti Potatoes 1 kg" [ref=f7e788]
+            - button "Add to Wishlist" [ref=f7e789]
+            - generic [ref=f7e792]: Daily Need
+          - generic [ref=f7e793]:
+            - heading "Farm Fresh Jyoti Potatoes 1 kg" [level=3] [ref=f7e794]
+            - generic [ref=f7e795]: 1 kg pack
+            - generic [ref=f7e796]:
+              - generic [ref=f7e797]:
+                - generic [ref=f7e798]: ₹26
+                - generic [ref=f7e799]: ₹35
+              - button "Add Farm Fresh Jyoti Potatoes 1 kg to Cart" [ref=f7e800]
+        - generic [ref=f7e802] [cursor=pointer]:
+          - generic [ref=f7e803]:
+            - img "Fresh Shimla Royal Apples 1 kg" [ref=f7e804]
+            - button "Add to Wishlist" [ref=f7e805]
+            - generic [ref=f7e808]: Crisp & Sweet
+          - generic [ref=f7e809]:
+            - heading "Fresh Shimla Royal Apples 1 kg" [level=3] [ref=f7e810]
+            - generic [ref=f7e811]: 1 kg pack (approx 4-5 apples)
+            - generic [ref=f7e812]:
+              - generic [ref=f7e813]:
+                - generic [ref=f7e814]: ₹155
+                - generic [ref=f7e815]: ₹190
+              - button "Add Fresh Shimla Royal Apples 1 kg to Cart" [ref=f7e816]
+      - generic [ref=f7e818]:
+        - generic [ref=f7e819]:
+          - heading "Explore Other Departments" [level=4] [ref=f7e820]
+          - generic [ref=f7e821]: Tap to browse another grocery aisle
+        - generic [ref=f7e822]:
+          - generic [ref=f7e823] [cursor=pointer]:
+            - img "Fruits & Vegetables" [ref=f7e825]
+            - generic [ref=f7e826]: Fruits & Vegetables
+          - generic [ref=f7e827] [cursor=pointer]:
+            - img "Dairy, Bread & Eggs" [ref=f7e829]
+            - generic [ref=f7e830]: Dairy, Bread & Eggs
+          - generic [ref=f7e831] [cursor=pointer]:
+            - img "Bakery & Biscuits" [ref=f7e833]
+            - generic [ref=f7e834]: Bakery & Biscuits
+          - generic [ref=f7e835] [cursor=pointer]:
+            - img "Breakfast & Instant" [ref=f7e837]
+            - generic [ref=f7e838]: Breakfast & Instant
+          - generic [ref=f7e839] [cursor=pointer]:
+            - img "Tea, Coffee & More" [ref=f7e841]
+            - generic [ref=f7e842]: Tea, Coffee & More
+          - generic [ref=f7e843] [cursor=pointer]:
+            - img "Cold Drinks & Juices" [ref=f7e845]
+            - generic [ref=f7e846]: Cold Drinks & Juices
+          - generic [ref=f7e847] [cursor=pointer]:
+            - img "Sweet Tooth & Desserts" [ref=f7e849]
+            - generic [ref=f7e850]: Sweet Tooth & Desserts
+          - generic [ref=f7e851] [cursor=pointer]:
+            - img "Atta, Rice & Dal" [ref=f7e853]
+            - generic [ref=f7e854]: Atta, Rice & Dal
+          - generic [ref=f7e855] [cursor=pointer]:
+            - img "Masala, Oil & Spices" [ref=f7e857]
+            - generic [ref=f7e858]: Masala, Oil & Spices
+          - generic [ref=f7e859] [cursor=pointer]:
+            - img "Sauces & Spreads" [ref=f7e861]
+            - generic [ref=f7e862]: Sauces & Spreads
+          - generic [ref=f7e863] [cursor=pointer]:
+            - img "Chicken, Meat & Fish" [ref=f7e865]
+            - generic [ref=f7e866]: Chicken, Meat & Fish
+          - generic [ref=f7e867] [cursor=pointer]:
+            - img "Organic & Healthy" [ref=f7e869]
+            - generic [ref=f7e870]: Organic & Healthy
+  - contentinfo [ref=f7e224]:
+    - generic [ref=f7e225]:
+      - generic [ref=f7e226]:
+        - generic [ref=f7e227]:
+          - link "G Mart" [ref=f7e228] [cursor=pointer]:
+            - /url: "#hero"
+          - paragraph [ref=f7e234]: Fresh organic groceries & essentials delivered fast.
+        - generic [ref=f7e235]:
+          - generic [ref=f7e236]: "Categories:"
+          - generic [ref=f7e237]:
+            - link "🥨 Snacks" [ref=f7e238] [cursor=pointer]:
+              - /url: "#products"
+            - link "🛒 Groceries" [ref=f7e239] [cursor=pointer]:
+              - /url: "#products"
+            - link "🥤 Drinks" [ref=f7e240] [cursor=pointer]:
+              - /url: "#products"
+            - link "🧺 Laundry Essentials" [ref=f7e241] [cursor=pointer]:
+              - /url: "#products"
+            - link "🥬 Organic Farms" [ref=f7e242] [cursor=pointer]:
+              - /url: "#products"
+      - generic [ref=f7e243]:
+        - generic [ref=f7e244]:
+          - generic [ref=f7e245]: "Customer Care:"
+          - generic [ref=f7e246]:
+            - link "🚚 Track Order" [ref=f7e247] [cursor=pointer]:
+              - /url: "#"
+            - link "📦 Shipping Details" [ref=f7e248] [cursor=pointer]:
+              - /url: "#"
+            - link "🔄 Returns & Refunds" [ref=f7e249] [cursor=pointer]:
+              - /url: "#"
+            - link "🛡️ Freshness Guarantee" [ref=f7e250] [cursor=pointer]:
+              - /url: "#"
+            - link "💬 Help & Support" [ref=f7e251] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=f7e252]:
+          - generic [ref=f7e253]: 📞 +91 98765 43210
+          - generic [ref=f7e254]: •
+          - generic [ref=f7e255]: ✉️ support@gmartgrocery.com
+          - generic [ref=f7e256]: •
+          - generic [ref=f7e257]: 📍 Talwandi Sabo, Punjab, 151302
+      - generic [ref=f7e258]:
+        - paragraph [ref=f7e259]: © 2026 G Mart Marketplace. All Rights Reserved. Freshness on demand.
+        - generic [ref=f7e260]:
+          - link "Facebook" [ref=f7e261] [cursor=pointer]:
+            - /url: "#"
+          - link "Instagram" [ref=f7e264] [cursor=pointer]:
+            - /url: "#"
+          - link "Twitter" [ref=f7e268] [cursor=pointer]:
+            - /url: "#"
+  - generic [ref=f7e271]:
+    - generic [ref=f7e272]:
+      - generic [ref=f7e273]:
+        - heading "Your Cart" [level=2] [ref=f7e277]
+        - generic [ref=f7e278]: "0"
+      - button "Close Cart" [ref=f7e279] [cursor=pointer]
+    - generic [ref=f7e284]:
+      - generic [ref=f7e285]: 🛒
+      - heading "Your cart is empty" [level=3] [ref=f7e286]
+      - paragraph [ref=f7e287]: Add fresh organic produce and snacks to get started!
+  - generic [ref=f7e289]:
+    - generic [ref=f7e290] [cursor=pointer]: Home
+    - generic [ref=f7e295] [cursor=pointer]: Categories
+    - generic [ref=f7e302] [cursor=pointer]: Wishlist
+    - generic [ref=f7e306] [cursor=pointer]: Offers

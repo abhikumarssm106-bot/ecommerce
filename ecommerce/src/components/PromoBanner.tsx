@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useCart } from '../context/CartContext';
 import { ArrowRight } from 'lucide-react';
+import { formatINR } from '../utils/formatCurrency';
 
 interface PromoBannerProps {
   showToast: (msg: string) => void;
@@ -44,11 +45,13 @@ export const PromoBanner: React.FC<PromoBannerProps> = ({ showToast }) => {
     return () => clearInterval(interval);
   }, [countdownEnd]);
 
+  const offerPrice = 399;
+
   const handleClaimOffer = () => {
     addToCart(
       'p9',
       'Gourmet Fruit & Cheese Basket (Large size)',
-      39.99,
+      offerPrice,
       'images/grocery_hero.png',
       1,
       'Standard Wicker Basket (Gourmet)',
@@ -95,7 +98,7 @@ export const PromoBanner: React.FC<PromoBannerProps> = ({ showToast }) => {
                 onClick={handleClaimOffer}
                 style={{ color: '#ffffff' }}
               >
-                Claim Offer • $39.99
+                Claim Offer • {formatINR(offerPrice)}
                 <ArrowRight size={18} />
               </button>
             </div>

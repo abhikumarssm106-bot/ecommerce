@@ -1,0 +1,10 @@
+{
+  "name": "ecommerce-main",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix ecommerce\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}

@@ -49,8 +49,8 @@ export const getProducts = async (req: Request, res: Response, next: NextFunctio
     if (search) {
       const searchStr = String(search);
       where.OR = [
-        { name: { contains: searchStr, mode: 'insensitive' } },
-        { description: { contains: searchStr, mode: 'insensitive' } },
+        { name: { contains: searchStr } },
+        { description: { contains: searchStr } },
       ];
     }
 
@@ -86,8 +86,8 @@ export const getProducts = async (req: Request, res: Response, next: NextFunctio
       const primaryImage = prod.images.find((img) => img.isPrimary) || prod.images[0];
       // Find base price (minimum price among variants)
       const basePrice = prod.variants.reduce(
-        (min, v) => (v.price.toNumber() < min ? v.price.toNumber() : min),
-        prod.variants[0]?.price.toNumber() || 0
+        (min, v) => (Number(v.price) < min ? Number(v.price) : min),
+        Number(prod.variants[0]?.price || 0)
       );
 
       return {
